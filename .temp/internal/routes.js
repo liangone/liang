@@ -9,26 +9,6 @@ import GlobalLayout from "C:\\Users\\86191\\Desktop\\个人博客\\liang\\node_m
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-5fc33dca",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5fc33dca").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-3ffb6f44",
-    path: "/blodsMds/about1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ffb6f44").then(next)
-    },
-  },
-  {
     name: "v-c7921c26",
     path: "/arithmetic/",
     component: GlobalLayout,
@@ -41,12 +21,16 @@ export const routes = [
     redirect: "/arithmetic/"
   },
   {
-    name: "v-cead30c4",
-    path: "/blodsMds/about.html",
+    name: "v-5fc33dca",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cead30c4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5fc33dca").then(next)
     },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-4b3cc4c3",
@@ -59,6 +43,22 @@ export const routes = [
   {
     path: "/dataStructure/index.html",
     redirect: "/dataStructure/"
+  },
+  {
+    name: "v-cead30c4",
+    path: "/blodsMds/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cead30c4").then(next)
+    },
+  },
+  {
+    name: "v-3ffb6f44",
+    path: "/blodsMds/about1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3ffb6f44").then(next)
+    },
   },
   {
     name: "v-0c96e5da",
