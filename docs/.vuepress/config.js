@@ -19,7 +19,7 @@ module.exports = {
 		},
 		'@vuepress/google-analytics':
 		{
-			'ga': 'G-ZB5C3RWJGG' 
+			'ga': 'UA-246612764-1'
 		}
 	},
 	themeConfig: {
