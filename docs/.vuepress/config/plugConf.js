@@ -1,5 +1,4 @@
 const secret=require('./secret');
-
 module.exports = {
 	'@vuepress/back-to-top': true,
 	'@vssue/vuepress-plugin-vssue': {
@@ -13,5 +12,8 @@ module.exports = {
 	'@vuepress/google-analytics':
 	{
 		'ga': secret.ga
+	},
+	'@vuepress/medium-zoom': {
+		selector: 'img',
 	}
 };

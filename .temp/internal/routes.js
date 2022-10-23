@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\Users\\86191\\Desktop\\个人博客\\liang\\node_m
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-cead30c4",
+    path: "/blodsMds/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cead30c4").then(next)
+    },
+  },
+  {
     name: "v-5fc33dca",
     path: "/",
     component: GlobalLayout,
@@ -19,26 +27,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-cead30c4",
-    path: "/blodsMds/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cead30c4").then(next)
-    },
-  },
-  {
-    name: "v-c7921c26",
-    path: "/arithmetic/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c7921c26").then(next)
-    },
-  },
-  {
-    path: "/arithmetic/index.html",
-    redirect: "/arithmetic/"
   },
   {
     name: "v-4b3cc4c3",
@@ -53,12 +41,28 @@ export const routes = [
     redirect: "/dataStructure/"
   },
   {
-    name: "v-3ffb6f44",
-    path: "/blodsMds/about1.html",
+    name: "v-c7921c26",
+    path: "/arithmetic/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ffb6f44").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c7921c26").then(next)
     },
+  },
+  {
+    path: "/arithmetic/index.html",
+    redirect: "/arithmetic/"
+  },
+  {
+    name: "v-0402a0ad",
+    path: "/web/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0402a0ad").then(next)
+    },
+  },
+  {
+    path: "/web/index.html",
+    redirect: "/web/"
   },
   {
     name: "v-0c96e5da",
@@ -73,16 +77,12 @@ export const routes = [
     redirect: "/interview/"
   },
   {
-    name: "v-0402a0ad",
-    path: "/web/",
+    name: "v-3ffb6f44",
+    path: "/blodsMds/about1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0402a0ad").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3ffb6f44").then(next)
     },
-  },
-  {
-    path: "/web/index.html",
-    redirect: "/web/"
   },
   {
     path: '*',
