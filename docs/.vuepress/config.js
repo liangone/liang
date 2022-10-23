@@ -7,11 +7,16 @@ module.exports = {
 		['meta', { name: 'author', content: '冠希' }],
 		['meta', { name: 'keywords', content: 'vuepress,个人博客,冠希-个人博客,面试题,计算机,前端' }]
 	],
-	plugins: [
-		[
-			'@vuepress/last-updated'
-		],
-	],
+	plugins:{
+		'@vssue/vuepress-plugin-vssue': {
+			platform: 'github-v4',
+			owner: '294169089l',
+			repo: 'liang',
+			clientId: 'f5a8a78cb013744780d9',
+			clientSecret: 'cfba86f62d0bb07c014b9f13a5d785adc45460dc',
+			autoCreateIssue:true,
+		},
+	},
 	themeConfig: {
 		logo: '/assets/img/hero.png',
 		lastUpdated: '更新时间',

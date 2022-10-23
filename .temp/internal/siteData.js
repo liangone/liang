@@ -57,37 +57,9 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-5fc33dca",
-      "path": "/"
-    },
-    {
-      "title": "abouts",
-      "frontmatter": {},
-      "regularPath": "/blodsMds/about.html",
-      "relativePath": "blodsMds/about.md",
-      "key": "v-cead30c4",
-      "path": "/blodsMds/about.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、标准盒子模型",
-          "slug": "二、标准盒子模型"
-        },
-        {
-          "level": 2,
-          "title": "三、IE 怪异盒子模型",
-          "slug": "三、ie-怪异盒子模型"
-        },
-        {
-          "level": 2,
-          "title": "Box-sizing",
-          "slug": "box-sizing"
-        }
-      ]
+      "path": "/",
+      "lastUpdated": "10/23/2022, 1:02:09 PM",
+      "lastUpdatedTimestamp": 1666501329000
     },
     {
       "title": "about1",
@@ -117,7 +89,73 @@ export const siteData = {
           "title": "无继承的属性",
           "slug": "无继承的属性"
         }
-      ]
+      ],
+      "lastUpdated": "10/23/2022, 1:02:09 PM",
+      "lastUpdatedTimestamp": 1666501329000
+    },
+    {
+      "title": "算法",
+      "frontmatter": {},
+      "regularPath": "/arithmetic/",
+      "relativePath": "arithmetic/README.md",
+      "key": "v-c7921c26",
+      "path": "/arithmetic/"
+    },
+    {
+      "title": "abouts",
+      "frontmatter": {},
+      "regularPath": "/blodsMds/about.html",
+      "relativePath": "blodsMds/about.md",
+      "key": "v-cead30c4",
+      "path": "/blodsMds/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、标准盒子模型",
+          "slug": "二、标准盒子模型"
+        },
+        {
+          "level": 2,
+          "title": "三、IE 怪异盒子模型",
+          "slug": "三、ie-怪异盒子模型"
+        },
+        {
+          "level": 2,
+          "title": "Box-sizing",
+          "slug": "box-sizing"
+        }
+      ],
+      "lastUpdated": "10/23/2022, 1:02:09 PM",
+      "lastUpdatedTimestamp": 1666501329000
+    },
+    {
+      "title": "数据结构",
+      "frontmatter": {},
+      "regularPath": "/dataStructure/",
+      "relativePath": "dataStructure/README.md",
+      "key": "v-4b3cc4c3",
+      "path": "/dataStructure/"
+    },
+    {
+      "title": "interview",
+      "frontmatter": {},
+      "regularPath": "/interview/",
+      "relativePath": "interview/README.md",
+      "key": "v-0c96e5da",
+      "path": "/interview/"
+    },
+    {
+      "title": "web",
+      "frontmatter": {},
+      "regularPath": "/web/",
+      "relativePath": "web/README.md",
+      "key": "v-0402a0ad",
+      "path": "/web/"
     }
   ],
   "themeConfig": {
