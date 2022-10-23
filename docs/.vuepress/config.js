@@ -14,4 +14,4 @@ module.exports = {
 		// 导航栏。
 		nav: navConf
 	}
-}
+};
