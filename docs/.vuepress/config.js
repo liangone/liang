@@ -9,7 +9,7 @@ module.exports = {
 	head: headConf,
 	plugins: plugConf,
 	themeConfig: {
-		logo: '/assets/img/hero.png',
+		logo: '/favicon.ico',
 		lastUpdated: '更新时间',
 		// 导航栏。
 		nav: navConf
