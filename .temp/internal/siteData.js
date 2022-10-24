@@ -52,10 +52,42 @@ export const siteData = {
           "title": "三、空间复杂度",
           "slug": "三、空间复杂度"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "04.说说你对栈、队列的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/04.html",
+      "relativePath": "AlgorithmsAndDataStructures/04.md",
+      "key": "v-e2f38ef8",
+      "path": "/AlgorithmsAndDataStructures/04.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、栈",
+          "slug": "一、栈"
+        },
+        {
+          "level": 2,
+          "title": "二、队列",
+          "slug": "二、队列"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 3,
+          "title": "栈",
+          "slug": "栈"
+        },
+        {
+          "level": 3,
+          "title": "队列",
+          "slug": "队列"
+        }
+      ]
     },
     {
       "title": "01.说说你对算法的理解？应用场景？",
@@ -80,73 +112,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.说说你对集合的理解？常见的操作有哪些？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/06.html",
-      "relativePath": "AlgorithmsAndDataStructures/06.md",
-      "key": "v-402bcb80",
-      "path": "/AlgorithmsAndDataStructures/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、操作",
-          "slug": "二、操作"
-        },
-        {
-          "level": 3,
-          "title": "add()",
-          "slug": "add"
-        },
-        {
-          "level": 3,
-          "title": "delete()",
-          "slug": "delete"
-        },
-        {
-          "level": 3,
-          "title": "has()",
-          "slug": "has"
-        },
-        {
-          "level": 3,
-          "title": "clear()",
-          "slug": "clear"
-        },
-        {
-          "level": 3,
-          "title": "并集",
-          "slug": "并集"
-        },
-        {
-          "level": 3,
-          "title": "交集",
-          "slug": "交集"
-        },
-        {
-          "level": 3,
-          "title": "差集",
-          "slug": "差集"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.说说你对链表的理解？常见的操作有哪些？",
@@ -186,48 +152,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.说说你对栈、队列的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/04.html",
-      "relativePath": "AlgorithmsAndDataStructures/04.md",
-      "key": "v-e2f38ef8",
-      "path": "/AlgorithmsAndDataStructures/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、栈",
-          "slug": "一、栈"
-        },
-        {
-          "level": 2,
-          "title": "二、队列",
-          "slug": "二、队列"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 3,
-          "title": "栈",
-          "slug": "栈"
-        },
-        {
-          "level": 3,
-          "title": "队列",
-          "slug": "队列"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说你对数据结构的理解？有哪些？区别？",
@@ -292,10 +217,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "07.说说你对树的理解？相关的操作有哪些？",
@@ -340,10 +262,67 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "06.说说你对集合的理解？常见的操作有哪些？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/06.html",
+      "relativePath": "AlgorithmsAndDataStructures/06.md",
+      "key": "v-402bcb80",
+      "path": "/AlgorithmsAndDataStructures/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、操作",
+          "slug": "二、操作"
+        },
+        {
+          "level": 3,
+          "title": "add()",
+          "slug": "add"
+        },
+        {
+          "level": 3,
+          "title": "delete()",
+          "slug": "delete"
+        },
+        {
+          "level": 3,
+          "title": "has()",
+          "slug": "has"
+        },
+        {
+          "level": 3,
+          "title": "clear()",
+          "slug": "clear"
+        },
+        {
+          "level": 3,
+          "title": "并集",
+          "slug": "并集"
+        },
+        {
+          "level": 3,
+          "title": "交集",
+          "slug": "交集"
+        },
+        {
+          "level": 3,
+          "title": "差集",
+          "slug": "差集"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
     },
     {
       "title": "08.说说你对堆的理解？如何实现？应用场景？",
@@ -383,10 +362,52 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "09.说说你对图的理解？相关操作有哪些？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/09.html",
+      "relativePath": "AlgorithmsAndDataStructures/09.md",
+      "key": "v-4aa427fa",
+      "path": "/AlgorithmsAndDataStructures/09.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 3,
+          "title": "邻接矩阵",
+          "slug": "邻接矩阵"
+        },
+        {
+          "level": 3,
+          "title": "邻接表",
+          "slug": "邻接表"
+        },
+        {
+          "level": 2,
+          "title": "二、操作",
+          "slug": "二、操作"
+        },
+        {
+          "level": 3,
+          "title": "深度优先遍历",
+          "slug": "深度优先遍历"
+        },
+        {
+          "level": 3,
+          "title": "广度优先遍历",
+          "slug": "广度优先遍历"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "10.说说常见的排序算法有哪些？区别？",
@@ -436,18 +457,15 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "09.说说你对图的理解？相关操作有哪些？",
+      "title": "11.说说你对冒泡排序的理解？如何实现？应用场景？",
       "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/09.html",
-      "relativePath": "AlgorithmsAndDataStructures/09.md",
-      "key": "v-4aa427fa",
-      "path": "/AlgorithmsAndDataStructures/09.html",
+      "regularPath": "/AlgorithmsAndDataStructures/11.html",
+      "relativePath": "AlgorithmsAndDataStructures/11.md",
+      "key": "v-4594424c",
+      "path": "/AlgorithmsAndDataStructures/11.html",
       "headers": [
         {
           "level": 2,
@@ -455,47 +473,29 @@ export const siteData = {
           "slug": "一、是什么"
         },
         {
-          "level": 3,
-          "title": "邻接矩阵",
-          "slug": "邻接矩阵"
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
         },
         {
           "level": 3,
-          "title": "邻接表",
-          "slug": "邻接表"
+          "title": "优化",
+          "slug": "优化"
         },
         {
           "level": 2,
-          "title": "二、操作",
-          "slug": "二、操作"
-        },
-        {
-          "level": 3,
-          "title": "深度优先遍历",
-          "slug": "深度优先遍历"
-        },
-        {
-          "level": 3,
-          "title": "广度优先遍历",
-          "slug": "广度优先遍历"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "16.说说你对二分查找的理解？如何实现？应用场景？",
+      "title": "12.说说你对选择排序的理解？如何实现？应用场景？",
       "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/16.html",
-      "relativePath": "AlgorithmsAndDataStructures/16.md",
-      "key": "v-01b231c2",
-      "path": "/AlgorithmsAndDataStructures/16.html",
+      "regularPath": "/AlgorithmsAndDataStructures/12.html",
+      "relativePath": "AlgorithmsAndDataStructures/12.md",
+      "key": "v-c331e86c",
+      "path": "/AlgorithmsAndDataStructures/12.html",
       "headers": [
         {
           "level": 2,
@@ -512,66 +512,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "14.说说你对归并排序的理解？如何实现？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/14.html",
-      "relativePath": "AlgorithmsAndDataStructures/14.md",
-      "key": "v-500c9ec6",
-      "path": "/AlgorithmsAndDataStructures/14.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "15.说说你对快速排序的理解？如何实现？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/15.html",
-      "relativePath": "AlgorithmsAndDataStructures/15.md",
-      "key": "v-ae412f78",
-      "path": "/AlgorithmsAndDataStructures/15.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "13.说说你对插入排序的理解？如何实现？应用场景？",
@@ -596,38 +537,57 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "18.说说你对贪心算法、回溯算法的理解？应用场景？",
+      "title": "14.说说你对归并排序的理解？如何实现？应用场景？",
       "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/18.html",
-      "relativePath": "AlgorithmsAndDataStructures/18.md",
-      "key": "v-99507684",
-      "path": "/AlgorithmsAndDataStructures/18.html",
+      "regularPath": "/AlgorithmsAndDataStructures/14.html",
+      "relativePath": "AlgorithmsAndDataStructures/14.md",
+      "key": "v-500c9ec6",
+      "path": "/AlgorithmsAndDataStructures/14.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、贪心算法",
-          "slug": "一、贪心算法"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、回溯算法",
-          "slug": "二、回溯算法"
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
         },
         {
           "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "15.说说你对快速排序的理解？如何实现？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/15.html",
+      "relativePath": "AlgorithmsAndDataStructures/15.md",
+      "key": "v-ae412f78",
+      "path": "/AlgorithmsAndDataStructures/15.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
     },
     {
       "title": "17.说说你对分而治之、动态规划的理解？区别？",
@@ -657,27 +617,57 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/logo01.webp",
-        "heroText": "冠希的个人博客",
-        "actionText": "开始学习 →",
-        "actionLink": "/WebInterview/BasicsInterview/CSS/01"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5fc33dca",
-      "path": "/",
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666501329000
+      "title": "18.说说你对贪心算法、回溯算法的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/18.html",
+      "relativePath": "AlgorithmsAndDataStructures/18.md",
+      "key": "v-99507684",
+      "path": "/AlgorithmsAndDataStructures/18.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、贪心算法",
+          "slug": "一、贪心算法"
+        },
+        {
+          "level": 2,
+          "title": "二、回溯算法",
+          "slug": "二、回溯算法"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "16.说说你对二分查找的理解？如何实现？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/AlgorithmsAndDataStructures/16.html",
+      "relativePath": "AlgorithmsAndDataStructures/16.md",
+      "key": "v-01b231c2",
+      "path": "/AlgorithmsAndDataStructures/16.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
     },
     {
       "title": "「2022」 高频前端面试题之HTML篇",
@@ -822,10 +812,7 @@ export const siteData = {
           "title": "20. 说一下 HTML5 drag API",
           "slug": "_20-说一下-html5-drag-api"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之CSS篇",
@@ -1125,43 +1112,7 @@ export const siteData = {
           "title": "6. 如何解决 1px 问题？",
           "slug": "_6-如何解决-1px-问题"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "11.说说你对冒泡排序的理解？如何实现？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/11.html",
-      "relativePath": "AlgorithmsAndDataStructures/11.md",
-      "key": "v-4594424c",
-      "path": "/AlgorithmsAndDataStructures/11.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 3,
-          "title": "优化",
-          "slug": "优化"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之JavaScript篇（下）",
@@ -1296,38 +1247,7 @@ export const siteData = {
           "title": "2. 哪些情况会导致内存泄漏",
           "slug": "_2-哪些情况会导致内存泄漏"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.说说你对选择排序的理解？如何实现？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/AlgorithmsAndDataStructures/12.html",
-      "relativePath": "AlgorithmsAndDataStructures/12.md",
-      "key": "v-c331e86c",
-      "path": "/AlgorithmsAndDataStructures/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之JavaScript篇（上）",
@@ -1707,10 +1627,7 @@ export const siteData = {
           "title": "3. 对执行上下文的理解",
           "slug": "_3-对执行上下文的理解"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之Vue篇（下）",
@@ -1905,10 +1822,7 @@ export const siteData = {
           "title": "7. 为什么不建议用index作为key?",
           "slug": "_7-为什么不建议用index作为key"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之Vue篇 （上）",
@@ -2198,10 +2112,262 @@ export const siteData = {
           "title": "（6）总结",
           "slug": "_6-总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "「2022」高频前端面试题之React篇（下）",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/AdvanceInterview/08.html",
+      "relativePath": "WebInterview/AdvanceInterview/08.md",
+      "key": "v-3b4653b1",
+      "path": "/WebInterview/AdvanceInterview/08.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "六、Redux",
+          "slug": "六、redux"
+        },
+        {
+          "level": 3,
+          "title": "1. 对 Redux 的理解，主要解决什么问题",
+          "slug": "_1-对-redux-的理解-主要解决什么问题"
+        },
+        {
+          "level": 3,
+          "title": "2. Redux 原理及工作流程",
+          "slug": "_2-redux-原理及工作流程"
+        },
+        {
+          "level": 3,
+          "title": "3. Redux 中异步的请求怎么处理",
+          "slug": "_3-redux-中异步的请求怎么处理"
+        },
+        {
+          "level": 3,
+          "title": "4. Redux 怎么实现属性传递，介绍下原理",
+          "slug": "_4-redux-怎么实现属性传递-介绍下原理"
+        },
+        {
+          "level": 3,
+          "title": "5. Redux 中间件是什么？接受几个参数？柯里化函数两端的参数具体是什么？",
+          "slug": "_5-redux-中间件是什么-接受几个参数-柯里化函数两端的参数具体是什么"
+        },
+        {
+          "level": 3,
+          "title": "6. Redux 请求中间件如何处理并发",
+          "slug": "_6-redux-请求中间件如何处理并发"
+        },
+        {
+          "level": 3,
+          "title": "7. Redux 状态管理器和变量挂载到 window 中有什么区别",
+          "slug": "_7-redux-状态管理器和变量挂载到-window-中有什么区别"
+        },
+        {
+          "level": 3,
+          "title": "8. mobox 和 redux 有什么区别？",
+          "slug": "_8-mobox-和-redux-有什么区别"
+        },
+        {
+          "level": 3,
+          "title": "9. Redux 和 Vuex 有什么区别，它们的共同思想",
+          "slug": "_9-redux-和-vuex-有什么区别-它们的共同思想"
+        },
+        {
+          "level": 3,
+          "title": "10. Redux 中间件是怎么拿到store 和 action? 然后怎么处理?",
+          "slug": "_10-redux-中间件是怎么拿到store-和-action-然后怎么处理"
+        },
+        {
+          "level": 3,
+          "title": "11. Redux中的connect有什么作用",
+          "slug": "_11-redux中的connect有什么作用"
+        },
+        {
+          "level": 2,
+          "title": "七、Hooks",
+          "slug": "七、hooks"
+        },
+        {
+          "level": 3,
+          "title": "1. 对 React Hook 的理解，它的实现原理是什么",
+          "slug": "_1-对-react-hook-的理解-它的实现原理是什么"
+        },
+        {
+          "level": 3,
+          "title": "2. 为什么 useState 要使用数组而不是对象",
+          "slug": "_2-为什么-usestate-要使用数组而不是对象"
+        },
+        {
+          "level": 3,
+          "title": "3. React Hooks 解决了哪些问题？",
+          "slug": "_3-react-hooks-解决了哪些问题"
+        },
+        {
+          "level": 3,
+          "title": "4. React Hook 的使用限制有哪些？",
+          "slug": "_4-react-hook-的使用限制有哪些"
+        },
+        {
+          "level": 3,
+          "title": "5. useEffect 与 useLayoutEffect 的区别",
+          "slug": "_5-useeffect-与-uselayouteffect-的区别"
+        },
+        {
+          "level": 3,
+          "title": "6. React Hooks在平时开发中需要注意的问题和原因",
+          "slug": "_6-react-hooks在平时开发中需要注意的问题和原因"
+        },
+        {
+          "level": 3,
+          "title": "7. React Hooks 和生命周期的关系？",
+          "slug": "_7-react-hooks-和生命周期的关系"
+        },
+        {
+          "level": 2,
+          "title": "八、虚拟DOM",
+          "slug": "八、虚拟dom"
+        },
+        {
+          "level": 3,
+          "title": "1. 对虚拟 DOM 的理解？虚拟 DOM 主要做了什么？虚拟 DOM 本身是什么？",
+          "slug": "_1-对虚拟-dom-的理解-虚拟-dom-主要做了什么-虚拟-dom-本身是什么"
+        },
+        {
+          "level": 3,
+          "title": "2. React diff 算法的原理是什么？",
+          "slug": "_2-react-diff-算法的原理是什么"
+        },
+        {
+          "level": 3,
+          "title": "3. React key 是干嘛用的 为什么要加？key 主要是解决哪一类问题的",
+          "slug": "_3-react-key-是干嘛用的-为什么要加-key-主要是解决哪一类问题的"
+        },
+        {
+          "level": 3,
+          "title": "4. 虚拟 DOM 的引入与直接操作原生 DOM 相比，哪一个效率更高，为什么",
+          "slug": "_4-虚拟-dom-的引入与直接操作原生-dom-相比-哪一个效率更高-为什么"
+        },
+        {
+          "level": 3,
+          "title": "5. React 与 Vue 的 diff 算法有何不同？",
+          "slug": "_5-react-与-vue-的-diff-算法有何不同"
+        },
+        {
+          "level": 2,
+          "title": "九、其他",
+          "slug": "九、其他"
+        },
+        {
+          "level": 3,
+          "title": "1. React组件命名推荐的方式是哪个？",
+          "slug": "_1-react组件命名推荐的方式是哪个"
+        },
+        {
+          "level": 3,
+          "title": "2. react 最新版本解决了什么问题，增加了哪些东西",
+          "slug": "_2-react-最新版本解决了什么问题-增加了哪些东西"
+        },
+        {
+          "level": 3,
+          "title": "3. react 实现一个全局的 dialog",
+          "slug": "_3-react-实现一个全局的-dialog"
+        },
+        {
+          "level": 3,
+          "title": "4. React 数据持久化有什么实践吗？",
+          "slug": "_4-react-数据持久化有什么实践吗"
+        },
+        {
+          "level": 3,
+          "title": "5. 对 React 和 Vue 的理解，它们的异同",
+          "slug": "_5-对-react-和-vue-的理解-它们的异同"
+        },
+        {
+          "level": 3,
+          "title": "6. 可以使用TypeScript写React应用吗？怎么操作？",
+          "slug": "_6-可以使用typescript写react应用吗-怎么操作"
+        },
+        {
+          "level": 3,
+          "title": "7. React 设计思路，它的理念是什么？",
+          "slug": "_7-react-设计思路-它的理念是什么"
+        },
+        {
+          "level": 3,
+          "title": "8. React中props.children和React.Children的区别",
+          "slug": "_8-react中props-children和react-children的区别"
+        },
+        {
+          "level": 3,
+          "title": "9. React的状态提升是什么？使用场景有哪些？",
+          "slug": "_9-react的状态提升是什么-使用场景有哪些"
+        },
+        {
+          "level": 3,
+          "title": "10. React中constructor和getInitialState的区别?",
+          "slug": "_10-react中constructor和getinitialstate的区别"
+        },
+        {
+          "level": 3,
+          "title": "11. React的严格模式如何使用，有什么用处？",
+          "slug": "_11-react的严格模式如何使用-有什么用处"
+        },
+        {
+          "level": 3,
+          "title": "12. 在React中遍历的方法有哪些？",
+          "slug": "_12-在react中遍历的方法有哪些"
+        },
+        {
+          "level": 3,
+          "title": "13. 在React中页面重新加载时怎样保留数据？",
+          "slug": "_13-在react中页面重新加载时怎样保留数据"
+        },
+        {
+          "level": 3,
+          "title": "14. 同时引用这三个库react.js、react-dom.js和babel.js它们都有什么作用？",
+          "slug": "_14-同时引用这三个库react-js、react-dom-js和babel-js它们都有什么作用"
+        },
+        {
+          "level": 3,
+          "title": "15. React必须使用JSX吗？",
+          "slug": "_15-react必须使用jsx吗"
+        },
+        {
+          "level": 3,
+          "title": "16. 为什么使用jsx的组件中没有看到使用react却需要引入react？",
+          "slug": "_16-为什么使用jsx的组件中没有看到使用react却需要引入react"
+        },
+        {
+          "level": 3,
+          "title": "17. 在React中怎么使用async/await？",
+          "slug": "_17-在react中怎么使用async-await"
+        },
+        {
+          "level": 3,
+          "title": "18. React.Children.map和js的map有什么区别？",
+          "slug": "_18-react-children-map和js的map有什么区别"
+        },
+        {
+          "level": 3,
+          "title": "19. 对React SSR的理解",
+          "slug": "_19-对react-ssr的理解"
+        },
+        {
+          "level": 3,
+          "title": "20. 为什么 React 要用 JSX？",
+          "slug": "_20-为什么-react-要用-jsx"
+        },
+        {
+          "level": 3,
+          "title": "21. HOC相比 mixins 有什么优点？",
+          "slug": "_21-hoc相比-mixins-有什么优点"
+        },
+        {
+          "level": 3,
+          "title": "22. React 中的高阶组件运用了什么设计模式？",
+          "slug": "_22-react-中的高阶组件运用了什么设计模式"
+        }
+      ]
     },
     {
       "title": "「2022」高频前端面试题之React篇（上）",
@@ -2536,268 +2702,147 @@ export const siteData = {
           "title": "8. React-Router 4的Switch有什么用？",
           "slug": "_8-react-router-4的switch有什么用"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "「2022」高频前端面试题之React篇（下）",
+      "title": "「2021」高频前端面试题汇总之前端性能优化篇",
       "frontmatter": {},
-      "regularPath": "/WebInterview/AdvanceInterview/08.html",
-      "relativePath": "WebInterview/AdvanceInterview/08.md",
-      "key": "v-3b4653b1",
-      "path": "/WebInterview/AdvanceInterview/08.html",
+      "regularPath": "/WebInterview/AdvanceInterview/11.html",
+      "relativePath": "WebInterview/AdvanceInterview/11.md",
+      "key": "v-15b79d81",
+      "path": "/WebInterview/AdvanceInterview/11.html",
       "headers": [
         {
           "level": 2,
-          "title": "六、Redux",
-          "slug": "六、redux"
+          "title": "一、CDN",
+          "slug": "一、cdn"
         },
         {
           "level": 3,
-          "title": "1. 对 Redux 的理解，主要解决什么问题",
-          "slug": "_1-对-redux-的理解-主要解决什么问题"
+          "title": "1. CDN的概念",
+          "slug": "_1-cdn的概念"
         },
         {
           "level": 3,
-          "title": "2. Redux 原理及工作流程",
-          "slug": "_2-redux-原理及工作流程"
+          "title": "2. CDN的作用",
+          "slug": "_2-cdn的作用"
         },
         {
           "level": 3,
-          "title": "3. Redux 中异步的请求怎么处理",
-          "slug": "_3-redux-中异步的请求怎么处理"
+          "title": "3. CDN的原理",
+          "slug": "_3-cdn的原理"
         },
         {
           "level": 3,
-          "title": "4. Redux 怎么实现属性传递，介绍下原理",
-          "slug": "_4-redux-怎么实现属性传递-介绍下原理"
-        },
-        {
-          "level": 3,
-          "title": "5. Redux 中间件是什么？接受几个参数？柯里化函数两端的参数具体是什么？",
-          "slug": "_5-redux-中间件是什么-接受几个参数-柯里化函数两端的参数具体是什么"
-        },
-        {
-          "level": 3,
-          "title": "6. Redux 请求中间件如何处理并发",
-          "slug": "_6-redux-请求中间件如何处理并发"
-        },
-        {
-          "level": 3,
-          "title": "7. Redux 状态管理器和变量挂载到 window 中有什么区别",
-          "slug": "_7-redux-状态管理器和变量挂载到-window-中有什么区别"
-        },
-        {
-          "level": 3,
-          "title": "8. mobox 和 redux 有什么区别？",
-          "slug": "_8-mobox-和-redux-有什么区别"
-        },
-        {
-          "level": 3,
-          "title": "9. Redux 和 Vuex 有什么区别，它们的共同思想",
-          "slug": "_9-redux-和-vuex-有什么区别-它们的共同思想"
-        },
-        {
-          "level": 3,
-          "title": "10. Redux 中间件是怎么拿到store 和 action? 然后怎么处理?",
-          "slug": "_10-redux-中间件是怎么拿到store-和-action-然后怎么处理"
-        },
-        {
-          "level": 3,
-          "title": "11. Redux中的connect有什么作用",
-          "slug": "_11-redux中的connect有什么作用"
+          "title": "4. CDN的使用场景",
+          "slug": "_4-cdn的使用场景"
         },
         {
           "level": 2,
-          "title": "七、Hooks",
-          "slug": "七、hooks"
+          "title": "二、懒加载",
+          "slug": "二、懒加载"
         },
         {
           "level": 3,
-          "title": "1. 对 React Hook 的理解，它的实现原理是什么",
-          "slug": "_1-对-react-hook-的理解-它的实现原理是什么"
+          "title": "1. 懒加载的概念",
+          "slug": "_1-懒加载的概念"
         },
         {
           "level": 3,
-          "title": "2. 为什么 useState 要使用数组而不是对象",
-          "slug": "_2-为什么-usestate-要使用数组而不是对象"
+          "title": "2. 懒加载的特点",
+          "slug": "_2-懒加载的特点"
         },
         {
           "level": 3,
-          "title": "3. React Hooks 解决了哪些问题？",
-          "slug": "_3-react-hooks-解决了哪些问题"
+          "title": "3. 懒加载的实现原理",
+          "slug": "_3-懒加载的实现原理"
         },
         {
           "level": 3,
-          "title": "4. React Hook 的使用限制有哪些？",
-          "slug": "_4-react-hook-的使用限制有哪些"
-        },
-        {
-          "level": 3,
-          "title": "5. useEffect 与 useLayoutEffect 的区别",
-          "slug": "_5-useeffect-与-uselayouteffect-的区别"
-        },
-        {
-          "level": 3,
-          "title": "6. React Hooks在平时开发中需要注意的问题和原因",
-          "slug": "_6-react-hooks在平时开发中需要注意的问题和原因"
-        },
-        {
-          "level": 3,
-          "title": "7. React Hooks 和生命周期的关系？",
-          "slug": "_7-react-hooks-和生命周期的关系"
+          "title": "4. 懒加载与预加载的区别",
+          "slug": "_4-懒加载与预加载的区别"
         },
         {
           "level": 2,
-          "title": "八、虚拟DOM",
-          "slug": "八、虚拟dom"
+          "title": "三、回流与重绘",
+          "slug": "三、回流与重绘"
         },
         {
           "level": 3,
-          "title": "1. 对虚拟 DOM 的理解？虚拟 DOM 主要做了什么？虚拟 DOM 本身是什么？",
-          "slug": "_1-对虚拟-dom-的理解-虚拟-dom-主要做了什么-虚拟-dom-本身是什么"
+          "title": "1. 回流与重绘的概念及触发条件",
+          "slug": "_1-回流与重绘的概念及触发条件"
         },
         {
           "level": 3,
-          "title": "2. React diff 算法的原理是什么？",
-          "slug": "_2-react-diff-算法的原理是什么"
+          "title": "2. 如何避免回流与重绘？",
+          "slug": "_2-如何避免回流与重绘"
         },
         {
           "level": 3,
-          "title": "3. React key 是干嘛用的 为什么要加？key 主要是解决哪一类问题的",
-          "slug": "_3-react-key-是干嘛用的-为什么要加-key-主要是解决哪一类问题的"
+          "title": "3. 如何优化动画？",
+          "slug": "_3-如何优化动画"
         },
         {
           "level": 3,
-          "title": "4. 虚拟 DOM 的引入与直接操作原生 DOM 相比，哪一个效率更高，为什么",
-          "slug": "_4-虚拟-dom-的引入与直接操作原生-dom-相比-哪一个效率更高-为什么"
-        },
-        {
-          "level": 3,
-          "title": "5. React 与 Vue 的 diff 算法有何不同？",
-          "slug": "_5-react-与-vue-的-diff-算法有何不同"
+          "title": "4. documentFragment 是什么？用它跟直接操作 DOM 的区别是什么？",
+          "slug": "_4-documentfragment-是什么-用它跟直接操作-dom-的区别是什么"
         },
         {
           "level": 2,
-          "title": "九、其他",
-          "slug": "九、其他"
+          "title": "四、节流与防抖",
+          "slug": "四、节流与防抖"
         },
         {
           "level": 3,
-          "title": "1. React组件命名推荐的方式是哪个？",
-          "slug": "_1-react组件命名推荐的方式是哪个"
+          "title": "1. 对节流与防抖的理解",
+          "slug": "_1-对节流与防抖的理解"
         },
         {
           "level": 3,
-          "title": "2. react 最新版本解决了什么问题，增加了哪些东西",
-          "slug": "_2-react-最新版本解决了什么问题-增加了哪些东西"
+          "title": "2. 实现节流函数和防抖函数",
+          "slug": "_2-实现节流函数和防抖函数"
+        },
+        {
+          "level": 2,
+          "title": "五、图片优化",
+          "slug": "五、图片优化"
         },
         {
           "level": 3,
-          "title": "3. react 实现一个全局的 dialog",
-          "slug": "_3-react-实现一个全局的-dialog"
+          "title": "1. 如何对项目中的图片进行优化？",
+          "slug": "_1-如何对项目中的图片进行优化"
         },
         {
           "level": 3,
-          "title": "4. React 数据持久化有什么实践吗？",
-          "slug": "_4-react-数据持久化有什么实践吗"
+          "title": "2. 常见的图片格式及使用场景",
+          "slug": "_2-常见的图片格式及使用场景"
+        },
+        {
+          "level": 2,
+          "title": "六、Webpack优化",
+          "slug": "六、webpack优化"
         },
         {
           "level": 3,
-          "title": "5. 对 React 和 Vue 的理解，它们的异同",
-          "slug": "_5-对-react-和-vue-的理解-它们的异同"
+          "title": "1. 如何提⾼webpack的打包速度?",
+          "slug": "_1-如何提高webpack的打包速度"
         },
         {
           "level": 3,
-          "title": "6. 可以使用TypeScript写React应用吗？怎么操作？",
-          "slug": "_6-可以使用typescript写react应用吗-怎么操作"
+          "title": "2. 如何减少 Webpack 打包体积",
+          "slug": "_2-如何减少-webpack-打包体积"
         },
         {
           "level": 3,
-          "title": "7. React 设计思路，它的理念是什么？",
-          "slug": "_7-react-设计思路-它的理念是什么"
+          "title": "3. 如何⽤webpack来优化前端性能？",
+          "slug": "_3-如何用webpack来优化前端性能"
         },
         {
           "level": 3,
-          "title": "8. React中props.children和React.Children的区别",
-          "slug": "_8-react中props-children和react-children的区别"
-        },
-        {
-          "level": 3,
-          "title": "9. React的状态提升是什么？使用场景有哪些？",
-          "slug": "_9-react的状态提升是什么-使用场景有哪些"
-        },
-        {
-          "level": 3,
-          "title": "10. React中constructor和getInitialState的区别?",
-          "slug": "_10-react中constructor和getinitialstate的区别"
-        },
-        {
-          "level": 3,
-          "title": "11. React的严格模式如何使用，有什么用处？",
-          "slug": "_11-react的严格模式如何使用-有什么用处"
-        },
-        {
-          "level": 3,
-          "title": "12. 在React中遍历的方法有哪些？",
-          "slug": "_12-在react中遍历的方法有哪些"
-        },
-        {
-          "level": 3,
-          "title": "13. 在React中页面重新加载时怎样保留数据？",
-          "slug": "_13-在react中页面重新加载时怎样保留数据"
-        },
-        {
-          "level": 3,
-          "title": "14. 同时引用这三个库react.js、react-dom.js和babel.js它们都有什么作用？",
-          "slug": "_14-同时引用这三个库react-js、react-dom-js和babel-js它们都有什么作用"
-        },
-        {
-          "level": 3,
-          "title": "15. React必须使用JSX吗？",
-          "slug": "_15-react必须使用jsx吗"
-        },
-        {
-          "level": 3,
-          "title": "16. 为什么使用jsx的组件中没有看到使用react却需要引入react？",
-          "slug": "_16-为什么使用jsx的组件中没有看到使用react却需要引入react"
-        },
-        {
-          "level": 3,
-          "title": "17. 在React中怎么使用async/await？",
-          "slug": "_17-在react中怎么使用async-await"
-        },
-        {
-          "level": 3,
-          "title": "18. React.Children.map和js的map有什么区别？",
-          "slug": "_18-react-children-map和js的map有什么区别"
-        },
-        {
-          "level": 3,
-          "title": "19. 对React SSR的理解",
-          "slug": "_19-对react-ssr的理解"
-        },
-        {
-          "level": 3,
-          "title": "20. 为什么 React 要用 JSX？",
-          "slug": "_20-为什么-react-要用-jsx"
-        },
-        {
-          "level": 3,
-          "title": "21. HOC相比 mixins 有什么优点？",
-          "slug": "_21-hoc相比-mixins-有什么优点"
-        },
-        {
-          "level": 3,
-          "title": "22. React 中的高阶组件运用了什么设计模式？",
-          "slug": "_22-react-中的高阶组件运用了什么设计模式"
+          "title": "4. 如何提⾼webpack的构建速度？",
+          "slug": "_4-如何提高webpack的构建速度"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题之计算机网络篇",
@@ -3107,446 +3152,365 @@ export const siteData = {
           "title": "2. 即时通讯的实现：短轮询、长轮询、SSE 和 WebSocket 间的区别？",
           "slug": "_2-即时通讯的实现-短轮询、长轮询、sse-和-websocket-间的区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "「2022」高频前端面试题汇总之手写代码篇",
+      "title": "「2022」高频前端面试题之浏览器原理篇",
       "frontmatter": {},
-      "regularPath": "/WebInterview/AdvanceInterview/12.html",
-      "relativePath": "WebInterview/AdvanceInterview/12.md",
-      "key": "v-1ed1ab3f",
-      "path": "/WebInterview/AdvanceInterview/12.html",
+      "regularPath": "/WebInterview/AdvanceInterview/10.html",
+      "relativePath": "WebInterview/AdvanceInterview/10.md",
+      "key": "v-0c9d8fc3",
+      "path": "/WebInterview/AdvanceInterview/10.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、JavaScript 基础",
-          "slug": "一、javascript-基础"
+          "title": "一、浏览器安全",
+          "slug": "一、浏览器安全"
         },
         {
           "level": 3,
-          "title": "1. 手写 Object.create",
-          "slug": "_1-手写-object-create"
+          "title": "1.  什么是 XSS 攻击？",
+          "slug": "_1-什么是-xss-攻击"
         },
         {
           "level": 3,
-          "title": "2. 手写 instanceof 方法",
-          "slug": "_2-手写-instanceof-方法"
+          "title": "2. 如何防御 XSS 攻击？",
+          "slug": "_2-如何防御-xss-攻击"
         },
         {
           "level": 3,
-          "title": "3. 手写 new 操作符",
-          "slug": "_3-手写-new-操作符"
+          "title": "3. 什么是 CSRF 攻击？",
+          "slug": "_3-什么是-csrf-攻击"
         },
         {
           "level": 3,
-          "title": "4. 手写 Promise",
-          "slug": "_4-手写-promise"
+          "title": "4. 如何防御 CSRF 攻击？",
+          "slug": "_4-如何防御-csrf-攻击"
         },
         {
           "level": 3,
-          "title": "5. 手写 Promise.then",
-          "slug": "_5-手写-promise-then"
+          "title": "5. 什么是中间人攻击？如何防范中间人攻击？",
+          "slug": "_5-什么是中间人攻击-如何防范中间人攻击"
         },
         {
           "level": 3,
-          "title": "6. 手写 Promise.all",
-          "slug": "_6-手写-promise-all"
+          "title": "6. 有哪些可能引起前端安全的问题?",
+          "slug": "_6-有哪些可能引起前端安全的问题"
         },
         {
           "level": 3,
-          "title": "7. 手写 Promise.race",
-          "slug": "_7-手写-promise-race"
-        },
-        {
-          "level": 3,
-          "title": "8. 手写防抖函数",
-          "slug": "_8-手写防抖函数"
-        },
-        {
-          "level": 3,
-          "title": "9. 手写节流函数",
-          "slug": "_9-手写节流函数"
-        },
-        {
-          "level": 3,
-          "title": "10. 手写类型判断函数",
-          "slug": "_10-手写类型判断函数"
-        },
-        {
-          "level": 3,
-          "title": "11. 手写 call 函数",
-          "slug": "_11-手写-call-函数"
-        },
-        {
-          "level": 3,
-          "title": "12. 手写 apply 函数",
-          "slug": "_12-手写-apply-函数"
-        },
-        {
-          "level": 3,
-          "title": "13. 手写 bind 函数",
-          "slug": "_13-手写-bind-函数"
-        },
-        {
-          "level": 3,
-          "title": "14. 函数柯里化的实现",
-          "slug": "_14-函数柯里化的实现"
-        },
-        {
-          "level": 3,
-          "title": "15. 实现AJAX请求",
-          "slug": "_15-实现ajax请求"
-        },
-        {
-          "level": 3,
-          "title": "16. 使用Promise封装AJAX请求",
-          "slug": "_16-使用promise封装ajax请求"
-        },
-        {
-          "level": 3,
-          "title": "17. 实现浅拷贝",
-          "slug": "_17-实现浅拷贝"
-        },
-        {
-          "level": 3,
-          "title": "18. 实现深拷贝",
-          "slug": "_18-实现深拷贝"
+          "title": "7. 网络劫持有哪几种，如何防范？",
+          "slug": "_7-网络劫持有哪几种-如何防范"
         },
         {
           "level": 2,
-          "title": "二、数据处理",
-          "slug": "二、数据处理"
+          "title": "二、进程与线程",
+          "slug": "二、进程与线程"
         },
         {
           "level": 3,
-          "title": "1. 实现日期格式化函数",
-          "slug": "_1-实现日期格式化函数"
+          "title": "1. 进程与线程的概念",
+          "slug": "_1-进程与线程的概念"
         },
         {
           "level": 3,
-          "title": "2. 交换a,b的值，不能用临时变量",
-          "slug": "_2-交换a-b的值-不能用临时变量"
+          "title": "2. 进程和线程的区别",
+          "slug": "_2-进程和线程的区别"
         },
         {
           "level": 3,
-          "title": "3. 实现数组的乱序输出",
-          "slug": "_3-实现数组的乱序输出"
+          "title": "3. 浏览器渲染进程的线程有哪些",
+          "slug": "_3-浏览器渲染进程的线程有哪些"
         },
         {
           "level": 3,
-          "title": "4. 实现数组元素求和",
-          "slug": "_4-实现数组元素求和"
+          "title": "4. 进程之前的通信方式",
+          "slug": "_4-进程之前的通信方式"
         },
         {
           "level": 3,
-          "title": "5. 实现数组的扁平化",
-          "slug": "_5-实现数组的扁平化"
+          "title": "5. 僵尸进程和孤儿进程是什么？",
+          "slug": "_5-僵尸进程和孤儿进程是什么"
         },
         {
           "level": 3,
-          "title": "6. 实现数组去重",
-          "slug": "_6-实现数组去重"
+          "title": "6. 死锁产生的原因？ 如果解决死锁的问题？",
+          "slug": "_6-死锁产生的原因-如果解决死锁的问题"
         },
         {
           "level": 3,
-          "title": "7. 实现数组的flat方法",
-          "slug": "_7-实现数组的flat方法"
+          "title": "7. 如何实现浏览器内多个标签页之间的通信?",
+          "slug": "_7-如何实现浏览器内多个标签页之间的通信"
         },
         {
           "level": 3,
-          "title": "8. 实现数组的push方法",
-          "slug": "_8-实现数组的push方法"
-        },
-        {
-          "level": 3,
-          "title": "9. 实现数组的filter方法",
-          "slug": "_9-实现数组的filter方法"
-        },
-        {
-          "level": 3,
-          "title": "10. 实现数组的map方法",
-          "slug": "_10-实现数组的map方法"
-        },
-        {
-          "level": 3,
-          "title": "11. 实现字符串的repeat方法",
-          "slug": "_11-实现字符串的repeat方法"
-        },
-        {
-          "level": 3,
-          "title": "12. 实现字符串翻转",
-          "slug": "_12-实现字符串翻转"
-        },
-        {
-          "level": 3,
-          "title": "13. 将数字每千分位用逗号隔开",
-          "slug": "_13-将数字每千分位用逗号隔开"
-        },
-        {
-          "level": 3,
-          "title": "14. 实现非负大整数相加",
-          "slug": "_14-实现非负大整数相加"
-        },
-        {
-          "level": 3,
-          "title": "13. 实现 add(1)(2)(3)",
-          "slug": "_13-实现-add-1-2-3"
-        },
-        {
-          "level": 3,
-          "title": "14. 实现类数组转化为数组",
-          "slug": "_14-实现类数组转化为数组"
-        },
-        {
-          "level": 3,
-          "title": "15. 使用 reduce 求和",
-          "slug": "_15-使用-reduce-求和"
-        },
-        {
-          "level": 3,
-          "title": "16. 将js对象转化为树形结构",
-          "slug": "_16-将js对象转化为树形结构"
-        },
-        {
-          "level": 3,
-          "title": "17. 使用ES5和ES6求函数参数的和",
-          "slug": "_17-使用es5和es6求函数参数的和"
-        },
-        {
-          "level": 3,
-          "title": "18. 解析 URL Params 为对象",
-          "slug": "_18-解析-url-params-为对象"
+          "title": "8. 对Service Worker的理解",
+          "slug": "_8-对service-worker的理解"
         },
         {
           "level": 2,
-          "title": "三、场景应用",
-          "slug": "三、场景应用"
+          "title": "三、浏览器缓存",
+          "slug": "三、浏览器缓存"
         },
         {
           "level": 3,
-          "title": "1. 循环打印红黄绿",
-          "slug": "_1-循环打印红黄绿"
+          "title": "1. 对浏览器的缓存机制的理解",
+          "slug": "_1-对浏览器的缓存机制的理解"
         },
         {
           "level": 3,
-          "title": "2. 实现每隔一秒打印 1,2,3,4",
-          "slug": "_2-实现每隔一秒打印-1-2-3-4"
+          "title": "2. 浏览器资源缓存的位置有哪些？",
+          "slug": "_2-浏览器资源缓存的位置有哪些"
         },
         {
           "level": 3,
-          "title": "3. 小孩报数问题",
-          "slug": "_3-小孩报数问题"
+          "title": "3. 协商缓存和强缓存的区别",
+          "slug": "_3-协商缓存和强缓存的区别"
         },
         {
           "level": 3,
-          "title": "4. 用Promise实现图片的异步加载",
-          "slug": "_4-用promise实现图片的异步加载"
+          "title": "4. 为什么需要浏览器缓存？",
+          "slug": "_4-为什么需要浏览器缓存"
         },
         {
           "level": 3,
-          "title": "5. 实现发布-订阅模式",
-          "slug": "_5-实现发布-订阅模式"
+          "title": "5. 点击刷新按钮或者按 F5、按 Ctrl+F5 （强制刷新）、地址栏回车有什么区别？",
+          "slug": "_5-点击刷新按钮或者按-f5、按-ctrl-f5-强制刷新-、地址栏回车有什么区别"
+        },
+        {
+          "level": 2,
+          "title": "四、浏览器组成",
+          "slug": "四、浏览器组成"
         },
         {
           "level": 3,
-          "title": "6. 查找文章中出现频率最高的单词",
-          "slug": "_6-查找文章中出现频率最高的单词"
+          "title": "1. 对浏览器的理解",
+          "slug": "_1-对浏览器的理解"
         },
         {
           "level": 3,
-          "title": "7. 封装异步的fetch，使用async await方式来使用",
-          "slug": "_7-封装异步的fetch-使用async-await方式来使用"
+          "title": "2. 对浏览器内核的理解",
+          "slug": "_2-对浏览器内核的理解"
         },
         {
           "level": 3,
-          "title": "8. 实现prototype继承",
-          "slug": "_8-实现prototype继承"
+          "title": "3. 常见的浏览器内核比较",
+          "slug": "_3-常见的浏览器内核比较"
         },
         {
           "level": 3,
-          "title": "9. 实现双向数据绑定",
-          "slug": "_9-实现双向数据绑定"
+          "title": "4. 常见浏览器所用内核",
+          "slug": "_4-常见浏览器所用内核"
         },
         {
           "level": 3,
-          "title": "10. 实现简单路由",
-          "slug": "_10-实现简单路由"
+          "title": "5. 浏览器的主要组成部分",
+          "slug": "_5-浏览器的主要组成部分"
+        },
+        {
+          "level": 2,
+          "title": "五、浏览器渲染原理",
+          "slug": "五、浏览器渲染原理"
         },
         {
           "level": 3,
-          "title": "11. 实现斐波那契数列",
-          "slug": "_11-实现斐波那契数列"
+          "title": "1. 浏览器的渲染过程",
+          "slug": "_1-浏览器的渲染过程"
         },
         {
           "level": 3,
-          "title": "12. 字符串出现的不重复最长长度",
-          "slug": "_12-字符串出现的不重复最长长度"
+          "title": "2. 浏览器渲染优化",
+          "slug": "_2-浏览器渲染优化"
         },
         {
           "level": 3,
-          "title": "13. 使用 setTimeout 实现 setInterval",
-          "slug": "_13-使用-settimeout-实现-setinterval"
+          "title": "3. 渲染过程中遇到 JS 文件如何处理？",
+          "slug": "_3-渲染过程中遇到-js-文件如何处理"
         },
         {
           "level": 3,
-          "title": "14. 实现 jsonp",
-          "slug": "_14-实现-jsonp"
+          "title": "4. 什么是文档的预解析？",
+          "slug": "_4-什么是文档的预解析"
         },
         {
           "level": 3,
-          "title": "15. 判断对象是否存在循环引用",
-          "slug": "_15-判断对象是否存在循环引用"
+          "title": "5. CSS 如何阻塞文档解析？",
+          "slug": "_5-css-如何阻塞文档解析"
+        },
+        {
+          "level": 3,
+          "title": "6. 如何优化关键渲染路径？",
+          "slug": "_6-如何优化关键渲染路径"
+        },
+        {
+          "level": 3,
+          "title": "7. 什么情况会阻塞渲染？",
+          "slug": "_7-什么情况会阻塞渲染"
+        },
+        {
+          "level": 2,
+          "title": "六、浏览器本地存储",
+          "slug": "六、浏览器本地存储"
+        },
+        {
+          "level": 3,
+          "title": "1. 浏览器本地存储方式及使用场景",
+          "slug": "_1-浏览器本地存储方式及使用场景"
+        },
+        {
+          "level": 3,
+          "title": "2. Cookie有哪些字段，作用分别是什么",
+          "slug": "_2-cookie有哪些字段-作用分别是什么"
+        },
+        {
+          "level": 3,
+          "title": "3. Cookie、LocalStorage、SessionStorage区别",
+          "slug": "_3-cookie、localstorage、sessionstorage区别"
+        },
+        {
+          "level": 3,
+          "title": "4. 前端储存的⽅式有哪些？",
+          "slug": "_4-前端储存的方式有哪些"
+        },
+        {
+          "level": 3,
+          "title": "5. IndexedDB有哪些特点？",
+          "slug": "_5-indexeddb有哪些特点"
+        },
+        {
+          "level": 2,
+          "title": "七、浏览器同源策略",
+          "slug": "七、浏览器同源策略"
+        },
+        {
+          "level": 3,
+          "title": "1. 什么是同源策略",
+          "slug": "_1-什么是同源策略"
+        },
+        {
+          "level": 3,
+          "title": "2. 如何解决跨越问题",
+          "slug": "_2-如何解决跨越问题"
+        },
+        {
+          "level": 3,
+          "title": "3. 正向代理和反向代理的区别",
+          "slug": "_3-正向代理和反向代理的区别"
+        },
+        {
+          "level": 3,
+          "title": "4. Nginx的概念及其工作原理",
+          "slug": "_4-nginx的概念及其工作原理"
+        },
+        {
+          "level": 2,
+          "title": "八、浏览器事件机制",
+          "slug": "八、浏览器事件机制"
+        },
+        {
+          "level": 3,
+          "title": "1. 事件是什么？事件模型？",
+          "slug": "_1-事件是什么-事件模型"
+        },
+        {
+          "level": 3,
+          "title": "2. 如何阻止事件冒泡",
+          "slug": "_2-如何阻止事件冒泡"
+        },
+        {
+          "level": 3,
+          "title": "3. 对事件委托的理解",
+          "slug": "_3-对事件委托的理解"
+        },
+        {
+          "level": 3,
+          "title": "4. 事件委托的使用场景",
+          "slug": "_4-事件委托的使用场景"
+        },
+        {
+          "level": 3,
+          "title": "5. 同步和异步的区别",
+          "slug": "_5-同步和异步的区别"
+        },
+        {
+          "level": 3,
+          "title": "6. 对事件循环的理解",
+          "slug": "_6-对事件循环的理解"
+        },
+        {
+          "level": 3,
+          "title": "7. 宏任务和微任务分别有哪些",
+          "slug": "_7-宏任务和微任务分别有哪些"
+        },
+        {
+          "level": 3,
+          "title": "8. 什么是执行栈",
+          "slug": "_8-什么是执行栈"
+        },
+        {
+          "level": 3,
+          "title": "9. Node 中的 Event Loop 和浏览器中的有什么区别？process.nextTick 执行顺序？",
+          "slug": "_9-node-中的-event-loop-和浏览器中的有什么区别-process-nexttick-执行顺序"
+        },
+        {
+          "level": 3,
+          "title": "10. 事件触发的过程是怎样的",
+          "slug": "_10-事件触发的过程是怎样的"
+        },
+        {
+          "level": 2,
+          "title": "九、浏览器垃圾回收机制",
+          "slug": "九、浏览器垃圾回收机制"
+        },
+        {
+          "level": 3,
+          "title": "1. V8的垃圾回收机制是怎样的",
+          "slug": "_1-v8的垃圾回收机制是怎样的"
+        },
+        {
+          "level": 3,
+          "title": "2. 哪些操作会造成内存泄漏？",
+          "slug": "_2-哪些操作会造成内存泄漏"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "「2021」高频前端面试题汇总之前端性能优化篇",
+      "title": "TypeScript面试题及答案收录",
       "frontmatter": {},
-      "regularPath": "/WebInterview/AdvanceInterview/11.html",
-      "relativePath": "WebInterview/AdvanceInterview/11.md",
-      "key": "v-15b79d81",
-      "path": "/WebInterview/AdvanceInterview/11.html",
+      "regularPath": "/WebInterview/AdvanceInterview/14.html",
+      "relativePath": "WebInterview/AdvanceInterview/14.md",
+      "key": "v-3105c6bb",
+      "path": "/WebInterview/AdvanceInterview/14.html"
+    },
+    {
+      "title": "01.说说你对CSS盒子模型的理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/01.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/01.md",
+      "key": "v-2a6b7798",
+      "path": "/WebInterview/BasicsInterview/CSS/01.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、CDN",
-          "slug": "一、cdn"
-        },
-        {
-          "level": 3,
-          "title": "1. CDN的概念",
-          "slug": "_1-cdn的概念"
-        },
-        {
-          "level": 3,
-          "title": "2. CDN的作用",
-          "slug": "_2-cdn的作用"
-        },
-        {
-          "level": 3,
-          "title": "3. CDN的原理",
-          "slug": "_3-cdn的原理"
-        },
-        {
-          "level": 3,
-          "title": "4. CDN的使用场景",
-          "slug": "_4-cdn的使用场景"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、懒加载",
-          "slug": "二、懒加载"
-        },
-        {
-          "level": 3,
-          "title": "1. 懒加载的概念",
-          "slug": "_1-懒加载的概念"
-        },
-        {
-          "level": 3,
-          "title": "2. 懒加载的特点",
-          "slug": "_2-懒加载的特点"
-        },
-        {
-          "level": 3,
-          "title": "3. 懒加载的实现原理",
-          "slug": "_3-懒加载的实现原理"
-        },
-        {
-          "level": 3,
-          "title": "4. 懒加载与预加载的区别",
-          "slug": "_4-懒加载与预加载的区别"
+          "title": "二、标准盒子模型",
+          "slug": "二、标准盒子模型"
         },
         {
           "level": 2,
-          "title": "三、回流与重绘",
-          "slug": "三、回流与重绘"
-        },
-        {
-          "level": 3,
-          "title": "1. 回流与重绘的概念及触发条件",
-          "slug": "_1-回流与重绘的概念及触发条件"
-        },
-        {
-          "level": 3,
-          "title": "2. 如何避免回流与重绘？",
-          "slug": "_2-如何避免回流与重绘"
-        },
-        {
-          "level": 3,
-          "title": "3. 如何优化动画？",
-          "slug": "_3-如何优化动画"
-        },
-        {
-          "level": 3,
-          "title": "4. documentFragment 是什么？用它跟直接操作 DOM 的区别是什么？",
-          "slug": "_4-documentfragment-是什么-用它跟直接操作-dom-的区别是什么"
+          "title": "三、IE 怪异盒子模型",
+          "slug": "三、ie-怪异盒子模型"
         },
         {
           "level": 2,
-          "title": "四、节流与防抖",
-          "slug": "四、节流与防抖"
-        },
-        {
-          "level": 3,
-          "title": "1. 对节流与防抖的理解",
-          "slug": "_1-对节流与防抖的理解"
-        },
-        {
-          "level": 3,
-          "title": "2. 实现节流函数和防抖函数",
-          "slug": "_2-实现节流函数和防抖函数"
-        },
-        {
-          "level": 2,
-          "title": "五、图片优化",
-          "slug": "五、图片优化"
-        },
-        {
-          "level": 3,
-          "title": "1. 如何对项目中的图片进行优化？",
-          "slug": "_1-如何对项目中的图片进行优化"
-        },
-        {
-          "level": 3,
-          "title": "2. 常见的图片格式及使用场景",
-          "slug": "_2-常见的图片格式及使用场景"
-        },
-        {
-          "level": 2,
-          "title": "六、Webpack优化",
-          "slug": "六、webpack优化"
-        },
-        {
-          "level": 3,
-          "title": "1. 如何提⾼webpack的打包速度?",
-          "slug": "_1-如何提高webpack的打包速度"
-        },
-        {
-          "level": 3,
-          "title": "2. 如何减少 Webpack 打包体积",
-          "slug": "_2-如何减少-webpack-打包体积"
-        },
-        {
-          "level": 3,
-          "title": "3. 如何⽤webpack来优化前端性能？",
-          "slug": "_3-如何用webpack来优化前端性能"
-        },
-        {
-          "level": 3,
-          "title": "4. 如何提⾼webpack的构建速度？",
-          "slug": "_4-如何提高webpack的构建速度"
+          "title": "Box-sizing",
+          "slug": "box-sizing"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "「2022」高频前端面试题汇总之代码输出结果篇",
@@ -3886,54 +3850,297 @@ export const siteData = {
           "title": "9. 代码输出结果",
           "slug": "_9-代码输出结果-3"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "TypeScript面试题及答案收录",
+      "title": "「2022」高频前端面试题汇总之手写代码篇",
       "frontmatter": {},
-      "regularPath": "/WebInterview/AdvanceInterview/14.html",
-      "relativePath": "WebInterview/AdvanceInterview/14.md",
-      "key": "v-3105c6bb",
-      "path": "/WebInterview/AdvanceInterview/14.html",
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "01.说说你对CSS盒子模型的理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/01.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/01.md",
-      "key": "v-2a6b7798",
-      "path": "/WebInterview/BasicsInterview/CSS/01.html",
+      "regularPath": "/WebInterview/AdvanceInterview/12.html",
+      "relativePath": "WebInterview/AdvanceInterview/12.md",
+      "key": "v-1ed1ab3f",
+      "path": "/WebInterview/AdvanceInterview/12.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、JavaScript 基础",
+          "slug": "一、javascript-基础"
+        },
+        {
+          "level": 3,
+          "title": "1. 手写 Object.create",
+          "slug": "_1-手写-object-create"
+        },
+        {
+          "level": 3,
+          "title": "2. 手写 instanceof 方法",
+          "slug": "_2-手写-instanceof-方法"
+        },
+        {
+          "level": 3,
+          "title": "3. 手写 new 操作符",
+          "slug": "_3-手写-new-操作符"
+        },
+        {
+          "level": 3,
+          "title": "4. 手写 Promise",
+          "slug": "_4-手写-promise"
+        },
+        {
+          "level": 3,
+          "title": "5. 手写 Promise.then",
+          "slug": "_5-手写-promise-then"
+        },
+        {
+          "level": 3,
+          "title": "6. 手写 Promise.all",
+          "slug": "_6-手写-promise-all"
+        },
+        {
+          "level": 3,
+          "title": "7. 手写 Promise.race",
+          "slug": "_7-手写-promise-race"
+        },
+        {
+          "level": 3,
+          "title": "8. 手写防抖函数",
+          "slug": "_8-手写防抖函数"
+        },
+        {
+          "level": 3,
+          "title": "9. 手写节流函数",
+          "slug": "_9-手写节流函数"
+        },
+        {
+          "level": 3,
+          "title": "10. 手写类型判断函数",
+          "slug": "_10-手写类型判断函数"
+        },
+        {
+          "level": 3,
+          "title": "11. 手写 call 函数",
+          "slug": "_11-手写-call-函数"
+        },
+        {
+          "level": 3,
+          "title": "12. 手写 apply 函数",
+          "slug": "_12-手写-apply-函数"
+        },
+        {
+          "level": 3,
+          "title": "13. 手写 bind 函数",
+          "slug": "_13-手写-bind-函数"
+        },
+        {
+          "level": 3,
+          "title": "14. 函数柯里化的实现",
+          "slug": "_14-函数柯里化的实现"
+        },
+        {
+          "level": 3,
+          "title": "15. 实现AJAX请求",
+          "slug": "_15-实现ajax请求"
+        },
+        {
+          "level": 3,
+          "title": "16. 使用Promise封装AJAX请求",
+          "slug": "_16-使用promise封装ajax请求"
+        },
+        {
+          "level": 3,
+          "title": "17. 实现浅拷贝",
+          "slug": "_17-实现浅拷贝"
+        },
+        {
+          "level": 3,
+          "title": "18. 实现深拷贝",
+          "slug": "_18-实现深拷贝"
         },
         {
           "level": 2,
-          "title": "二、标准盒子模型",
-          "slug": "二、标准盒子模型"
+          "title": "二、数据处理",
+          "slug": "二、数据处理"
+        },
+        {
+          "level": 3,
+          "title": "1. 实现日期格式化函数",
+          "slug": "_1-实现日期格式化函数"
+        },
+        {
+          "level": 3,
+          "title": "2. 交换a,b的值，不能用临时变量",
+          "slug": "_2-交换a-b的值-不能用临时变量"
+        },
+        {
+          "level": 3,
+          "title": "3. 实现数组的乱序输出",
+          "slug": "_3-实现数组的乱序输出"
+        },
+        {
+          "level": 3,
+          "title": "4. 实现数组元素求和",
+          "slug": "_4-实现数组元素求和"
+        },
+        {
+          "level": 3,
+          "title": "5. 实现数组的扁平化",
+          "slug": "_5-实现数组的扁平化"
+        },
+        {
+          "level": 3,
+          "title": "6. 实现数组去重",
+          "slug": "_6-实现数组去重"
+        },
+        {
+          "level": 3,
+          "title": "7. 实现数组的flat方法",
+          "slug": "_7-实现数组的flat方法"
+        },
+        {
+          "level": 3,
+          "title": "8. 实现数组的push方法",
+          "slug": "_8-实现数组的push方法"
+        },
+        {
+          "level": 3,
+          "title": "9. 实现数组的filter方法",
+          "slug": "_9-实现数组的filter方法"
+        },
+        {
+          "level": 3,
+          "title": "10. 实现数组的map方法",
+          "slug": "_10-实现数组的map方法"
+        },
+        {
+          "level": 3,
+          "title": "11. 实现字符串的repeat方法",
+          "slug": "_11-实现字符串的repeat方法"
+        },
+        {
+          "level": 3,
+          "title": "12. 实现字符串翻转",
+          "slug": "_12-实现字符串翻转"
+        },
+        {
+          "level": 3,
+          "title": "13. 将数字每千分位用逗号隔开",
+          "slug": "_13-将数字每千分位用逗号隔开"
+        },
+        {
+          "level": 3,
+          "title": "14. 实现非负大整数相加",
+          "slug": "_14-实现非负大整数相加"
+        },
+        {
+          "level": 3,
+          "title": "13. 实现 add(1)(2)(3)",
+          "slug": "_13-实现-add-1-2-3"
+        },
+        {
+          "level": 3,
+          "title": "14. 实现类数组转化为数组",
+          "slug": "_14-实现类数组转化为数组"
+        },
+        {
+          "level": 3,
+          "title": "15. 使用 reduce 求和",
+          "slug": "_15-使用-reduce-求和"
+        },
+        {
+          "level": 3,
+          "title": "16. 将js对象转化为树形结构",
+          "slug": "_16-将js对象转化为树形结构"
+        },
+        {
+          "level": 3,
+          "title": "17. 使用ES5和ES6求函数参数的和",
+          "slug": "_17-使用es5和es6求函数参数的和"
+        },
+        {
+          "level": 3,
+          "title": "18. 解析 URL Params 为对象",
+          "slug": "_18-解析-url-params-为对象"
         },
         {
           "level": 2,
-          "title": "三、IE 怪异盒子模型",
-          "slug": "三、ie-怪异盒子模型"
+          "title": "三、场景应用",
+          "slug": "三、场景应用"
         },
         {
-          "level": 2,
-          "title": "Box-sizing",
-          "slug": "box-sizing"
+          "level": 3,
+          "title": "1. 循环打印红黄绿",
+          "slug": "_1-循环打印红黄绿"
+        },
+        {
+          "level": 3,
+          "title": "2. 实现每隔一秒打印 1,2,3,4",
+          "slug": "_2-实现每隔一秒打印-1-2-3-4"
+        },
+        {
+          "level": 3,
+          "title": "3. 小孩报数问题",
+          "slug": "_3-小孩报数问题"
+        },
+        {
+          "level": 3,
+          "title": "4. 用Promise实现图片的异步加载",
+          "slug": "_4-用promise实现图片的异步加载"
+        },
+        {
+          "level": 3,
+          "title": "5. 实现发布-订阅模式",
+          "slug": "_5-实现发布-订阅模式"
+        },
+        {
+          "level": 3,
+          "title": "6. 查找文章中出现频率最高的单词",
+          "slug": "_6-查找文章中出现频率最高的单词"
+        },
+        {
+          "level": 3,
+          "title": "7. 封装异步的fetch，使用async await方式来使用",
+          "slug": "_7-封装异步的fetch-使用async-await方式来使用"
+        },
+        {
+          "level": 3,
+          "title": "8. 实现prototype继承",
+          "slug": "_8-实现prototype继承"
+        },
+        {
+          "level": 3,
+          "title": "9. 实现双向数据绑定",
+          "slug": "_9-实现双向数据绑定"
+        },
+        {
+          "level": 3,
+          "title": "10. 实现简单路由",
+          "slug": "_10-实现简单路由"
+        },
+        {
+          "level": 3,
+          "title": "11. 实现斐波那契数列",
+          "slug": "_11-实现斐波那契数列"
+        },
+        {
+          "level": 3,
+          "title": "12. 字符串出现的不重复最长长度",
+          "slug": "_12-字符串出现的不重复最长长度"
+        },
+        {
+          "level": 3,
+          "title": "13. 使用 setTimeout 实现 setInterval",
+          "slug": "_13-使用-settimeout-实现-setinterval"
+        },
+        {
+          "level": 3,
+          "title": "14. 实现 jsonp",
+          "slug": "_14-实现-jsonp"
+        },
+        {
+          "level": 3,
+          "title": "15. 判断对象是否存在循环引用",
+          "slug": "_15-判断对象是否存在循环引用"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "02.CSS选择器有哪些？优先级？哪些属性可以继承？",
@@ -3963,10 +4170,7 @@ export const siteData = {
           "title": "无继承的属性",
           "slug": "无继承的属性"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说em/px/rem/vh/vw的区别?",
@@ -4011,333 +4215,97 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "「2022」高频前端面试题之浏览器原理篇",
+      "title": "04.说说设备像素、css像素、设备独立像素、dpr、ppi 之间的区别？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/AdvanceInterview/10.html",
-      "relativePath": "WebInterview/AdvanceInterview/10.md",
-      "key": "v-0c9d8fc3",
-      "path": "/WebInterview/AdvanceInterview/10.html",
+      "regularPath": "/WebInterview/BasicsInterview/CSS/04.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/04.md",
+      "key": "v-01276e10",
+      "path": "/WebInterview/BasicsInterview/CSS/04.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、浏览器安全",
-          "slug": "一、浏览器安全"
-        },
-        {
-          "level": 3,
-          "title": "1.  什么是 XSS 攻击？",
-          "slug": "_1-什么是-xss-攻击"
-        },
-        {
-          "level": 3,
-          "title": "2. 如何防御 XSS 攻击？",
-          "slug": "_2-如何防御-xss-攻击"
-        },
-        {
-          "level": 3,
-          "title": "3. 什么是 CSRF 攻击？",
-          "slug": "_3-什么是-csrf-攻击"
-        },
-        {
-          "level": 3,
-          "title": "4. 如何防御 CSRF 攻击？",
-          "slug": "_4-如何防御-csrf-攻击"
-        },
-        {
-          "level": 3,
-          "title": "5. 什么是中间人攻击？如何防范中间人攻击？",
-          "slug": "_5-什么是中间人攻击-如何防范中间人攻击"
-        },
-        {
-          "level": 3,
-          "title": "6. 有哪些可能引起前端安全的问题?",
-          "slug": "_6-有哪些可能引起前端安全的问题"
-        },
-        {
-          "level": 3,
-          "title": "7. 网络劫持有哪几种，如何防范？",
-          "slug": "_7-网络劫持有哪几种-如何防范"
+          "title": "一、背景",
+          "slug": "一、背景"
         },
         {
           "level": 2,
-          "title": "二、进程与线程",
-          "slug": "二、进程与线程"
+          "title": "二、介绍",
+          "slug": "二、介绍"
         },
         {
           "level": 3,
-          "title": "1. 进程与线程的概念",
-          "slug": "_1-进程与线程的概念"
+          "title": "CSS像素",
+          "slug": "css像素"
         },
         {
           "level": 3,
-          "title": "2. 进程和线程的区别",
-          "slug": "_2-进程和线程的区别"
+          "title": "设备像素",
+          "slug": "设备像素"
         },
         {
           "level": 3,
-          "title": "3. 浏览器渲染进程的线程有哪些",
-          "slug": "_3-浏览器渲染进程的线程有哪些"
+          "title": "设备独立像素",
+          "slug": "设备独立像素"
         },
         {
           "level": 3,
-          "title": "4. 进程之前的通信方式",
-          "slug": "_4-进程之前的通信方式"
+          "title": "dpr",
+          "slug": "dpr"
         },
         {
           "level": 3,
-          "title": "5. 僵尸进程和孤儿进程是什么？",
-          "slug": "_5-僵尸进程和孤儿进程是什么"
-        },
-        {
-          "level": 3,
-          "title": "6. 死锁产生的原因？ 如果解决死锁的问题？",
-          "slug": "_6-死锁产生的原因-如果解决死锁的问题"
-        },
-        {
-          "level": 3,
-          "title": "7. 如何实现浏览器内多个标签页之间的通信?",
-          "slug": "_7-如何实现浏览器内多个标签页之间的通信"
-        },
-        {
-          "level": 3,
-          "title": "8. 对Service Worker的理解",
-          "slug": "_8-对service-worker的理解"
+          "title": "ppi",
+          "slug": "ppi"
         },
         {
           "level": 2,
-          "title": "三、浏览器缓存",
-          "slug": "三、浏览器缓存"
-        },
-        {
-          "level": 3,
-          "title": "1. 对浏览器的缓存机制的理解",
-          "slug": "_1-对浏览器的缓存机制的理解"
-        },
-        {
-          "level": 3,
-          "title": "2. 浏览器资源缓存的位置有哪些？",
-          "slug": "_2-浏览器资源缓存的位置有哪些"
-        },
-        {
-          "level": 3,
-          "title": "3. 协商缓存和强缓存的区别",
-          "slug": "_3-协商缓存和强缓存的区别"
-        },
-        {
-          "level": 3,
-          "title": "4. 为什么需要浏览器缓存？",
-          "slug": "_4-为什么需要浏览器缓存"
-        },
-        {
-          "level": 3,
-          "title": "5. 点击刷新按钮或者按 F5、按 Ctrl+F5 （强制刷新）、地址栏回车有什么区别？",
-          "slug": "_5-点击刷新按钮或者按-f5、按-ctrl-f5-强制刷新-、地址栏回车有什么区别"
+          "title": "三、总结",
+          "slug": "三、总结"
         },
         {
           "level": 2,
-          "title": "四、浏览器组成",
-          "slug": "四、浏览器组成"
-        },
-        {
-          "level": 3,
-          "title": "1. 对浏览器的理解",
-          "slug": "_1-对浏览器的理解"
-        },
-        {
-          "level": 3,
-          "title": "2. 对浏览器内核的理解",
-          "slug": "_2-对浏览器内核的理解"
-        },
-        {
-          "level": 3,
-          "title": "3. 常见的浏览器内核比较",
-          "slug": "_3-常见的浏览器内核比较"
-        },
-        {
-          "level": 3,
-          "title": "4. 常见浏览器所用内核",
-          "slug": "_4-常见浏览器所用内核"
-        },
-        {
-          "level": 3,
-          "title": "5. 浏览器的主要组成部分",
-          "slug": "_5-浏览器的主要组成部分"
-        },
-        {
-          "level": 2,
-          "title": "五、浏览器渲染原理",
-          "slug": "五、浏览器渲染原理"
-        },
-        {
-          "level": 3,
-          "title": "1. 浏览器的渲染过程",
-          "slug": "_1-浏览器的渲染过程"
-        },
-        {
-          "level": 3,
-          "title": "2. 浏览器渲染优化",
-          "slug": "_2-浏览器渲染优化"
-        },
-        {
-          "level": 3,
-          "title": "3. 渲染过程中遇到 JS 文件如何处理？",
-          "slug": "_3-渲染过程中遇到-js-文件如何处理"
-        },
-        {
-          "level": 3,
-          "title": "4. 什么是文档的预解析？",
-          "slug": "_4-什么是文档的预解析"
-        },
-        {
-          "level": 3,
-          "title": "5. CSS 如何阻塞文档解析？",
-          "slug": "_5-css-如何阻塞文档解析"
-        },
-        {
-          "level": 3,
-          "title": "6. 如何优化关键渲染路径？",
-          "slug": "_6-如何优化关键渲染路径"
-        },
-        {
-          "level": 3,
-          "title": "7. 什么情况会阻塞渲染？",
-          "slug": "_7-什么情况会阻塞渲染"
-        },
-        {
-          "level": 2,
-          "title": "六、浏览器本地存储",
-          "slug": "六、浏览器本地存储"
-        },
-        {
-          "level": 3,
-          "title": "1. 浏览器本地存储方式及使用场景",
-          "slug": "_1-浏览器本地存储方式及使用场景"
-        },
-        {
-          "level": 3,
-          "title": "2. Cookie有哪些字段，作用分别是什么",
-          "slug": "_2-cookie有哪些字段-作用分别是什么"
-        },
-        {
-          "level": 3,
-          "title": "3. Cookie、LocalStorage、SessionStorage区别",
-          "slug": "_3-cookie、localstorage、sessionstorage区别"
-        },
-        {
-          "level": 3,
-          "title": "4. 前端储存的⽅式有哪些？",
-          "slug": "_4-前端储存的方式有哪些"
-        },
-        {
-          "level": 3,
-          "title": "5. IndexedDB有哪些特点？",
-          "slug": "_5-indexeddb有哪些特点"
-        },
-        {
-          "level": 2,
-          "title": "七、浏览器同源策略",
-          "slug": "七、浏览器同源策略"
-        },
-        {
-          "level": 3,
-          "title": "1. 什么是同源策略",
-          "slug": "_1-什么是同源策略"
-        },
-        {
-          "level": 3,
-          "title": "2. 如何解决跨越问题",
-          "slug": "_2-如何解决跨越问题"
-        },
-        {
-          "level": 3,
-          "title": "3. 正向代理和反向代理的区别",
-          "slug": "_3-正向代理和反向代理的区别"
-        },
-        {
-          "level": 3,
-          "title": "4. Nginx的概念及其工作原理",
-          "slug": "_4-nginx的概念及其工作原理"
-        },
-        {
-          "level": 2,
-          "title": "八、浏览器事件机制",
-          "slug": "八、浏览器事件机制"
-        },
-        {
-          "level": 3,
-          "title": "1. 事件是什么？事件模型？",
-          "slug": "_1-事件是什么-事件模型"
-        },
-        {
-          "level": 3,
-          "title": "2. 如何阻止事件冒泡",
-          "slug": "_2-如何阻止事件冒泡"
-        },
-        {
-          "level": 3,
-          "title": "3. 对事件委托的理解",
-          "slug": "_3-对事件委托的理解"
-        },
-        {
-          "level": 3,
-          "title": "4. 事件委托的使用场景",
-          "slug": "_4-事件委托的使用场景"
-        },
-        {
-          "level": 3,
-          "title": "5. 同步和异步的区别",
-          "slug": "_5-同步和异步的区别"
-        },
-        {
-          "level": 3,
-          "title": "6. 对事件循环的理解",
-          "slug": "_6-对事件循环的理解"
-        },
-        {
-          "level": 3,
-          "title": "7. 宏任务和微任务分别有哪些",
-          "slug": "_7-宏任务和微任务分别有哪些"
-        },
-        {
-          "level": 3,
-          "title": "8. 什么是执行栈",
-          "slug": "_8-什么是执行栈"
-        },
-        {
-          "level": 3,
-          "title": "9. Node 中的 Event Loop 和浏览器中的有什么区别？process.nextTick 执行顺序？",
-          "slug": "_9-node-中的-event-loop-和浏览器中的有什么区别-process-nexttick-执行顺序"
-        },
-        {
-          "level": 3,
-          "title": "10. 事件触发的过程是怎样的",
-          "slug": "_10-事件触发的过程是怎样的"
-        },
-        {
-          "level": 2,
-          "title": "九、浏览器垃圾回收机制",
-          "slug": "九、浏览器垃圾回收机制"
-        },
-        {
-          "level": 3,
-          "title": "1. V8的垃圾回收机制是怎样的",
-          "slug": "_1-v8的垃圾回收机制是怎样的"
-        },
-        {
-          "level": 3,
-          "title": "2. 哪些操作会造成内存泄漏？",
-          "slug": "_2-哪些操作会造成内存泄漏"
+          "title": "参考文献",
+          "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "06.谈谈你对BFC的理解？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/06.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/06.md",
+      "key": "v-38177f38",
+      "path": "/WebInterview/BasicsInterview/CSS/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、触发条件",
+          "slug": "二、触发条件"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
     },
     {
       "title": "07.元素水平垂直居中的方法有哪些？如果元素不定宽高呢？",
@@ -4407,106 +4375,7 @@ export const siteData = {
           "title": "块级元素居中布局",
           "slug": "块级元素居中布局"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.说说设备像素、css像素、设备独立像素、dpr、ppi 之间的区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/04.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/04.md",
-      "key": "v-01276e10",
-      "path": "/WebInterview/BasicsInterview/CSS/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、背景",
-          "slug": "一、背景"
-        },
-        {
-          "level": 2,
-          "title": "二、介绍",
-          "slug": "二、介绍"
-        },
-        {
-          "level": 3,
-          "title": "CSS像素",
-          "slug": "css像素"
-        },
-        {
-          "level": 3,
-          "title": "设备像素",
-          "slug": "设备像素"
-        },
-        {
-          "level": 3,
-          "title": "设备独立像素",
-          "slug": "设备独立像素"
-        },
-        {
-          "level": 3,
-          "title": "dpr",
-          "slug": "dpr"
-        },
-        {
-          "level": 3,
-          "title": "ppi",
-          "slug": "ppi"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.谈谈你对BFC的理解？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/06.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/06.md",
-      "key": "v-38177f38",
-      "path": "/WebInterview/BasicsInterview/CSS/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、触发条件",
-          "slug": "二、触发条件"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.CSS中，有哪些方式可以隐藏页面元素？区别?",
@@ -4566,10 +4435,92 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "10.介绍一下CSS中的Grid网格布局?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/10.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/10.md",
+      "key": "v-7c73a558",
+      "path": "/WebInterview/BasicsInterview/CSS/10.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、属性",
+          "slug": "二、属性"
+        },
+        {
+          "level": 3,
+          "title": "display 属性",
+          "slug": "display-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-template-columns 属性，grid-template-rows 属性",
+          "slug": "grid-template-columns-属性-grid-template-rows-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-row-gap 属性， grid-column-gap 属性， grid-gap 属性",
+          "slug": "grid-row-gap-属性-grid-column-gap-属性-grid-gap-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-template-areas 属性",
+          "slug": "grid-template-areas-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-auto-flow 属性",
+          "slug": "grid-auto-flow-属性"
+        },
+        {
+          "level": 3,
+          "title": "justify-items 属性， align-items 属性， place-items 属性",
+          "slug": "justify-items-属性-align-items-属性-place-items-属性"
+        },
+        {
+          "level": 3,
+          "title": "justify-content 属性， align-content 属性， place-content 属性",
+          "slug": "justify-content-属性-align-content-属性-place-content-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-auto-columns 属性和 grid-auto-rows 属性",
+          "slug": "grid-auto-columns-属性和-grid-auto-rows-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-column-start 属性、grid-column-end 属性、grid-row-start 属性以及grid-row-end 属性",
+          "slug": "grid-column-start-属性、grid-column-end-属性、grid-row-start-属性以及grid-row-end-属性"
+        },
+        {
+          "level": 3,
+          "title": "grid-area 属性",
+          "slug": "grid-area-属性"
+        },
+        {
+          "level": 3,
+          "title": "justify-self 属性、align-self 属性以及 place-self 属性",
+          "slug": "justify-self-属性、align-self-属性以及-place-self-属性"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
     },
     {
       "title": "08.如何实现两栏布局，右侧自适应？三栏布局中间自适应呢？",
@@ -4639,10 +4590,24 @@ export const siteData = {
           "title": "grid网格布局",
           "slug": "grid网格布局"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/logo01.webp",
+        "heroText": "冠希的个人博客",
+        "actionText": "开始学习 →",
+        "actionLink": "/WebInterview/BasicsInterview/CSS/01"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5fc33dca",
+      "path": "/",
+      "lastUpdated": "10/23/2022, 7:01:52 PM",
+      "lastUpdatedTimestamp": 1666522912000,
+      "createdTime": 1666501329000
     },
     {
       "title": "09.说说flexbox（弹性盒布局模型）,以及适用场景？",
@@ -4732,98 +4697,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "10.介绍一下CSS中的Grid网格布局?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/10.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/10.md",
-      "key": "v-7c73a558",
-      "path": "/WebInterview/BasicsInterview/CSS/10.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、属性",
-          "slug": "二、属性"
-        },
-        {
-          "level": 3,
-          "title": "display 属性",
-          "slug": "display-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-template-columns 属性，grid-template-rows 属性",
-          "slug": "grid-template-columns-属性-grid-template-rows-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-row-gap 属性， grid-column-gap 属性， grid-gap 属性",
-          "slug": "grid-row-gap-属性-grid-column-gap-属性-grid-gap-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-template-areas 属性",
-          "slug": "grid-template-areas-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-auto-flow 属性",
-          "slug": "grid-auto-flow-属性"
-        },
-        {
-          "level": 3,
-          "title": "justify-items 属性， align-items 属性， place-items 属性",
-          "slug": "justify-items-属性-align-items-属性-place-items-属性"
-        },
-        {
-          "level": 3,
-          "title": "justify-content 属性， align-content 属性， place-content 属性",
-          "slug": "justify-content-属性-align-content-属性-place-content-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-auto-columns 属性和 grid-auto-rows 属性",
-          "slug": "grid-auto-columns-属性和-grid-auto-rows-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-column-start 属性、grid-column-end 属性、grid-row-start 属性以及grid-row-end 属性",
-          "slug": "grid-column-start-属性、grid-column-end-属性、grid-row-start-属性以及grid-row-end-属性"
-        },
-        {
-          "level": 3,
-          "title": "grid-area 属性",
-          "slug": "grid-area-属性"
-        },
-        {
-          "level": 3,
-          "title": "justify-self 属性、align-self 属性以及 place-self 属性",
-          "slug": "justify-self-属性、align-self-属性以及-place-self-属性"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "11.CSS3新增了哪些新特性？",
@@ -4918,10 +4792,7 @@ export const siteData = {
           "title": "八、其他",
           "slug": "八、其他"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "13.怎么理解回流跟重绘？什么场景下会触发？",
@@ -4961,53 +4832,7 @@ export const siteData = {
           "title": "三、如何减少",
           "slug": "三、如何减少"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.CSS3常见动画有哪些？实现方式？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/12.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/12.md",
-      "key": "v-95c248d0",
-      "path": "/WebInterview/BasicsInterview/CSS/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、实现方式",
-          "slug": "二、实现方式"
-        },
-        {
-          "level": 3,
-          "title": "transition 实现渐变动画",
-          "slug": "transition-实现渐变动画"
-        },
-        {
-          "level": 3,
-          "title": "transform 转变动画",
-          "slug": "transform-转变动画"
-        },
-        {
-          "level": 3,
-          "title": "animation 实现自定义动画",
-          "slug": "animation-实现自定义动画"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "14.什么是响应式设计？响应式设计的基本原理是什么？如何做？",
@@ -5057,23 +4882,20 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "15.如果要做优化，CSS提高性能的方法有哪些？",
+      "title": "12.CSS3常见动画有哪些？实现方式？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/15.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/15.md",
-      "key": "v-ebc0a610",
-      "path": "/WebInterview/BasicsInterview/CSS/15.html",
+      "regularPath": "/WebInterview/BasicsInterview/CSS/12.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/12.md",
+      "key": "v-95c248d0",
+      "path": "/WebInterview/BasicsInterview/CSS/12.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、前言",
-          "slug": "一、前言"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
@@ -5082,48 +4904,50 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "内联首屏关键CSS",
-          "slug": "内联首屏关键css"
+          "title": "transition 实现渐变动画",
+          "slug": "transition-实现渐变动画"
         },
         {
           "level": 3,
-          "title": "异步加载CSS",
-          "slug": "异步加载css"
+          "title": "transform 转变动画",
+          "slug": "transform-转变动画"
         },
         {
           "level": 3,
-          "title": "资源压缩",
-          "slug": "资源压缩"
-        },
-        {
-          "level": 3,
-          "title": "合理使用选择器",
-          "slug": "合理使用选择器"
-        },
-        {
-          "level": 3,
-          "title": "减少使用昂贵的属性",
-          "slug": "减少使用昂贵的属性"
-        },
-        {
-          "level": 3,
-          "title": "不要使用@import",
-          "slug": "不要使用-import"
-        },
-        {
-          "level": 3,
-          "title": "其他",
-          "slug": "其他"
+          "title": "animation 实现自定义动画",
+          "slug": "animation-实现自定义动画"
         },
         {
           "level": 2,
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "18.CSS如何画一个三角形？原理是什么？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/18.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/18.md",
+      "key": "v-5f207e58",
+      "path": "/WebInterview/BasicsInterview/CSS/18.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、前言",
+          "slug": "一、前言"
+        },
+        {
+          "level": 2,
+          "title": "二、实现过程",
+          "slug": "二、实现过程"
+        },
+        {
+          "level": 2,
+          "title": "三、原理分析",
+          "slug": "三、原理分析"
+        }
+      ]
     },
     {
       "title": "16.如何实现单行／多行文本溢出的省略样式？",
@@ -5153,71 +4977,52 @@ export const siteData = {
           "title": "多行文本溢出省略",
           "slug": "多行文本溢出省略"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "18.CSS如何画一个三角形？原理是什么？",
+      "title": "19.让Chrome支持小于12px 的文字方式有哪些？区别？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/18.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/18.md",
-      "key": "v-5f207e58",
-      "path": "/WebInterview/BasicsInterview/CSS/18.html",
+      "regularPath": "/WebInterview/BasicsInterview/CSS/19.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/19.md",
+      "key": "v-0913cd10",
+      "path": "/WebInterview/BasicsInterview/CSS/19.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、前言",
-          "slug": "一、前言"
+          "title": "一、背景",
+          "slug": "一、背景"
         },
         {
           "level": 2,
-          "title": "二、实现过程",
-          "slug": "二、实现过程"
-        },
-        {
-          "level": 2,
-          "title": "三、原理分析",
-          "slug": "三、原理分析"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "17.如何使用CSS完成视差滚动效果?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/17.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/17.md",
-      "key": "v-7a6a3990",
-      "path": "/WebInterview/BasicsInterview/CSS/17.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、实现方式",
-          "slug": "二、实现方式"
+          "title": "二、解决方案",
+          "slug": "二、解决方案"
         },
         {
           "level": 3,
-          "title": "background-attachment",
-          "slug": "background-attachment"
+          "title": "Zoom",
+          "slug": "zoom"
         },
         {
           "level": 3,
-          "title": "transform:translate3D",
-          "slug": "transform-translate3d"
+          "title": "",
+          "slug": ""
+        },
+        {
+          "level": 3,
+          "title": "-webkit-transform:scale()",
+          "slug": "webkit-transform-scale"
+        },
+        {
+          "level": 3,
+          "title": "-webkit-text-size-adjust:none",
+          "slug": "webkit-text-size-adjust-none"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "20.说说对Css预编语言的理解？有哪些区别?",
@@ -5287,10 +5092,37 @@ export const siteData = {
           "title": "代码模块化",
           "slug": "代码模块化"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "17.如何使用CSS完成视差滚动效果?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/17.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/17.md",
+      "key": "v-7a6a3990",
+      "path": "/WebInterview/BasicsInterview/CSS/17.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、实现方式",
+          "slug": "二、实现方式"
+        },
+        {
+          "level": 3,
+          "title": "background-attachment",
+          "slug": "background-attachment"
+        },
+        {
+          "level": 3,
+          "title": "transform:translate3D",
+          "slug": "transform-translate3d"
+        }
+      ]
     },
     {
       "title": "01.说说对设计模式的理解？常见的设计模式有哪些？",
@@ -5350,86 +5182,7 @@ export const siteData = {
           "title": "",
           "slug": ""
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "19.让Chrome支持小于12px 的文字方式有哪些？区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/CSS/19.html",
-      "relativePath": "WebInterview/BasicsInterview/CSS/19.md",
-      "key": "v-0913cd10",
-      "path": "/WebInterview/BasicsInterview/CSS/19.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、背景",
-          "slug": "一、背景"
-        },
-        {
-          "level": 2,
-          "title": "二、解决方案",
-          "slug": "二、解决方案"
-        },
-        {
-          "level": 3,
-          "title": "Zoom",
-          "slug": "zoom"
-        },
-        {
-          "level": 3,
-          "title": "",
-          "slug": ""
-        },
-        {
-          "level": 3,
-          "title": "-webkit-transform:scale()",
-          "slug": "webkit-transform-scale"
-        },
-        {
-          "level": 3,
-          "title": "-webkit-text-size-adjust:none",
-          "slug": "webkit-text-size-adjust-none"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "05.说说你对策略模式的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/DesignPatterns/05.html",
-      "relativePath": "WebInterview/BasicsInterview/DesignPatterns/05.md",
-      "key": "v-2ce762ce",
-      "path": "/WebInterview/BasicsInterview/DesignPatterns/05.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用",
-          "slug": "二、使用"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "02.说说设计模式的基本原则有哪些？",
@@ -5474,10 +5227,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说你对单例模式的理解？如何实现？",
@@ -5502,48 +5252,7 @@ export const siteData = {
           "title": "三、使用场景",
           "slug": "三、使用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.说说你对代理模式的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/DesignPatterns/06.html",
-      "relativePath": "WebInterview/BasicsInterview/DesignPatterns/06.md",
-      "key": "v-2fd28e4c",
-      "path": "/WebInterview/BasicsInterview/DesignPatterns/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用",
-          "slug": "二、使用"
-        },
-        {
-          "level": 3,
-          "title": "缓存代理",
-          "slug": "缓存代理"
-        },
-        {
-          "level": 3,
-          "title": "虚拟代理",
-          "slug": "虚拟代理"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "04.说说你对工厂模式的理解？应用场景？",
@@ -5583,73 +5292,127 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "01.说说var、let、const之间的区别",
+      "title": "06.说说你对代理模式的理解？应用场景？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/ES6/01.html",
-      "relativePath": "WebInterview/BasicsInterview/ES6/01.md",
-      "key": "v-40598010",
-      "path": "/WebInterview/BasicsInterview/ES6/01.html",
+      "regularPath": "/WebInterview/BasicsInterview/DesignPatterns/06.html",
+      "relativePath": "WebInterview/BasicsInterview/DesignPatterns/06.md",
+      "key": "v-2fd28e4c",
+      "path": "/WebInterview/BasicsInterview/DesignPatterns/06.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、var",
-          "slug": "一、var"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、let",
-          "slug": "二、let"
+          "title": "二、使用",
+          "slug": "二、使用"
+        },
+        {
+          "level": 3,
+          "title": "缓存代理",
+          "slug": "缓存代理"
+        },
+        {
+          "level": 3,
+          "title": "虚拟代理",
+          "slug": "虚拟代理"
         },
         {
           "level": 2,
-          "title": "三、const",
-          "slug": "三、const"
-        },
-        {
-          "level": 2,
-          "title": "四、区别",
-          "slug": "四、区别"
-        },
-        {
-          "level": 3,
-          "title": "变量提升",
-          "slug": "变量提升"
-        },
-        {
-          "level": 3,
-          "title": "暂时性死区",
-          "slug": "暂时性死区"
-        },
-        {
-          "level": 3,
-          "title": "块级作用域",
-          "slug": "块级作用域"
-        },
-        {
-          "level": 3,
-          "title": "重复声明",
-          "slug": "重复声明"
-        },
-        {
-          "level": 3,
-          "title": "修改声明的变量",
-          "slug": "修改声明的变量"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用"
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "05.说说你对策略模式的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/DesignPatterns/05.html",
+      "relativePath": "WebInterview/BasicsInterview/DesignPatterns/05.md",
+      "key": "v-2ce762ce",
+      "path": "/WebInterview/BasicsInterview/DesignPatterns/05.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用",
+          "slug": "二、使用"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
+    },
+    {
+      "title": "15.如果要做优化，CSS提高性能的方法有哪些？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/CSS/15.html",
+      "relativePath": "WebInterview/BasicsInterview/CSS/15.md",
+      "key": "v-ebc0a610",
+      "path": "/WebInterview/BasicsInterview/CSS/15.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、前言",
+          "slug": "一、前言"
+        },
+        {
+          "level": 2,
+          "title": "二、实现方式",
+          "slug": "二、实现方式"
+        },
+        {
+          "level": 3,
+          "title": "内联首屏关键CSS",
+          "slug": "内联首屏关键css"
+        },
+        {
+          "level": 3,
+          "title": "异步加载CSS",
+          "slug": "异步加载css"
+        },
+        {
+          "level": 3,
+          "title": "资源压缩",
+          "slug": "资源压缩"
+        },
+        {
+          "level": 3,
+          "title": "合理使用选择器",
+          "slug": "合理使用选择器"
+        },
+        {
+          "level": 3,
+          "title": "减少使用昂贵的属性",
+          "slug": "减少使用昂贵的属性"
+        },
+        {
+          "level": 3,
+          "title": "不要使用@import",
+          "slug": "不要使用-import"
+        },
+        {
+          "level": 3,
+          "title": "其他",
+          "slug": "其他"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "02.ES6中数组新增了哪些扩展?",
@@ -5724,10 +5487,112 @@ export const siteData = {
           "title": "五、排序稳定性",
           "slug": "五、排序稳定性"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "04.ES6中函数新增了哪些扩展?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/ES6/04.html",
+      "relativePath": "WebInterview/BasicsInterview/ES6/04.md",
+      "key": "v-9657dd50",
+      "path": "/WebInterview/BasicsInterview/ES6/04.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、参数",
+          "slug": "一、参数"
+        },
+        {
+          "level": 2,
+          "title": "二、属性",
+          "slug": "二、属性"
+        },
+        {
+          "level": 3,
+          "title": "函数的length属性",
+          "slug": "函数的length属性"
+        },
+        {
+          "level": 3,
+          "title": "name属性",
+          "slug": "name属性"
+        },
+        {
+          "level": 2,
+          "title": "三、作用域",
+          "slug": "三、作用域"
+        },
+        {
+          "level": 2,
+          "title": "四、严格模式",
+          "slug": "四、严格模式"
+        },
+        {
+          "level": 2,
+          "title": "五、箭头函数",
+          "slug": "五、箭头函数"
+        }
+      ]
+    },
+    {
+      "title": "01.说说var、let、const之间的区别",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/ES6/01.html",
+      "relativePath": "WebInterview/BasicsInterview/ES6/01.md",
+      "key": "v-40598010",
+      "path": "/WebInterview/BasicsInterview/ES6/01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、var",
+          "slug": "一、var"
+        },
+        {
+          "level": 2,
+          "title": "二、let",
+          "slug": "二、let"
+        },
+        {
+          "level": 2,
+          "title": "三、const",
+          "slug": "三、const"
+        },
+        {
+          "level": 2,
+          "title": "四、区别",
+          "slug": "四、区别"
+        },
+        {
+          "level": 3,
+          "title": "变量提升",
+          "slug": "变量提升"
+        },
+        {
+          "level": 3,
+          "title": "暂时性死区",
+          "slug": "暂时性死区"
+        },
+        {
+          "level": 3,
+          "title": "块级作用域",
+          "slug": "块级作用域"
+        },
+        {
+          "level": 3,
+          "title": "重复声明",
+          "slug": "重复声明"
+        },
+        {
+          "level": 3,
+          "title": "修改声明的变量",
+          "slug": "修改声明的变量"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用"
+        }
+      ]
     },
     {
       "title": "03.ES6中对象新增了哪些扩展?",
@@ -5812,58 +5677,7 @@ export const siteData = {
           "title": "Object.fromEntries()",
           "slug": "object-fromentries"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.ES6中函数新增了哪些扩展?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/ES6/04.html",
-      "relativePath": "WebInterview/BasicsInterview/ES6/04.md",
-      "key": "v-9657dd50",
-      "path": "/WebInterview/BasicsInterview/ES6/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、参数",
-          "slug": "一、参数"
-        },
-        {
-          "level": 2,
-          "title": "二、属性",
-          "slug": "二、属性"
-        },
-        {
-          "level": 3,
-          "title": "函数的length属性",
-          "slug": "函数的length属性"
-        },
-        {
-          "level": 3,
-          "title": "name属性",
-          "slug": "name属性"
-        },
-        {
-          "level": 2,
-          "title": "三、作用域",
-          "slug": "三、作用域"
-        },
-        {
-          "level": 2,
-          "title": "四、严格模式",
-          "slug": "四、严格模式"
-        },
-        {
-          "level": 2,
-          "title": "五、箭头函数",
-          "slug": "五、箭头函数"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.ES6中新增的Set、Map两种数据结构怎么理解?",
@@ -5968,131 +5782,7 @@ export const siteData = {
           "title": "WeakMap",
           "slug": "weakmap"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "08.你是怎么理解ES6中Proxy的？使用场景?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/ES6/08.html",
-      "relativePath": "WebInterview/BasicsInterview/ES6/08.md",
-      "key": "v-262a7dd8",
-      "path": "/WebInterview/BasicsInterview/ES6/08.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、介绍",
-          "slug": "一、介绍"
-        },
-        {
-          "level": 2,
-          "title": "二、用法",
-          "slug": "二、用法"
-        },
-        {
-          "level": 3,
-          "title": "参数",
-          "slug": "参数"
-        },
-        {
-          "level": 3,
-          "title": "handler解析",
-          "slug": "handler解析"
-        },
-        {
-          "level": 3,
-          "title": "Reflect",
-          "slug": "reflect"
-        },
-        {
-          "level": 3,
-          "title": "get()",
-          "slug": "get"
-        },
-        {
-          "level": 3,
-          "title": "set()",
-          "slug": "set"
-        },
-        {
-          "level": 3,
-          "title": "deleteProperty()",
-          "slug": "deleteproperty"
-        },
-        {
-          "level": 3,
-          "title": "取消代理",
-          "slug": "取消代理"
-        },
-        {
-          "level": 2,
-          "title": "三、使用场景",
-          "slug": "三、使用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "01.说说你对版本管理的理解？常用的版本管理工具有哪些？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Git/01.html",
-      "relativePath": "WebInterview/BasicsInterview/Git/01.md",
-      "key": "v-6e8e0690",
-      "path": "/WebInterview/BasicsInterview/Git/01.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、有哪些",
-          "slug": "二、有哪些"
-        },
-        {
-          "level": 3,
-          "title": "本地版本控制系统",
-          "slug": "本地版本控制系统"
-        },
-        {
-          "level": 3,
-          "title": "集中式版本控制系统",
-          "slug": "集中式版本控制系统"
-        },
-        {
-          "level": 3,
-          "title": "SVN",
-          "slug": "svn"
-        },
-        {
-          "level": 3,
-          "title": "CVS",
-          "slug": "cvs"
-        },
-        {
-          "level": 3,
-          "title": "Git",
-          "slug": "git"
-        },
-        {
-          "level": 3,
-          "title": "HG",
-          "slug": "hg"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "07.怎么理解ES6中 Generator的？使用场景？",
@@ -6152,10 +5842,107 @@ export const siteData = {
           "title": "四、使用场景",
           "slug": "四、使用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "08.你是怎么理解ES6中Proxy的？使用场景?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/ES6/08.html",
+      "relativePath": "WebInterview/BasicsInterview/ES6/08.md",
+      "key": "v-262a7dd8",
+      "path": "/WebInterview/BasicsInterview/ES6/08.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、介绍",
+          "slug": "一、介绍"
+        },
+        {
+          "level": 2,
+          "title": "二、用法",
+          "slug": "二、用法"
+        },
+        {
+          "level": 3,
+          "title": "参数",
+          "slug": "参数"
+        },
+        {
+          "level": 3,
+          "title": "handler解析",
+          "slug": "handler解析"
+        },
+        {
+          "level": 3,
+          "title": "Reflect",
+          "slug": "reflect"
+        },
+        {
+          "level": 3,
+          "title": "get()",
+          "slug": "get"
+        },
+        {
+          "level": 3,
+          "title": "set()",
+          "slug": "set"
+        },
+        {
+          "level": 3,
+          "title": "deleteProperty()",
+          "slug": "deleteproperty"
+        },
+        {
+          "level": 3,
+          "title": "取消代理",
+          "slug": "取消代理"
+        },
+        {
+          "level": 2,
+          "title": "三、使用场景",
+          "slug": "三、使用场景"
+        }
+      ]
+    },
+    {
+      "title": "09.你是怎么理解ES6中 Decorator 的？使用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/ES6/09.html",
+      "relativePath": "WebInterview/BasicsInterview/ES6/09.md",
+      "key": "v-7affce10",
+      "path": "/WebInterview/BasicsInterview/ES6/09.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、介绍",
+          "slug": "一、介绍"
+        },
+        {
+          "level": 2,
+          "title": "二、用法",
+          "slug": "二、用法"
+        },
+        {
+          "level": 3,
+          "title": "类的装饰",
+          "slug": "类的装饰"
+        },
+        {
+          "level": 3,
+          "title": "类属性的装饰",
+          "slug": "类属性的装饰"
+        },
+        {
+          "level": 3,
+          "title": "注意",
+          "slug": "注意"
+        },
+        {
+          "level": 2,
+          "title": "三、使用场景",
+          "slug": "三、使用场景"
+        }
+      ]
     },
     {
       "title": "06.你是怎么理解ES6中 Promise的？使用场景？",
@@ -6220,53 +6007,7 @@ export const siteData = {
           "title": "三、使用场景",
           "slug": "三、使用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "09.你是怎么理解ES6中 Decorator 的？使用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/ES6/09.html",
-      "relativePath": "WebInterview/BasicsInterview/ES6/09.md",
-      "key": "v-7affce10",
-      "path": "/WebInterview/BasicsInterview/ES6/09.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、介绍",
-          "slug": "一、介绍"
-        },
-        {
-          "level": 2,
-          "title": "二、用法",
-          "slug": "二、用法"
-        },
-        {
-          "level": 3,
-          "title": "类的装饰",
-          "slug": "类的装饰"
-        },
-        {
-          "level": 3,
-          "title": "类属性的装饰",
-          "slug": "类属性的装饰"
-        },
-        {
-          "level": 3,
-          "title": "注意",
-          "slug": "注意"
-        },
-        {
-          "level": 2,
-          "title": "三、使用场景",
-          "slug": "三、使用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "02.说说你对Git的理解？",
@@ -6291,10 +6032,62 @@ export const siteData = {
           "title": "三、命令",
           "slug": "三、命令"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "01.说说你对版本管理的理解？常用的版本管理工具有哪些？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Git/01.html",
+      "relativePath": "WebInterview/BasicsInterview/Git/01.md",
+      "key": "v-6e8e0690",
+      "path": "/WebInterview/BasicsInterview/Git/01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、有哪些",
+          "slug": "二、有哪些"
+        },
+        {
+          "level": 3,
+          "title": "本地版本控制系统",
+          "slug": "本地版本控制系统"
+        },
+        {
+          "level": 3,
+          "title": "集中式版本控制系统",
+          "slug": "集中式版本控制系统"
+        },
+        {
+          "level": 3,
+          "title": "SVN",
+          "slug": "svn"
+        },
+        {
+          "level": 3,
+          "title": "CVS",
+          "slug": "cvs"
+        },
+        {
+          "level": 3,
+          "title": "Git",
+          "slug": "git"
+        },
+        {
+          "level": 3,
+          "title": "HG",
+          "slug": "hg"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "03.说说Git中 fork, clone,branch这三个概念，有什么区别?",
@@ -6349,38 +6142,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "05.说说Git 中 HEAD、工作树和索引之间的区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Git/05.html",
-      "relativePath": "WebInterview/BasicsInterview/Git/05.md",
-      "key": "v-3a0f6938",
-      "path": "/WebInterview/BasicsInterview/Git/05.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、HEAD",
-          "slug": "一、head"
-        },
-        {
-          "level": 2,
-          "title": "二、工作树和索引",
-          "slug": "二、工作树和索引"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "04.说说Git常用的命令有哪些？",
@@ -6440,10 +6202,32 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "05.说说Git 中 HEAD、工作树和索引之间的区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Git/05.html",
+      "relativePath": "WebInterview/BasicsInterview/Git/05.md",
+      "key": "v-3a0f6938",
+      "path": "/WebInterview/BasicsInterview/Git/05.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、HEAD",
+          "slug": "一、head"
+        },
+        {
+          "level": 2,
+          "title": "二、工作树和索引",
+          "slug": "二、工作树和索引"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        }
+      ]
     },
     {
       "title": "06.说说对git pull 和 git fetch 的理解？有什么区别？",
@@ -6478,68 +6262,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "08.说说你对git rebase 和 git merge的理解？区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Git/08.html",
-      "relativePath": "WebInterview/BasicsInterview/Git/08.md",
-      "key": "v-0f103a98",
-      "path": "/WebInterview/BasicsInterview/Git/08.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 3,
-          "title": "git merge",
-          "slug": "git-merge"
-        },
-        {
-          "level": 3,
-          "title": "git rebase",
-          "slug": "git-rebase"
-        },
-        {
-          "level": 2,
-          "title": "二、分析",
-          "slug": "二、分析"
-        },
-        {
-          "level": 3,
-          "title": "git merge",
-          "slug": "git-merge-2"
-        },
-        {
-          "level": 3,
-          "title": "git rebase",
-          "slug": "git-rebase-2"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        },
-        {
-          "level": 3,
-          "title": "merge",
-          "slug": "merge"
-        },
-        {
-          "level": 3,
-          "title": "rebase",
-          "slug": "rebase"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "07.说说你对git stash 的理解？应用场景？",
@@ -6604,10 +6327,32 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "09.说说 git 发生冲突的场景？如何解决？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Git/09.html",
+      "relativePath": "WebInterview/BasicsInterview/Git/09.md",
+      "key": "v-a9345490",
+      "path": "/WebInterview/BasicsInterview/Git/09.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、分析",
+          "slug": "二、分析"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "10.说说你对git reset 和 git revert 的理解？区别？",
@@ -6652,10 +6397,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "01.JavaScript如何实现上拉加载，下拉刷新？",
@@ -6700,10 +6442,47 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "03.什么是单点登录？如何实现？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/03.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/03.md",
+      "key": "v-e918b53c",
+      "path": "/WebInterview/BasicsInterview/Js/03.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 3,
+          "title": "同域名下的单点登录",
+          "slug": "同域名下的单点登录"
+        },
+        {
+          "level": 3,
+          "title": "不同域名下的单点登录(一)",
+          "slug": "不同域名下的单点登录-一"
+        },
+        {
+          "level": 3,
+          "title": "不同域名下的单点登录(二)",
+          "slug": "不同域名下的单点登录-二"
+        },
+        {
+          "level": 2,
+          "title": "三、流程",
+          "slug": "三、流程"
+        }
+      ]
     },
     {
       "title": "02.大文件上传如何做断点续传？",
@@ -6738,38 +6517,172 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "09.说说 git 发生冲突的场景？如何解决？",
+      "title": "07.谈谈 JavaScript 中的类型转换机制",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Git/09.html",
-      "relativePath": "WebInterview/BasicsInterview/Git/09.md",
-      "key": "v-a9345490",
-      "path": "/WebInterview/BasicsInterview/Git/09.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/07.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/07.md",
+      "key": "v-c40ea54c",
+      "path": "/WebInterview/BasicsInterview/Js/07.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、概述",
+          "slug": "一、概述"
         },
         {
           "level": 2,
-          "title": "二、分析",
-          "slug": "二、分析"
+          "title": "二、显示转换",
+          "slug": "二、显示转换"
+        },
+        {
+          "level": 3,
+          "title": "Number()",
+          "slug": "number"
+        },
+        {
+          "level": 3,
+          "title": "parseInt()",
+          "slug": "parseint"
+        },
+        {
+          "level": 3,
+          "title": "String()",
+          "slug": "string"
+        },
+        {
+          "level": 3,
+          "title": "Boolean()",
+          "slug": "boolean"
         },
         {
           "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
+          "title": "三、隐式转换",
+          "slug": "三、隐式转换"
+        },
+        {
+          "level": 3,
+          "title": "自动转换为布尔值",
+          "slug": "自动转换为布尔值"
+        },
+        {
+          "level": 3,
+          "title": "自动转换成字符串",
+          "slug": "自动转换成字符串"
+        },
+        {
+          "level": 3,
+          "title": "自动转换成数值",
+          "slug": "自动转换成数值"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "08.== 和 ===区别，分别在什么情况使用？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/08.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/08.md",
+      "key": "v-6299ef58",
+      "path": "/WebInterview/BasicsInterview/Js/08.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、等于操作符",
+          "slug": "一、等于操作符"
+        },
+        {
+          "level": 2,
+          "title": "二、全等操作符",
+          "slug": "二、全等操作符"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
+    },
+    {
+      "title": "09.深拷贝浅拷贝的区别？如何实现一个深拷贝？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/09.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/09.md",
+      "key": "v-273b3156",
+      "path": "/WebInterview/BasicsInterview/Js/09.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、数据类型存储",
+          "slug": "一、数据类型存储"
+        },
+        {
+          "level": 2,
+          "title": "二、浅拷贝",
+          "slug": "二、浅拷贝"
+        },
+        {
+          "level": 3,
+          "title": "Object.assign",
+          "slug": "object-assign"
+        },
+        {
+          "level": 3,
+          "title": "slice()",
+          "slug": "slice"
+        },
+        {
+          "level": 3,
+          "title": "concat()",
+          "slug": "concat"
+        },
+        {
+          "level": 3,
+          "title": "拓展运算符",
+          "slug": "拓展运算符"
+        },
+        {
+          "level": 2,
+          "title": "三、深拷贝",
+          "slug": "三、深拷贝"
+        },
+        {
+          "level": 3,
+          "title": "_.cloneDeep()",
+          "slug": "clonedeep"
+        },
+        {
+          "level": 3,
+          "title": "jQuery.extend()",
+          "slug": "jquery-extend"
+        },
+        {
+          "level": 3,
+          "title": "JSON.stringify()",
+          "slug": "json-stringify"
+        },
+        {
+          "level": 3,
+          "title": "循环递归",
+          "slug": "循环递归"
+        },
+        {
+          "level": 2,
+          "title": "四、区别",
+          "slug": "四、区别"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
     },
     {
       "title": "04.说说JavaScript中的数据类型？区别？文末彩蛋！",
@@ -6864,18 +6777,15 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "03.什么是单点登录？如何实现？",
+      "title": "10.说说你对闭包的理解？闭包使用场景?",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/03.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/03.md",
-      "key": "v-e918b53c",
-      "path": "/WebInterview/BasicsInterview/Js/03.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/10.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/10.md",
+      "key": "v-0d16dd2a",
+      "path": "/WebInterview/BasicsInterview/Js/10.html",
       "headers": [
         {
           "level": 2,
@@ -6884,33 +6794,150 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
+          "title": "二、使用场景",
+          "slug": "二、使用场景"
         },
         {
           "level": 3,
-          "title": "同域名下的单点登录",
-          "slug": "同域名下的单点登录"
+          "title": "柯里化函数",
+          "slug": "柯里化函数"
         },
         {
           "level": 3,
-          "title": "不同域名下的单点登录(一)",
-          "slug": "不同域名下的单点登录-一"
+          "title": "使用闭包模拟私有方法",
+          "slug": "使用闭包模拟私有方法"
         },
         {
           "level": 3,
-          "title": "不同域名下的单点登录(二)",
-          "slug": "不同域名下的单点登录-二"
+          "title": "其他",
+          "slug": "其他"
         },
         {
           "level": 2,
-          "title": "三、流程",
-          "slug": "三、流程"
+          "title": "三、注意事项",
+          "slug": "三、注意事项"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "08.说说你对git rebase 和 git merge的理解？区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Git/08.html",
+      "relativePath": "WebInterview/BasicsInterview/Git/08.md",
+      "key": "v-0f103a98",
+      "path": "/WebInterview/BasicsInterview/Git/08.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 3,
+          "title": "git merge",
+          "slug": "git-merge"
+        },
+        {
+          "level": 3,
+          "title": "git rebase",
+          "slug": "git-rebase"
+        },
+        {
+          "level": 2,
+          "title": "二、分析",
+          "slug": "二、分析"
+        },
+        {
+          "level": 3,
+          "title": "git merge",
+          "slug": "git-merge-2"
+        },
+        {
+          "level": 3,
+          "title": "git rebase",
+          "slug": "git-rebase-2"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        },
+        {
+          "level": 3,
+          "title": "merge",
+          "slug": "merge"
+        },
+        {
+          "level": 3,
+          "title": "rebase",
+          "slug": "rebase"
+        }
+      ]
+    },
+    {
+      "title": "11.说说你对Javascript中作用域的理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/11.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/11.md",
+      "key": "v-5c8fc1b0",
+      "path": "/WebInterview/BasicsInterview/Js/11.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、作用域",
+          "slug": "一、作用域"
+        },
+        {
+          "level": 3,
+          "title": "全局作用域",
+          "slug": "全局作用域"
+        },
+        {
+          "level": 3,
+          "title": "函数作用域",
+          "slug": "函数作用域"
+        },
+        {
+          "level": 3,
+          "title": "块级作用域",
+          "slug": "块级作用域"
+        },
+        {
+          "level": 2,
+          "title": "二、词法作用域",
+          "slug": "二、词法作用域"
+        },
+        {
+          "level": 2,
+          "title": "三、作用域链",
+          "slug": "三、作用域链"
+        }
+      ]
+    },
+    {
+      "title": "12.JavaScript原型，原型链 ? 有什么特点？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/12.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/12.md",
+      "key": "v-d34d3db4",
+      "path": "/WebInterview/BasicsInterview/Js/12.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、原型",
+          "slug": "一、原型"
+        },
+        {
+          "level": 2,
+          "title": "二、原型链",
+          "slug": "二、原型链"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "06.Javscript字符串的常用方法有哪些？",
@@ -6980,43 +7007,282 @@ export const siteData = {
           "title": "replace()",
           "slug": "replace"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "08.== 和 ===区别，分别在什么情况使用？",
+      "title": "14.说说你对Javascript中this对象的理解",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/08.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/08.md",
-      "key": "v-6299ef58",
-      "path": "/WebInterview/BasicsInterview/Js/08.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/14.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/14.md",
+      "key": "v-1f9be522",
+      "path": "/WebInterview/BasicsInterview/Js/14.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、等于操作符",
-          "slug": "一、等于操作符"
+          "title": "一、定义",
+          "slug": "一、定义"
         },
         {
           "level": 2,
-          "title": "二、全等操作符",
-          "slug": "二、全等操作符"
+          "title": "二、绑定规则",
+          "slug": "二、绑定规则"
+        },
+        {
+          "level": 3,
+          "title": "默认绑定",
+          "slug": "默认绑定"
+        },
+        {
+          "level": 3,
+          "title": "隐式绑定",
+          "slug": "隐式绑定"
+        },
+        {
+          "level": 3,
+          "title": "new绑定",
+          "slug": "new绑定"
+        },
+        {
+          "level": 3,
+          "title": "显示修改",
+          "slug": "显示修改"
+        },
+        {
+          "level": 2,
+          "title": "三、箭头函数",
+          "slug": "三、箭头函数"
+        },
+        {
+          "level": 2,
+          "title": "四、优先级",
+          "slug": "四、优先级"
+        },
+        {
+          "level": 3,
+          "title": "隐式绑定 VS 显式绑定",
+          "slug": "隐式绑定-vs-显式绑定"
+        },
+        {
+          "level": 3,
+          "title": "new绑定 VS 隐式绑定",
+          "slug": "new绑定-vs-隐式绑定"
+        },
+        {
+          "level": 3,
+          "title": "new绑定 VS 显式绑定",
+          "slug": "new绑定-vs-显式绑定"
+        },
+        {
+          "level": 2,
+          "title": "相关链接",
+          "slug": "相关链接"
+        }
+      ]
+    },
+    {
+      "title": "13.说说Javascript中的继承？如何实现继承？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/13.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/13.md",
+      "key": "v-5afaa324",
+      "path": "/WebInterview/BasicsInterview/Js/13.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、实现方式",
+          "slug": "二、实现方式"
+        },
+        {
+          "level": 3,
+          "title": "原型链继承",
+          "slug": "原型链继承"
+        },
+        {
+          "level": 3,
+          "title": "构造函数继承",
+          "slug": "构造函数继承"
+        },
+        {
+          "level": 3,
+          "title": "组合继承",
+          "slug": "组合继承"
+        },
+        {
+          "level": 3,
+          "title": "原型式继承",
+          "slug": "原型式继承"
+        },
+        {
+          "level": 3,
+          "title": "寄生式继承",
+          "slug": "寄生式继承"
+        },
+        {
+          "level": 3,
+          "title": "寄生组合式继承",
+          "slug": "寄生组合式继承"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "16.JavaScript中的事件模型如何理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/16.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/16.md",
+      "key": "v-ae432dc4",
+      "path": "/WebInterview/BasicsInterview/Js/16.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、事件与事件流",
+          "slug": "一、事件与事件流"
+        },
+        {
+          "level": 2,
+          "title": "二、事件模型",
+          "slug": "二、事件模型"
+        },
+        {
+          "level": 3,
+          "title": "原始事件模型",
+          "slug": "原始事件模型"
+        },
+        {
+          "level": 3,
+          "title": "标准事件模型",
+          "slug": "标准事件模型"
+        },
+        {
+          "level": 3,
+          "title": "IE事件模型",
+          "slug": "ie事件模型"
+        }
+      ]
+    },
+    {
+      "title": "15.JavaScript中执行上下文和执行栈是什么？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/15.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/15.md",
+      "key": "v-3785b1c0",
+      "path": "/WebInterview/BasicsInterview/Js/15.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、执行上下文",
+          "slug": "一、执行上下文"
+        },
+        {
+          "level": 2,
+          "title": "二、生命周期",
+          "slug": "二、生命周期"
+        },
+        {
+          "level": 3,
+          "title": "创建阶段",
+          "slug": "创建阶段"
+        },
+        {
+          "level": 3,
+          "title": "执行阶段",
+          "slug": "执行阶段"
+        },
+        {
+          "level": 3,
+          "title": "回收阶段",
+          "slug": "回收阶段"
+        },
+        {
+          "level": 2,
+          "title": "二、执行栈",
+          "slug": "二、执行栈"
+        }
+      ]
+    },
+    {
+      "title": "17.说说 typeof 与 instanceof 区别?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/17.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/17.md",
+      "key": "v-6d7fab1c",
+      "path": "/WebInterview/BasicsInterview/Js/17.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、typeof",
+          "slug": "一、typeof"
+        },
+        {
+          "level": 2,
+          "title": "二、instanceof",
+          "slug": "二、instanceof"
         },
         {
           "level": 2,
           "title": "三、区别",
           "slug": "三、区别"
+        }
+      ]
+    },
+    {
+      "title": "18.解释下什么是事件代理？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/18.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/18.md",
+      "key": "v-3220ed1a",
+      "path": "/WebInterview/BasicsInterview/Js/18.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
+          "level": 2,
+          "title": "二、应用场景",
+          "slug": "二、应用场景"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "19.说说new操作符具体都干了什么？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/19.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/19.md",
+      "key": "v-127ba1d0",
+      "path": "/WebInterview/BasicsInterview/Js/19.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、流程",
+          "slug": "二、流程"
+        },
+        {
+          "level": 2,
+          "title": "三、手写new操作符",
+          "slug": "三、手写new操作符"
+        }
+      ]
     },
     {
       "title": "05.Javscript数组的常用方法有哪些？",
@@ -7101,81 +7367,15 @@ export const siteData = {
           "title": "map()",
           "slug": "map"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "07.谈谈 JavaScript 中的类型转换机制",
+      "title": "20.Ajax 原理是什么？如何实现？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/07.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/07.md",
-      "key": "v-c40ea54c",
-      "path": "/WebInterview/BasicsInterview/Js/07.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、概述",
-          "slug": "一、概述"
-        },
-        {
-          "level": 2,
-          "title": "二、显示转换",
-          "slug": "二、显示转换"
-        },
-        {
-          "level": 3,
-          "title": "Number()",
-          "slug": "number"
-        },
-        {
-          "level": 3,
-          "title": "parseInt()",
-          "slug": "parseint"
-        },
-        {
-          "level": 3,
-          "title": "String()",
-          "slug": "string"
-        },
-        {
-          "level": 3,
-          "title": "Boolean()",
-          "slug": "boolean"
-        },
-        {
-          "level": 2,
-          "title": "三、隐式转换",
-          "slug": "三、隐式转换"
-        },
-        {
-          "level": 3,
-          "title": "自动转换为布尔值",
-          "slug": "自动转换为布尔值"
-        },
-        {
-          "level": 3,
-          "title": "自动转换成字符串",
-          "slug": "自动转换成字符串"
-        },
-        {
-          "level": 3,
-          "title": "自动转换成数值",
-          "slug": "自动转换成数值"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "10.说说你对闭包的理解？闭包使用场景?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/10.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/10.md",
-      "key": "v-0d16dd2a",
-      "path": "/WebInterview/BasicsInterview/Js/10.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/20.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/20.md",
+      "key": "v-46c44a28",
+      "path": "/WebInterview/BasicsInterview/Js/20.html",
       "headers": [
         {
           "level": 2,
@@ -7184,450 +7384,35 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、使用场景",
-          "slug": "二、使用场景"
+          "title": "二、实现过程",
+          "slug": "二、实现过程"
         },
         {
           "level": 3,
-          "title": "柯里化函数",
-          "slug": "柯里化函数"
+          "title": "创建XMLHttpRequest对象",
+          "slug": "创建xmlhttprequest对象"
         },
         {
           "level": 3,
-          "title": "使用闭包模拟私有方法",
-          "slug": "使用闭包模拟私有方法"
+          "title": "与服务器建立连接",
+          "slug": "与服务器建立连接"
         },
         {
           "level": 3,
-          "title": "其他",
-          "slug": "其他"
+          "title": "给服务端发送数据",
+          "slug": "给服务端发送数据"
+        },
+        {
+          "level": 3,
+          "title": "绑定onreadystatechange事件",
+          "slug": "绑定onreadystatechange事件"
         },
         {
           "level": 2,
-          "title": "三、注意事项",
-          "slug": "三、注意事项"
+          "title": "三、封装",
+          "slug": "三、封装"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "09.深拷贝浅拷贝的区别？如何实现一个深拷贝？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/09.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/09.md",
-      "key": "v-273b3156",
-      "path": "/WebInterview/BasicsInterview/Js/09.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、数据类型存储",
-          "slug": "一、数据类型存储"
-        },
-        {
-          "level": 2,
-          "title": "二、浅拷贝",
-          "slug": "二、浅拷贝"
-        },
-        {
-          "level": 3,
-          "title": "Object.assign",
-          "slug": "object-assign"
-        },
-        {
-          "level": 3,
-          "title": "slice()",
-          "slug": "slice"
-        },
-        {
-          "level": 3,
-          "title": "concat()",
-          "slug": "concat"
-        },
-        {
-          "level": 3,
-          "title": "拓展运算符",
-          "slug": "拓展运算符"
-        },
-        {
-          "level": 2,
-          "title": "三、深拷贝",
-          "slug": "三、深拷贝"
-        },
-        {
-          "level": 3,
-          "title": "_.cloneDeep()",
-          "slug": "clonedeep"
-        },
-        {
-          "level": 3,
-          "title": "jQuery.extend()",
-          "slug": "jquery-extend"
-        },
-        {
-          "level": 3,
-          "title": "JSON.stringify()",
-          "slug": "json-stringify"
-        },
-        {
-          "level": 3,
-          "title": "循环递归",
-          "slug": "循环递归"
-        },
-        {
-          "level": 2,
-          "title": "四、区别",
-          "slug": "四、区别"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "13.说说Javascript中的继承？如何实现继承？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/13.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/13.md",
-      "key": "v-5afaa324",
-      "path": "/WebInterview/BasicsInterview/Js/13.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、实现方式",
-          "slug": "二、实现方式"
-        },
-        {
-          "level": 3,
-          "title": "原型链继承",
-          "slug": "原型链继承"
-        },
-        {
-          "level": 3,
-          "title": "构造函数继承",
-          "slug": "构造函数继承"
-        },
-        {
-          "level": 3,
-          "title": "组合继承",
-          "slug": "组合继承"
-        },
-        {
-          "level": 3,
-          "title": "原型式继承",
-          "slug": "原型式继承"
-        },
-        {
-          "level": 3,
-          "title": "寄生式继承",
-          "slug": "寄生式继承"
-        },
-        {
-          "level": 3,
-          "title": "寄生组合式继承",
-          "slug": "寄生组合式继承"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "11.说说你对Javascript中作用域的理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/11.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/11.md",
-      "key": "v-5c8fc1b0",
-      "path": "/WebInterview/BasicsInterview/Js/11.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、作用域",
-          "slug": "一、作用域"
-        },
-        {
-          "level": 3,
-          "title": "全局作用域",
-          "slug": "全局作用域"
-        },
-        {
-          "level": 3,
-          "title": "函数作用域",
-          "slug": "函数作用域"
-        },
-        {
-          "level": 3,
-          "title": "块级作用域",
-          "slug": "块级作用域"
-        },
-        {
-          "level": 2,
-          "title": "二、词法作用域",
-          "slug": "二、词法作用域"
-        },
-        {
-          "level": 2,
-          "title": "三、作用域链",
-          "slug": "三、作用域链"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.JavaScript原型，原型链 ? 有什么特点？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/12.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/12.md",
-      "key": "v-d34d3db4",
-      "path": "/WebInterview/BasicsInterview/Js/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、原型",
-          "slug": "一、原型"
-        },
-        {
-          "level": 2,
-          "title": "二、原型链",
-          "slug": "二、原型链"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "14.说说你对Javascript中this对象的理解",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/14.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/14.md",
-      "key": "v-1f9be522",
-      "path": "/WebInterview/BasicsInterview/Js/14.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、定义",
-          "slug": "一、定义"
-        },
-        {
-          "level": 2,
-          "title": "二、绑定规则",
-          "slug": "二、绑定规则"
-        },
-        {
-          "level": 3,
-          "title": "默认绑定",
-          "slug": "默认绑定"
-        },
-        {
-          "level": 3,
-          "title": "隐式绑定",
-          "slug": "隐式绑定"
-        },
-        {
-          "level": 3,
-          "title": "new绑定",
-          "slug": "new绑定"
-        },
-        {
-          "level": 3,
-          "title": "显示修改",
-          "slug": "显示修改"
-        },
-        {
-          "level": 2,
-          "title": "三、箭头函数",
-          "slug": "三、箭头函数"
-        },
-        {
-          "level": 2,
-          "title": "四、优先级",
-          "slug": "四、优先级"
-        },
-        {
-          "level": 3,
-          "title": "隐式绑定 VS 显式绑定",
-          "slug": "隐式绑定-vs-显式绑定"
-        },
-        {
-          "level": 3,
-          "title": "new绑定 VS 隐式绑定",
-          "slug": "new绑定-vs-隐式绑定"
-        },
-        {
-          "level": 3,
-          "title": "new绑定 VS 显式绑定",
-          "slug": "new绑定-vs-显式绑定"
-        },
-        {
-          "level": 2,
-          "title": "相关链接",
-          "slug": "相关链接"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "15.JavaScript中执行上下文和执行栈是什么？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/15.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/15.md",
-      "key": "v-3785b1c0",
-      "path": "/WebInterview/BasicsInterview/Js/15.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、执行上下文",
-          "slug": "一、执行上下文"
-        },
-        {
-          "level": 2,
-          "title": "二、生命周期",
-          "slug": "二、生命周期"
-        },
-        {
-          "level": 3,
-          "title": "创建阶段",
-          "slug": "创建阶段"
-        },
-        {
-          "level": 3,
-          "title": "执行阶段",
-          "slug": "执行阶段"
-        },
-        {
-          "level": 3,
-          "title": "回收阶段",
-          "slug": "回收阶段"
-        },
-        {
-          "level": 2,
-          "title": "二、执行栈",
-          "slug": "二、执行栈"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "16.JavaScript中的事件模型如何理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/16.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/16.md",
-      "key": "v-ae432dc4",
-      "path": "/WebInterview/BasicsInterview/Js/16.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、事件与事件流",
-          "slug": "一、事件与事件流"
-        },
-        {
-          "level": 2,
-          "title": "二、事件模型",
-          "slug": "二、事件模型"
-        },
-        {
-          "level": 3,
-          "title": "原始事件模型",
-          "slug": "原始事件模型"
-        },
-        {
-          "level": 3,
-          "title": "标准事件模型",
-          "slug": "标准事件模型"
-        },
-        {
-          "level": 3,
-          "title": "IE事件模型",
-          "slug": "ie事件模型"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "17.说说 typeof 与 instanceof 区别?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/17.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/17.md",
-      "key": "v-6d7fab1c",
-      "path": "/WebInterview/BasicsInterview/Js/17.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、typeof",
-          "slug": "一、typeof"
-        },
-        {
-          "level": 2,
-          "title": "二、instanceof",
-          "slug": "二、instanceof"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "18.解释下什么是事件代理？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/18.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/18.md",
-      "key": "v-3220ed1a",
-      "path": "/WebInterview/BasicsInterview/Js/18.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、应用场景",
-          "slug": "二、应用场景"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "22.说说你对JavaScript中事件循环的理解",
@@ -7677,187 +7462,7 @@ export const siteData = {
           "title": "四、流程分析",
           "slug": "四、流程分析"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "19.说说new操作符具体都干了什么？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/19.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/19.md",
-      "key": "v-127ba1d0",
-      "path": "/WebInterview/BasicsInterview/Js/19.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、流程",
-          "slug": "二、流程"
-        },
-        {
-          "level": 2,
-          "title": "三、手写new操作符",
-          "slug": "三、手写new操作符"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "21.bind、call、apply 区别？如何实现一个bind?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/21.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/21.md",
-      "key": "v-bd81c62c",
-      "path": "/WebInterview/BasicsInterview/Js/21.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、作用",
-          "slug": "一、作用"
-        },
-        {
-          "level": 2,
-          "title": "二、区别",
-          "slug": "二、区别"
-        },
-        {
-          "level": 3,
-          "title": "apply",
-          "slug": "apply"
-        },
-        {
-          "level": 3,
-          "title": "call",
-          "slug": "call"
-        },
-        {
-          "level": 3,
-          "title": "bind",
-          "slug": "bind"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        },
-        {
-          "level": 2,
-          "title": "三、实现",
-          "slug": "三、实现"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "20.Ajax 原理是什么？如何实现？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/20.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/20.md",
-      "key": "v-46c44a28",
-      "path": "/WebInterview/BasicsInterview/Js/20.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、实现过程",
-          "slug": "二、实现过程"
-        },
-        {
-          "level": 3,
-          "title": "创建XMLHttpRequest对象",
-          "slug": "创建xmlhttprequest对象"
-        },
-        {
-          "level": 3,
-          "title": "与服务器建立连接",
-          "slug": "与服务器建立连接"
-        },
-        {
-          "level": 3,
-          "title": "给服务端发送数据",
-          "slug": "给服务端发送数据"
-        },
-        {
-          "level": 3,
-          "title": "绑定onreadystatechange事件",
-          "slug": "绑定onreadystatechange事件"
-        },
-        {
-          "level": 2,
-          "title": "三、封装",
-          "slug": "三、封装"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "24.说说你对DOM的理解，常见的操作有哪些？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/24.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/24.md",
-      "key": "v-21ba3a38",
-      "path": "/WebInterview/BasicsInterview/Js/24.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、DOM",
-          "slug": "一、dom"
-        },
-        {
-          "level": 2,
-          "title": "二、操作",
-          "slug": "二、操作"
-        },
-        {
-          "level": 3,
-          "title": "创建节点",
-          "slug": "创建节点"
-        },
-        {
-          "level": 3,
-          "title": "获取节点",
-          "slug": "获取节点"
-        },
-        {
-          "level": 3,
-          "title": "更新节点",
-          "slug": "更新节点"
-        },
-        {
-          "level": 3,
-          "title": "添加节点",
-          "slug": "添加节点"
-        },
-        {
-          "level": 3,
-          "title": "删除节点",
-          "slug": "删除节点"
-        },
-        {
-          "level": 2,
-          "title": "相关链接",
-          "slug": "相关链接"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "23.说说你对正则表达式的理解？应用场景？",
@@ -7942,38 +7547,102 @@ export const siteData = {
           "title": "四、应用场景",
           "slug": "四、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "26.举例说明你对尾递归的理解，有哪些应用场景",
+      "title": "24.说说你对DOM的理解，常见的操作有哪些？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/26.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/26.md",
-      "key": "v-786566e0",
-      "path": "/WebInterview/BasicsInterview/Js/26.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/24.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/24.md",
+      "key": "v-21ba3a38",
+      "path": "/WebInterview/BasicsInterview/Js/24.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、递归",
-          "slug": "一、递归"
+          "title": "一、DOM",
+          "slug": "一、dom"
         },
         {
           "level": 2,
-          "title": "二、尾递归",
-          "slug": "二、尾递归"
+          "title": "二、操作",
+          "slug": "二、操作"
+        },
+        {
+          "level": 3,
+          "title": "创建节点",
+          "slug": "创建节点"
+        },
+        {
+          "level": 3,
+          "title": "获取节点",
+          "slug": "获取节点"
+        },
+        {
+          "level": 3,
+          "title": "更新节点",
+          "slug": "更新节点"
+        },
+        {
+          "level": 3,
+          "title": "添加节点",
+          "slug": "添加节点"
+        },
+        {
+          "level": 3,
+          "title": "删除节点",
+          "slug": "删除节点"
         },
         {
           "level": 2,
-          "title": "二、应用场景",
-          "slug": "二、应用场景"
+          "title": "相关链接",
+          "slug": "相关链接"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "21.bind、call、apply 区别？如何实现一个bind?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/21.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/21.md",
+      "key": "v-bd81c62c",
+      "path": "/WebInterview/BasicsInterview/Js/21.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、作用",
+          "slug": "一、作用"
+        },
+        {
+          "level": 2,
+          "title": "二、区别",
+          "slug": "二、区别"
+        },
+        {
+          "level": 3,
+          "title": "apply",
+          "slug": "apply"
+        },
+        {
+          "level": 3,
+          "title": "call",
+          "slug": "call"
+        },
+        {
+          "level": 3,
+          "title": "bind",
+          "slug": "bind"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        },
+        {
+          "level": 2,
+          "title": "三、实现",
+          "slug": "三、实现"
+        }
+      ]
     },
     {
       "title": "25.说说你对BOM的理解，常见的BOM对象你了解哪些？",
@@ -8013,53 +7682,32 @@ export const siteData = {
           "title": "六、history",
           "slug": "六、history"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "27.说说 JavaScript 中内存泄漏的几种情况？",
+      "title": "26.举例说明你对尾递归的理解，有哪些应用场景",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/27.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/27.md",
-      "key": "v-3d06a8de",
-      "path": "/WebInterview/BasicsInterview/Js/27.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/26.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/26.md",
+      "key": "v-786566e0",
+      "path": "/WebInterview/BasicsInterview/Js/26.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、递归",
+          "slug": "一、递归"
         },
         {
           "level": 2,
-          "title": "二、垃圾回收机制",
-          "slug": "二、垃圾回收机制"
-        },
-        {
-          "level": 3,
-          "title": "标记清除",
-          "slug": "标记清除"
-        },
-        {
-          "level": 3,
-          "title": "引用计数",
-          "slug": "引用计数"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
+          "title": "二、尾递归",
+          "slug": "二、尾递归"
         },
         {
           "level": 2,
-          "title": "三、常见内存泄露情况",
-          "slug": "三、常见内存泄露情况"
+          "title": "二、应用场景",
+          "slug": "二、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "28.JavaScript中本地存储的方式有哪些？区别及应用场景？",
@@ -8114,33 +7762,35 @@ export const siteData = {
           "title": "相关连接",
           "slug": "相关连接"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "31.说说 JavaScript 数字精度丢失的问题，解决方案？",
+      "title": "27.说说 JavaScript 中内存泄漏的几种情况？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/31.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/31.md",
-      "key": "v-70c61aac",
-      "path": "/WebInterview/BasicsInterview/Js/31.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/27.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/27.md",
+      "key": "v-3d06a8de",
+      "path": "/WebInterview/BasicsInterview/Js/27.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、场景复现",
-          "slug": "一、场景复现"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、浮点数",
-          "slug": "二、浮点数"
+          "title": "二、垃圾回收机制",
+          "slug": "二、垃圾回收机制"
         },
         {
-          "level": 2,
-          "title": "二、问题分析",
-          "slug": "二、问题分析"
+          "level": 3,
+          "title": "标记清除",
+          "slug": "标记清除"
+        },
+        {
+          "level": 3,
+          "title": "引用计数",
+          "slug": "引用计数"
         },
         {
           "level": 3,
@@ -8149,13 +7799,50 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "三、解决方案",
-          "slug": "三、解决方案"
+          "title": "三、常见内存泄露情况",
+          "slug": "三、常见内存泄露情况"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "30.JavaScript中如何实现函数缓存？有哪些应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Js/30.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/30.md",
+      "key": "v-a7b64ea4",
+      "path": "/WebInterview/BasicsInterview/Js/30.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 3,
+          "title": "闭包",
+          "slug": "闭包"
+        },
+        {
+          "level": 3,
+          "title": "柯里化",
+          "slug": "柯里化"
+        },
+        {
+          "level": 3,
+          "title": "高阶函数",
+          "slug": "高阶函数"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
     },
     {
       "title": "29.说说你对函数式编程的理解？优缺点？",
@@ -8200,53 +7887,42 @@ export const siteData = {
           "title": "三、优缺点",
           "slug": "三、优缺点"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "30.JavaScript中如何实现函数缓存？有哪些应用场景？",
+      "title": "31.说说 JavaScript 数字精度丢失的问题，解决方案？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Js/30.html",
-      "relativePath": "WebInterview/BasicsInterview/Js/30.md",
-      "key": "v-a7b64ea4",
-      "path": "/WebInterview/BasicsInterview/Js/30.html",
+      "regularPath": "/WebInterview/BasicsInterview/Js/31.html",
+      "relativePath": "WebInterview/BasicsInterview/Js/31.md",
+      "key": "v-70c61aac",
+      "path": "/WebInterview/BasicsInterview/Js/31.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、场景复现",
+          "slug": "一、场景复现"
         },
         {
           "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 3,
-          "title": "闭包",
-          "slug": "闭包"
-        },
-        {
-          "level": 3,
-          "title": "柯里化",
-          "slug": "柯里化"
-        },
-        {
-          "level": 3,
-          "title": "高阶函数",
-          "slug": "高阶函数"
+          "title": "二、浮点数",
+          "slug": "二、浮点数"
         },
         {
           "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
+          "title": "二、问题分析",
+          "slug": "二、问题分析"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        },
+        {
+          "level": 2,
+          "title": "三、解决方案",
+          "slug": "三、解决方案"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "32.说说函数节流和防抖？有什么区别？如何实现？",
@@ -8286,10 +7962,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "33.JavaScript如何判断一个元素是否在可视区域中？",
@@ -8334,38 +8007,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "02.说说什么是进程？什么是线程？区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Linux/02.html",
-      "relativePath": "WebInterview/BasicsInterview/Linux/02.md",
-      "key": "v-738ea950",
-      "path": "/WebInterview/BasicsInterview/Linux/02.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、进程",
-          "slug": "一、进程"
-        },
-        {
-          "level": 2,
-          "title": "二、线程",
-          "slug": "二、线程"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "01.说说你对操作系统的理解？核心概念有哪些？",
@@ -8390,10 +8032,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "34.js高级知识点",
@@ -8543,10 +8182,7 @@ export const siteData = {
           "title": "28. 发布订阅 EventEmitter",
           "slug": "_28-发布订阅-eventemitter"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说 linux系统下文件操作常用的命令有哪些？",
@@ -8636,48 +8272,32 @@ export const siteData = {
           "title": "tail",
           "slug": "tail"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "04.说说 linux 系统下文本编辑常用的命令有哪些？",
+      "title": "02.说说什么是进程？什么是线程？区别？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Linux/04.html",
-      "relativePath": "WebInterview/BasicsInterview/Linux/04.md",
-      "key": "v-96d2add0",
-      "path": "/WebInterview/BasicsInterview/Linux/04.html",
+      "regularPath": "/WebInterview/BasicsInterview/Linux/02.html",
+      "relativePath": "WebInterview/BasicsInterview/Linux/02.md",
+      "key": "v-738ea950",
+      "path": "/WebInterview/BasicsInterview/Linux/02.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、进程",
+          "slug": "一、进程"
         },
         {
           "level": 2,
-          "title": "二、使用",
-          "slug": "二、使用"
+          "title": "二、线程",
+          "slug": "二、线程"
         },
         {
-          "level": 3,
-          "title": "命令模式",
-          "slug": "命令模式"
-        },
-        {
-          "level": 3,
-          "title": "输入模式",
-          "slug": "输入模式"
-        },
-        {
-          "level": 3,
-          "title": "底线命令模式",
-          "slug": "底线命令模式"
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "06.说说你对输入输出重定向和管道的理解？应用场景？",
@@ -8702,10 +8322,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.说说你对 linux 用户管理的理解？相关的命令有哪些？",
@@ -8800,10 +8417,7 @@ export const siteData = {
           "title": "sudo",
           "slug": "sudo"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "07.说说你对 shell 的理解？常见的脚本命令？",
@@ -8843,48 +8457,7 @@ export const siteData = {
           "title": "函数",
           "slug": "函数"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.如何理解TCP/IP协议?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/04.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/04.md",
-      "key": "v-f501cbd0",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、划分",
-          "slug": "二、划分"
-        },
-        {
-          "level": 3,
-          "title": "五层体系",
-          "slug": "五层体系"
-        },
-        {
-          "level": 3,
-          "title": "四层体系",
-          "slug": "四层体系"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "01.什么是HTTP? HTTP 和 HTTPS 的区别?",
@@ -8909,10 +8482,62 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "02.为什么说HTTPS比HTTP安全? HTTPS是如何保证安全的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/02.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/02.md",
+      "key": "v-36ed56d8",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/02.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、安全特性",
+          "slug": "一、安全特性"
+        },
+        {
+          "level": 2,
+          "title": "二、如何做",
+          "slug": "二、如何做"
+        },
+        {
+          "level": 3,
+          "title": "对称加密",
+          "slug": "对称加密"
+        },
+        {
+          "level": 3,
+          "title": "非对称加密",
+          "slug": "非对称加密"
+        },
+        {
+          "level": 3,
+          "title": "混合加密",
+          "slug": "混合加密"
+        },
+        {
+          "level": 3,
+          "title": "摘要算法",
+          "slug": "摘要算法"
+        },
+        {
+          "level": 3,
+          "title": "数字签名",
+          "slug": "数字签名"
+        },
+        {
+          "level": 3,
+          "title": "CA验证机构",
+          "slug": "ca验证机构"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "03.如何理解OSI七层模型?",
@@ -8972,68 +8597,102 @@ export const siteData = {
           "title": "三、传输过程",
           "slug": "三、传输过程"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "02.为什么说HTTPS比HTTP安全? HTTPS是如何保证安全的？",
+      "title": "04.说说 linux 系统下文本编辑常用的命令有哪些？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/02.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/02.md",
-      "key": "v-36ed56d8",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/02.html",
+      "regularPath": "/WebInterview/BasicsInterview/Linux/04.html",
+      "relativePath": "WebInterview/BasicsInterview/Linux/04.md",
+      "key": "v-96d2add0",
+      "path": "/WebInterview/BasicsInterview/Linux/04.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、安全特性",
-          "slug": "一、安全特性"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、如何做",
-          "slug": "二、如何做"
+          "title": "二、使用",
+          "slug": "二、使用"
         },
         {
           "level": 3,
-          "title": "对称加密",
-          "slug": "对称加密"
+          "title": "命令模式",
+          "slug": "命令模式"
         },
         {
           "level": 3,
-          "title": "非对称加密",
-          "slug": "非对称加密"
+          "title": "输入模式",
+          "slug": "输入模式"
         },
         {
           "level": 3,
-          "title": "混合加密",
-          "slug": "混合加密"
+          "title": "底线命令模式",
+          "slug": "底线命令模式"
+        }
+      ]
+    },
+    {
+      "title": "06.如何理解CDN？说说实现原理？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/06.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/06.md",
+      "key": "v-57de4550",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
-          "level": 3,
-          "title": "摘要算法",
-          "slug": "摘要算法"
-        },
-        {
-          "level": 3,
-          "title": "数字签名",
-          "slug": "数字签名"
-        },
-        {
-          "level": 3,
-          "title": "CA验证机构",
-          "slug": "ca验证机构"
+          "level": 2,
+          "title": "二、原理分析",
+          "slug": "二、原理分析"
         },
         {
           "level": 2,
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "04.如何理解TCP/IP协议?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/04.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/04.md",
+      "key": "v-f501cbd0",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/04.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、划分",
+          "slug": "二、划分"
+        },
+        {
+          "level": 3,
+          "title": "五层体系",
+          "slug": "五层体系"
+        },
+        {
+          "level": 3,
+          "title": "四层体系",
+          "slug": "四层体系"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "05.DNS 协议是什么？说说 DNS 完整的查询过程?",
@@ -9068,18 +8727,15 @@ export const siteData = {
           "title": "五、查询过程",
           "slug": "五、查询过程"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "06.如何理解CDN？说说实现原理？",
+      "title": "10.说说 HTTP 常见的请求头有哪些? 作用？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/06.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/06.md",
-      "key": "v-57de4550",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/06.html",
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/10.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/10.md",
+      "key": "v-aba23410",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/10.html",
       "headers": [
         {
           "level": 2,
@@ -9088,18 +8744,25 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、原理分析",
-          "slug": "二、原理分析"
+          "title": "二、分类",
+          "slug": "二、分类"
         },
         {
           "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
+          "title": "三、使用场景",
+          "slug": "三、使用场景"
+        },
+        {
+          "level": 3,
+          "title": "协商缓存",
+          "slug": "协商缓存"
+        },
+        {
+          "level": 3,
+          "title": "会话状态",
+          "slug": "会话状态"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "09.说一下 GET 和 POST 的区别？",
@@ -9139,63 +8802,42 @@ export const siteData = {
           "title": "数据包",
           "slug": "数据包"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "07.说说 HTTP1.0/1.1/2.0 的区别?",
+      "title": "12.说说TCP为什么需要三次握手和四次挥手？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/07.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/07.md",
-      "key": "v-094c8210",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/07.html",
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/12.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/12.md",
+      "key": "v-0e7ead90",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/12.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、HTTP1.0",
-          "slug": "一、http1-0"
+          "title": "一、三次握手",
+          "slug": "一、三次握手"
+        },
+        {
+          "level": 3,
+          "title": "为什么不是两次握手?",
+          "slug": "为什么不是两次握手"
         },
         {
           "level": 2,
-          "title": "二、HTTP1.1",
-          "slug": "二、http1-1"
+          "title": "二、四次挥手",
+          "slug": "二、四次挥手"
+        },
+        {
+          "level": 3,
+          "title": "四次挥手原因",
+          "slug": "四次挥手原因"
         },
         {
           "level": 2,
-          "title": "三、HTTP2.0",
-          "slug": "三、http2-0"
-        },
-        {
-          "level": 3,
-          "title": "多路复用",
-          "slug": "多路复用"
-        },
-        {
-          "level": 3,
-          "title": "二进制分帧",
-          "slug": "二进制分帧"
-        },
-        {
-          "level": 3,
-          "title": "首部压缩",
-          "slug": "首部压缩"
-        },
-        {
-          "level": 3,
-          "title": "服务器推送",
-          "slug": "服务器推送"
-        },
-        {
-          "level": 2,
-          "title": "四、总结",
-          "slug": "四、总结"
+          "title": "三、总结",
+          "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "08.说说 HTTP 常见的状态码有哪些，适用场景？",
@@ -9245,48 +8887,57 @@ export const siteData = {
           "title": "三、适用场景",
           "slug": "三、适用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "10.说说 HTTP 常见的请求头有哪些? 作用？",
+      "title": "07.说说 HTTP1.0/1.1/2.0 的区别?",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/10.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/10.md",
-      "key": "v-aba23410",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/10.html",
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/07.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/07.md",
+      "key": "v-094c8210",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/07.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
+          "title": "一、HTTP1.0",
+          "slug": "一、http1-0"
         },
         {
           "level": 2,
-          "title": "二、分类",
-          "slug": "二、分类"
+          "title": "二、HTTP1.1",
+          "slug": "二、http1-1"
         },
         {
           "level": 2,
-          "title": "三、使用场景",
-          "slug": "三、使用场景"
+          "title": "三、HTTP2.0",
+          "slug": "三、http2-0"
         },
         {
           "level": 3,
-          "title": "协商缓存",
-          "slug": "协商缓存"
+          "title": "多路复用",
+          "slug": "多路复用"
         },
         {
           "level": 3,
-          "title": "会话状态",
-          "slug": "会话状态"
+          "title": "二进制分帧",
+          "slug": "二进制分帧"
+        },
+        {
+          "level": 3,
+          "title": "首部压缩",
+          "slug": "首部压缩"
+        },
+        {
+          "level": 3,
+          "title": "服务器推送",
+          "slug": "服务器推送"
+        },
+        {
+          "level": 2,
+          "title": "四、总结",
+          "slug": "四、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "11.说说地址栏输入 URL 敲下回车后发生了什么?",
@@ -9336,101 +8987,7 @@ export const siteData = {
           "title": "页面渲染",
           "slug": "页面渲染"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.说说TCP为什么需要三次握手和四次挥手？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/12.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/12.md",
-      "key": "v-0e7ead90",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、三次握手",
-          "slug": "一、三次握手"
-        },
-        {
-          "level": 3,
-          "title": "为什么不是两次握手?",
-          "slug": "为什么不是两次握手"
-        },
-        {
-          "level": 2,
-          "title": "二、四次挥手",
-          "slug": "二、四次挥手"
-        },
-        {
-          "level": 3,
-          "title": "四次挥手原因",
-          "slug": "四次挥手原因"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "13.说说对WebSocket的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/13.html",
-      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/13.md",
-      "key": "v-20098ad8",
-      "path": "/WebInterview/BasicsInterview/NetworkProtocol/13.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、特点",
-          "slug": "二、特点"
-        },
-        {
-          "level": 3,
-          "title": "全双工",
-          "slug": "全双工"
-        },
-        {
-          "level": 3,
-          "title": "二进制帧",
-          "slug": "二进制帧"
-        },
-        {
-          "level": 3,
-          "title": "协议名",
-          "slug": "协议名"
-        },
-        {
-          "level": 3,
-          "title": "握手",
-          "slug": "握手"
-        },
-        {
-          "level": 3,
-          "title": "优点",
-          "slug": "优点"
-        },
-        {
-          "level": 2,
-          "title": "二、应用场景",
-          "slug": "二、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "14.如何理解UDP 和 TCP? 区别? 应用场景?",
@@ -9455,10 +9012,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "15.web常见的攻击方式有哪些？如何防御？",
@@ -9518,18 +9072,15 @@ export const siteData = {
           "title": "四、SQL注入",
           "slug": "四、sql注入"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "02.说说 Node. js 有哪些全局对象？",
+      "title": "13.说说对WebSocket的理解？应用场景？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Node/02.html",
-      "relativePath": "WebInterview/BasicsInterview/Node/02.md",
-      "key": "v-36d0ec54",
-      "path": "/WebInterview/BasicsInterview/Node/02.html",
+      "regularPath": "/WebInterview/BasicsInterview/NetworkProtocol/13.html",
+      "relativePath": "WebInterview/BasicsInterview/NetworkProtocol/13.md",
+      "key": "v-20098ad8",
+      "path": "/WebInterview/BasicsInterview/NetworkProtocol/13.html",
       "headers": [
         {
           "level": 2,
@@ -9538,61 +9089,40 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、有哪些",
-          "slug": "二、有哪些"
+          "title": "二、特点",
+          "slug": "二、特点"
         },
         {
           "level": 3,
-          "title": "真正的全局对象",
-          "slug": "真正的全局对象"
+          "title": "全双工",
+          "slug": "全双工"
         },
         {
           "level": 3,
-          "title": "模块级别的全局对象",
-          "slug": "模块级别的全局对象"
+          "title": "二进制帧",
+          "slug": "二进制帧"
+        },
+        {
+          "level": 3,
+          "title": "协议名",
+          "slug": "协议名"
+        },
+        {
+          "level": 3,
+          "title": "握手",
+          "slug": "握手"
+        },
+        {
+          "level": 3,
+          "title": "优点",
+          "slug": "优点"
+        },
+        {
+          "level": 2,
+          "title": "二、应用场景",
+          "slug": "二、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "01.说说你对Node.js 的理解？优缺点？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Node/01.html",
-      "relativePath": "WebInterview/BasicsInterview/Node/01.md",
-      "key": "v-296b2398",
-      "path": "/WebInterview/BasicsInterview/Node/01.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 3,
-          "title": "非阻塞异步",
-          "slug": "非阻塞异步"
-        },
-        {
-          "level": 3,
-          "title": "事件驱动",
-          "slug": "事件驱动"
-        },
-        {
-          "level": 2,
-          "title": "二、优缺点",
-          "slug": "二、优缺点"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说对 Node 中的 Process 的理解？有哪些常用方法？",
@@ -9632,10 +9162,72 @@ export const siteData = {
           "title": "process.nextTick()",
           "slug": "process-nexttick"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "01.说说你对Node.js 的理解？优缺点？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Node/01.html",
+      "relativePath": "WebInterview/BasicsInterview/Node/01.md",
+      "key": "v-296b2398",
+      "path": "/WebInterview/BasicsInterview/Node/01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 3,
+          "title": "非阻塞异步",
+          "slug": "非阻塞异步"
+        },
+        {
+          "level": 3,
+          "title": "事件驱动",
+          "slug": "事件驱动"
+        },
+        {
+          "level": 2,
+          "title": "二、优缺点",
+          "slug": "二、优缺点"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
+    },
+    {
+      "title": "02.说说 Node. js 有哪些全局对象？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Node/02.html",
+      "relativePath": "WebInterview/BasicsInterview/Node/02.md",
+      "key": "v-36d0ec54",
+      "path": "/WebInterview/BasicsInterview/Node/02.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、有哪些",
+          "slug": "二、有哪些"
+        },
+        {
+          "level": 3,
+          "title": "真正的全局对象",
+          "slug": "真正的全局对象"
+        },
+        {
+          "level": 3,
+          "title": "模块级别的全局对象",
+          "slug": "模块级别的全局对象"
+        }
+      ]
     },
     {
       "title": "04.说说对 Node 中的 fs 模块的理解? 有哪些常用方法?",
@@ -9700,10 +9292,7 @@ export const siteData = {
           "title": "创建目录",
           "slug": "创建目录"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "07.说说Node中的EventEmitter? 如何实现一个EventEmitter?",
@@ -9728,63 +9317,7 @@ export const siteData = {
           "title": "三、实现过程",
           "slug": "三、实现过程"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "05.说说对 Node 中的 Buffer 的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Node/05.html",
-      "relativePath": "WebInterview/BasicsInterview/Node/05.md",
-      "key": "v-161cbc90",
-      "path": "/WebInterview/BasicsInterview/Node/05.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用方法",
-          "slug": "二、使用方法"
-        },
-        {
-          "level": 3,
-          "title": "Buffer.from()",
-          "slug": "buffer-from"
-        },
-        {
-          "level": 3,
-          "title": "Buffer.alloc()",
-          "slug": "buffer-alloc"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 3,
-          "title": "I/O操作",
-          "slug": "i-o操作"
-        },
-        {
-          "level": 3,
-          "title": "加解密",
-          "slug": "加解密"
-        },
-        {
-          "level": 3,
-          "title": "zlib.js",
-          "slug": "zlib-js"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "06.说说对 Node 中的 Stream 的理解？应用场景？",
@@ -9834,10 +9367,7 @@ export const siteData = {
           "title": "一些打包工具的底层操作",
           "slug": "一些打包工具的底层操作"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "08.说说对 Node.js 中的事件循环机制理解?",
@@ -9862,10 +9392,7 @@ export const siteData = {
           "title": "三、题目",
           "slug": "三、题目"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "09.说说 Node 文件查找的优先级以及 Require 方法的文件查找策略?",
@@ -9910,91 +9437,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.如何实现文件上传？说说你的思路",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Node/12.html",
-      "relativePath": "WebInterview/BasicsInterview/Node/12.md",
-      "key": "v-e2102950",
-      "path": "/WebInterview/BasicsInterview/Node/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 3,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 3,
-          "title": "文件上传",
-          "slug": "文件上传"
-        },
-        {
-          "level": 3,
-          "title": "文件解析",
-          "slug": "文件解析"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "10.说说对中间件概念的理解，如何封装 node 中间件？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Node/10.html",
-      "relativePath": "WebInterview/BasicsInterview/Node/10.md",
-      "key": "v-189f1edc",
-      "path": "/WebInterview/BasicsInterview/Node/10.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、封装",
-          "slug": "二、封装"
-        },
-        {
-          "level": 3,
-          "title": "token校验",
-          "slug": "token校验"
-        },
-        {
-          "level": 3,
-          "title": "日志模块",
-          "slug": "日志模块"
-        },
-        {
-          "level": 3,
-          "title": "koa-bodyparser",
-          "slug": "koa-bodyparser"
-        },
-        {
-          "level": 3,
-          "title": "koa-static",
-          "slug": "koa-static"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "11.如何实现JWT鉴权机制？说说你的思路",
@@ -10044,10 +9487,87 @@ export const siteData = {
           "title": "三、优缺点",
           "slug": "三、优缺点"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "05.说说对 Node 中的 Buffer 的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Node/05.html",
+      "relativePath": "WebInterview/BasicsInterview/Node/05.md",
+      "key": "v-161cbc90",
+      "path": "/WebInterview/BasicsInterview/Node/05.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用方法",
+          "slug": "二、使用方法"
+        },
+        {
+          "level": 3,
+          "title": "Buffer.from()",
+          "slug": "buffer-from"
+        },
+        {
+          "level": 3,
+          "title": "Buffer.alloc()",
+          "slug": "buffer-alloc"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 3,
+          "title": "I/O操作",
+          "slug": "i-o操作"
+        },
+        {
+          "level": 3,
+          "title": "加解密",
+          "slug": "加解密"
+        },
+        {
+          "level": 3,
+          "title": "zlib.js",
+          "slug": "zlib-js"
+        }
+      ]
+    },
+    {
+      "title": "12.如何实现文件上传？说说你的思路",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Node/12.html",
+      "relativePath": "WebInterview/BasicsInterview/Node/12.md",
+      "key": "v-e2102950",
+      "path": "/WebInterview/BasicsInterview/Node/12.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 3,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 3,
+          "title": "文件上传",
+          "slug": "文件上传"
+        },
+        {
+          "level": 3,
+          "title": "文件解析",
+          "slug": "文件解析"
+        }
+      ]
     },
     {
       "title": "13.如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?",
@@ -10072,10 +9592,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "14.Node性能如何进行监控以及优化？",
@@ -10135,10 +9652,52 @@ export const siteData = {
           "title": "内存管理优化",
           "slug": "内存管理优化"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "10.说说对中间件概念的理解，如何封装 node 中间件？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Node/10.html",
+      "relativePath": "WebInterview/BasicsInterview/Node/10.md",
+      "key": "v-189f1edc",
+      "path": "/WebInterview/BasicsInterview/Node/10.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、封装",
+          "slug": "二、封装"
+        },
+        {
+          "level": 3,
+          "title": "token校验",
+          "slug": "token校验"
+        },
+        {
+          "level": 3,
+          "title": "日志模块",
+          "slug": "日志模块"
+        },
+        {
+          "level": 3,
+          "title": "koa-bodyparser",
+          "slug": "koa-bodyparser"
+        },
+        {
+          "level": 3,
+          "title": "koa-static",
+          "slug": "koa-static"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "02.说说webpack的构建流程?",
@@ -10178,10 +9737,7 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "01.说说你对Webpack的理解？解决了什么问题？",
@@ -10206,10 +9762,7 @@ export const siteData = {
           "title": "三、是什么",
           "slug": "三、是什么"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说Webpack中常见的Loader？解决了什么问题？",
@@ -10269,10 +9822,7 @@ export const siteData = {
           "title": "url-loader",
           "slug": "url-loader"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "04.说说webpack中常见的Plugin？解决了什么问题？",
@@ -10327,10 +9877,7 @@ export const siteData = {
           "title": "copy-webpack-plugin",
           "slug": "copy-webpack-plugin"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.说说Webpack中Loader和Plugin的区别？编写Loader，Plugin的思路？",
@@ -10355,243 +9902,7 @@ export const siteData = {
           "title": "三、编写plugin",
           "slug": "三、编写plugin"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.说说Webpack的热更新是如何做到的？原理是什么？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Pack/06.html",
-      "relativePath": "WebInterview/BasicsInterview/Pack/06.md",
-      "key": "v-11bd4c08",
-      "path": "/WebInterview/BasicsInterview/Pack/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、实现原理",
-          "slug": "二、实现原理"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "07.说说Webpack Proxy工作原理？为什么能解决跨域?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Pack/07.html",
-      "relativePath": "WebInterview/BasicsInterview/Pack/07.md",
-      "key": "v-9b647f8c",
-      "path": "/WebInterview/BasicsInterview/Pack/07.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、工作原理",
-          "slug": "二、工作原理"
-        },
-        {
-          "level": 2,
-          "title": "三、跨域",
-          "slug": "三、跨域"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "08.说说你是如何利用Webpack来优化前端性能的？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Pack/08.html",
-      "relativePath": "WebInterview/BasicsInterview/Pack/08.md",
-      "key": "v-6d7a2678",
-      "path": "/WebInterview/BasicsInterview/Pack/08.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、背景",
-          "slug": "一、背景"
-        },
-        {
-          "level": 2,
-          "title": "二、如何优化",
-          "slug": "二、如何优化"
-        },
-        {
-          "level": 3,
-          "title": "JS代码压缩",
-          "slug": "js代码压缩"
-        },
-        {
-          "level": 3,
-          "title": "CSS代码压缩",
-          "slug": "css代码压缩"
-        },
-        {
-          "level": 3,
-          "title": "Html文件代码压缩",
-          "slug": "html文件代码压缩"
-        },
-        {
-          "level": 3,
-          "title": "文件大小压缩",
-          "slug": "文件大小压缩"
-        },
-        {
-          "level": 3,
-          "title": "图片压缩",
-          "slug": "图片压缩"
-        },
-        {
-          "level": 3,
-          "title": "Tree Shaking",
-          "slug": "tree-shaking"
-        },
-        {
-          "level": 3,
-          "title": "代码分离",
-          "slug": "代码分离"
-        },
-        {
-          "level": 3,
-          "title": "内联chunk",
-          "slug": "内联chunk"
-        },
-        {
-          "level": 3,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "01.说说对React的理解？有哪些特性？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/01.html",
-      "relativePath": "WebInterview/BasicsInterview/React/01.md",
-      "key": "v-46c824d8",
-      "path": "/WebInterview/BasicsInterview/React/01.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、特性",
-          "slug": "二、特性"
-        },
-        {
-          "level": 3,
-          "title": "声明式编程",
-          "slug": "声明式编程"
-        },
-        {
-          "level": 3,
-          "title": "Component",
-          "slug": "component"
-        },
-        {
-          "level": 2,
-          "title": "三、优势",
-          "slug": "三、优势"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "02.说说 Real DOM和 Virtual DOM 的区别？优缺点？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/02.html",
-      "relativePath": "WebInterview/BasicsInterview/React/02.md",
-      "key": "v-8411b890",
-      "path": "/WebInterview/BasicsInterview/React/02.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、区别",
-          "slug": "二、区别"
-        },
-        {
-          "level": 2,
-          "title": "三、优缺点",
-          "slug": "三、优缺点"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "10.与Webpack类似的工具还有哪些？区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Pack/10.html",
-      "relativePath": "WebInterview/BasicsInterview/Pack/10.md",
-      "key": "v-3e77560a",
-      "path": "/WebInterview/BasicsInterview/Pack/10.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、模块化工具",
-          "slug": "一、模块化工具"
-        },
-        {
-          "level": 3,
-          "title": "Rollup",
-          "slug": "rollup"
-        },
-        {
-          "level": 3,
-          "title": "Parcel",
-          "slug": "parcel"
-        },
-        {
-          "level": 3,
-          "title": "Snowpack",
-          "slug": "snowpack"
-        },
-        {
-          "level": 3,
-          "title": "Vite",
-          "slug": "vite"
-        },
-        {
-          "level": 3,
-          "title": "webpack",
-          "slug": "webpack"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "09.说说提高webpack的构建速度的手段有哪些？",
@@ -10656,10 +9967,272 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "07.说说Webpack Proxy工作原理？为什么能解决跨域?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Pack/07.html",
+      "relativePath": "WebInterview/BasicsInterview/Pack/07.md",
+      "key": "v-9b647f8c",
+      "path": "/WebInterview/BasicsInterview/Pack/07.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、工作原理",
+          "slug": "二、工作原理"
+        },
+        {
+          "level": 2,
+          "title": "三、跨域",
+          "slug": "三、跨域"
+        }
+      ]
+    },
+    {
+      "title": "08.说说你是如何利用Webpack来优化前端性能的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Pack/08.html",
+      "relativePath": "WebInterview/BasicsInterview/Pack/08.md",
+      "key": "v-6d7a2678",
+      "path": "/WebInterview/BasicsInterview/Pack/08.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、背景",
+          "slug": "一、背景"
+        },
+        {
+          "level": 2,
+          "title": "二、如何优化",
+          "slug": "二、如何优化"
+        },
+        {
+          "level": 3,
+          "title": "JS代码压缩",
+          "slug": "js代码压缩"
+        },
+        {
+          "level": 3,
+          "title": "CSS代码压缩",
+          "slug": "css代码压缩"
+        },
+        {
+          "level": 3,
+          "title": "Html文件代码压缩",
+          "slug": "html文件代码压缩"
+        },
+        {
+          "level": 3,
+          "title": "文件大小压缩",
+          "slug": "文件大小压缩"
+        },
+        {
+          "level": 3,
+          "title": "图片压缩",
+          "slug": "图片压缩"
+        },
+        {
+          "level": 3,
+          "title": "Tree Shaking",
+          "slug": "tree-shaking"
+        },
+        {
+          "level": 3,
+          "title": "代码分离",
+          "slug": "代码分离"
+        },
+        {
+          "level": 3,
+          "title": "内联chunk",
+          "slug": "内联chunk"
+        },
+        {
+          "level": 3,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "01.说说对React的理解？有哪些特性？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/01.html",
+      "relativePath": "WebInterview/BasicsInterview/React/01.md",
+      "key": "v-46c824d8",
+      "path": "/WebInterview/BasicsInterview/React/01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、特性",
+          "slug": "二、特性"
+        },
+        {
+          "level": 3,
+          "title": "声明式编程",
+          "slug": "声明式编程"
+        },
+        {
+          "level": 3,
+          "title": "Component",
+          "slug": "component"
+        },
+        {
+          "level": 2,
+          "title": "三、优势",
+          "slug": "三、优势"
+        }
+      ]
+    },
+    {
+      "title": "02.说说 Real DOM和 Virtual DOM 的区别？优缺点？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/02.html",
+      "relativePath": "WebInterview/BasicsInterview/React/02.md",
+      "key": "v-8411b890",
+      "path": "/WebInterview/BasicsInterview/React/02.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、区别",
+          "slug": "二、区别"
+        },
+        {
+          "level": 2,
+          "title": "三、优缺点",
+          "slug": "三、优缺点"
+        }
+      ]
+    },
+    {
+      "title": "06.说说Webpack的热更新是如何做到的？原理是什么？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Pack/06.html",
+      "relativePath": "WebInterview/BasicsInterview/Pack/06.md",
+      "key": "v-11bd4c08",
+      "path": "/WebInterview/BasicsInterview/Pack/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、实现原理",
+          "slug": "二、实现原理"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "10.与Webpack类似的工具还有哪些？区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Pack/10.html",
+      "relativePath": "WebInterview/BasicsInterview/Pack/10.md",
+      "key": "v-3e77560a",
+      "path": "/WebInterview/BasicsInterview/Pack/10.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、模块化工具",
+          "slug": "一、模块化工具"
+        },
+        {
+          "level": 3,
+          "title": "Rollup",
+          "slug": "rollup"
+        },
+        {
+          "level": 3,
+          "title": "Parcel",
+          "slug": "parcel"
+        },
+        {
+          "level": 3,
+          "title": "Snowpack",
+          "slug": "snowpack"
+        },
+        {
+          "level": 3,
+          "title": "Vite",
+          "slug": "vite"
+        },
+        {
+          "level": 3,
+          "title": "webpack",
+          "slug": "webpack"
+        }
+      ]
+    },
+    {
+      "title": "05.super()和super(props)有什么区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/05.html",
+      "relativePath": "WebInterview/BasicsInterview/React/05.md",
+      "key": "v-23842058",
+      "path": "/WebInterview/BasicsInterview/React/05.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、ES6类",
+          "slug": "一、es6类"
+        },
+        {
+          "level": 2,
+          "title": "二、类组件",
+          "slug": "二、类组件"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "07.说说对React事件机制的理解？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/07.html",
+      "relativePath": "WebInterview/BasicsInterview/React/07.md",
+      "key": "v-11e21e18",
+      "path": "/WebInterview/BasicsInterview/React/07.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、执行顺序",
+          "slug": "二、执行顺序"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
     },
     {
       "title": "03.说说 React 生命周期有哪些不同阶段？每个阶段对应的方法是？",
@@ -10749,137 +10322,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.说说对 State 和 Props的理解，有什么区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/04.html",
-      "relativePath": "WebInterview/BasicsInterview/React/04.md",
-      "key": "v-a755bd10",
-      "path": "/WebInterview/BasicsInterview/React/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、state",
-          "slug": "一、state"
-        },
-        {
-          "level": 2,
-          "title": "二、props",
-          "slug": "二、props"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "05.super()和super(props)有什么区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/05.html",
-      "relativePath": "WebInterview/BasicsInterview/React/05.md",
-      "key": "v-23842058",
-      "path": "/WebInterview/BasicsInterview/React/05.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、ES6类",
-          "slug": "一、es6类"
-        },
-        {
-          "level": 2,
-          "title": "二、类组件",
-          "slug": "二、类组件"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.说说 React中的setState执行机制",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/06.html",
-      "relativePath": "WebInterview/BasicsInterview/React/06.md",
-      "key": "v-ca99c190",
-      "path": "/WebInterview/BasicsInterview/React/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、更新类型",
-          "slug": "二、更新类型"
-        },
-        {
-          "level": 3,
-          "title": "异步更新",
-          "slug": "异步更新"
-        },
-        {
-          "level": 3,
-          "title": "同步更新",
-          "slug": "同步更新"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        },
-        {
-          "level": 3,
-          "title": "三、批量更新",
-          "slug": "三、批量更新"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "07.说说对React事件机制的理解？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/07.html",
-      "relativePath": "WebInterview/BasicsInterview/React/07.md",
-      "key": "v-11e21e18",
-      "path": "/WebInterview/BasicsInterview/React/07.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、执行顺序",
-          "slug": "二、执行顺序"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "08.React事件绑定的方式有哪些？区别？",
@@ -10924,10 +10367,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "09.React构建组件的方式有哪些？区别？",
@@ -10972,10 +10412,47 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "06.说说 React中的setState执行机制",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/06.html",
+      "relativePath": "WebInterview/BasicsInterview/React/06.md",
+      "key": "v-ca99c190",
+      "path": "/WebInterview/BasicsInterview/React/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、更新类型",
+          "slug": "二、更新类型"
+        },
+        {
+          "level": 3,
+          "title": "异步更新",
+          "slug": "异步更新"
+        },
+        {
+          "level": 3,
+          "title": "同步更新",
+          "slug": "同步更新"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        },
+        {
+          "level": 3,
+          "title": "三、批量更新",
+          "slug": "三、批量更新"
+        }
+      ]
     },
     {
       "title": "10.React中组件之间通信的方式有哪些？",
@@ -11025,144 +10502,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.说说对React refs 的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/12.html",
-      "relativePath": "WebInterview/BasicsInterview/React/12.md",
-      "key": "v-2ca800d8",
-      "path": "/WebInterview/BasicsInterview/React/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何使用",
-          "slug": "二、如何使用"
-        },
-        {
-          "level": 3,
-          "title": "传入字符串",
-          "slug": "传入字符串"
-        },
-        {
-          "level": 3,
-          "title": "传入对象",
-          "slug": "传入对象"
-        },
-        {
-          "level": 3,
-          "title": "jsx传入函数",
-          "slug": "jsx传入函数"
-        },
-        {
-          "level": 3,
-          "title": "传入hook",
-          "slug": "传入hook"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "16.说说对React Hooks的理解？解决了什么问题？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/16.html",
-      "relativePath": "WebInterview/BasicsInterview/React/16.md",
-      "key": "v-0963fc58",
-      "path": "/WebInterview/BasicsInterview/React/16.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、有哪些",
-          "slug": "二、有哪些"
-        },
-        {
-          "level": 3,
-          "title": "useState",
-          "slug": "usestate"
-        },
-        {
-          "level": 3,
-          "title": "useEffect",
-          "slug": "useeffect"
-        },
-        {
-          "level": 3,
-          "title": "其它 hooks",
-          "slug": "其它-hooks"
-        },
-        {
-          "level": 2,
-          "title": "三、解决什么",
-          "slug": "三、解决什么"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "15.说说对高阶组件的理解？应用场景?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/15.html",
-      "relativePath": "WebInterview/BasicsInterview/React/15.md",
-      "key": "v-db960510",
-      "path": "/WebInterview/BasicsInterview/React/15.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何编写",
-          "slug": "二、如何编写"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        },
-        {
-          "level": 2,
-          "title": "参考文献",
-          "slug": "参考文献"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "11.React中的key有什么作用？",
@@ -11192,10 +10532,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "13.说说对React中类组件和函数组件的理解？有什么区别？",
@@ -11255,10 +10592,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "14.说说对React中受控组件和非受控组件的理解？应用场景？",
@@ -11283,18 +10617,40 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "17.说说react中引入css的方式有哪几种？区别？",
+      "title": "04.说说对 State 和 Props的理解，有什么区别？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/17.html",
-      "relativePath": "WebInterview/BasicsInterview/React/17.md",
-      "key": "v-feda0990",
-      "path": "/WebInterview/BasicsInterview/React/17.html",
+      "regularPath": "/WebInterview/BasicsInterview/React/04.html",
+      "relativePath": "WebInterview/BasicsInterview/React/04.md",
+      "key": "v-a755bd10",
+      "path": "/WebInterview/BasicsInterview/React/04.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、state",
+          "slug": "一、state"
+        },
+        {
+          "level": 2,
+          "title": "二、props",
+          "slug": "二、props"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        }
+      ]
+    },
+    {
+      "title": "15.说说对高阶组件的理解？应用场景?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/15.html",
+      "relativePath": "WebInterview/BasicsInterview/React/15.md",
+      "key": "v-db960510",
+      "path": "/WebInterview/BasicsInterview/React/15.html",
       "headers": [
         {
           "level": 2,
@@ -11303,81 +10659,20 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、方式",
-          "slug": "二、方式"
-        },
-        {
-          "level": 3,
-          "title": "在组件内直接使用",
-          "slug": "在组件内直接使用"
-        },
-        {
-          "level": 3,
-          "title": "组件中引入css文件",
-          "slug": "组件中引入css文件"
-        },
-        {
-          "level": 3,
-          "title": "组件中引入 .module.css 文件",
-          "slug": "组件中引入-module-css-文件"
-        },
-        {
-          "level": 3,
-          "title": "CSS in JS",
-          "slug": "css-in-js"
+          "title": "二、如何编写",
+          "slug": "二、如何编写"
         },
         {
           "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
         },
         {
           "level": 2,
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "18.在React中组件间过渡动画如何实现？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/18.html",
-      "relativePath": "WebInterview/BasicsInterview/React/18.md",
-      "key": "v-107c0bd0",
-      "path": "/WebInterview/BasicsInterview/React/18.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
-        },
-        {
-          "level": 3,
-          "title": "CSSTransition",
-          "slug": "csstransition"
-        },
-        {
-          "level": 3,
-          "title": "SwitchTransition",
-          "slug": "switchtransition"
-        },
-        {
-          "level": 3,
-          "title": "TransitionGroup",
-          "slug": "transitiongroup"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "19.说说你对Redux的理解？其工作原理？",
@@ -11412,10 +10707,137 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "18.在React中组件间过渡动画如何实现？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/18.html",
+      "relativePath": "WebInterview/BasicsInterview/React/18.md",
+      "key": "v-107c0bd0",
+      "path": "/WebInterview/BasicsInterview/React/18.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 3,
+          "title": "CSSTransition",
+          "slug": "csstransition"
+        },
+        {
+          "level": 3,
+          "title": "SwitchTransition",
+          "slug": "switchtransition"
+        },
+        {
+          "level": 3,
+          "title": "TransitionGroup",
+          "slug": "transitiongroup"
+        }
+      ]
+    },
+    {
+      "title": "16.说说对React Hooks的理解？解决了什么问题？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/16.html",
+      "relativePath": "WebInterview/BasicsInterview/React/16.md",
+      "key": "v-0963fc58",
+      "path": "/WebInterview/BasicsInterview/React/16.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、有哪些",
+          "slug": "二、有哪些"
+        },
+        {
+          "level": 3,
+          "title": "useState",
+          "slug": "usestate"
+        },
+        {
+          "level": 3,
+          "title": "useEffect",
+          "slug": "useeffect"
+        },
+        {
+          "level": 3,
+          "title": "其它 hooks",
+          "slug": "其它-hooks"
+        },
+        {
+          "level": 2,
+          "title": "三、解决什么",
+          "slug": "三、解决什么"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
+    },
+    {
+      "title": "12.说说对React refs 的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/12.html",
+      "relativePath": "WebInterview/BasicsInterview/React/12.md",
+      "key": "v-2ca800d8",
+      "path": "/WebInterview/BasicsInterview/React/12.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何使用",
+          "slug": "二、如何使用"
+        },
+        {
+          "level": 3,
+          "title": "传入字符串",
+          "slug": "传入字符串"
+        },
+        {
+          "level": 3,
+          "title": "传入对象",
+          "slug": "传入对象"
+        },
+        {
+          "level": 3,
+          "title": "jsx传入函数",
+          "slug": "jsx传入函数"
+        },
+        {
+          "level": 3,
+          "title": "传入hook",
+          "slug": "传入hook"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
     },
     {
       "title": "20.说说对Redux中间件的理解？常用的中间件有哪些？实现原理？",
@@ -11455,10 +10877,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "21.你在React项目中是如何使用Redux的? 项目结构是如何划分的？",
@@ -11513,10 +10932,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "23.说说React Router有几种模式？实现原理？",
@@ -11551,10 +10967,107 @@ export const siteData = {
           "title": "Router",
           "slug": "router"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "17.说说react中引入css的方式有哪几种？区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/17.html",
+      "relativePath": "WebInterview/BasicsInterview/React/17.md",
+      "key": "v-feda0990",
+      "path": "/WebInterview/BasicsInterview/React/17.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、方式",
+          "slug": "二、方式"
+        },
+        {
+          "level": 3,
+          "title": "在组件内直接使用",
+          "slug": "在组件内直接使用"
+        },
+        {
+          "level": 3,
+          "title": "组件中引入css文件",
+          "slug": "组件中引入css文件"
+        },
+        {
+          "level": 3,
+          "title": "组件中引入 .module.css 文件",
+          "slug": "组件中引入-module-css-文件"
+        },
+        {
+          "level": 3,
+          "title": "CSS in JS",
+          "slug": "css-in-js"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        },
+        {
+          "level": 2,
+          "title": "参考文献",
+          "slug": "参考文献"
+        }
+      ]
+    },
+    {
+      "title": "25.说说React render方法的原理？在什么时候会被触发？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/25.html",
+      "relativePath": "WebInterview/BasicsInterview/React/25.md",
+      "key": "v-00e5da98",
+      "path": "/WebInterview/BasicsInterview/React/25.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、原理",
+          "slug": "一、原理"
+        },
+        {
+          "level": 2,
+          "title": "二、触发时机",
+          "slug": "二、触发时机"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "24.说说你对 Immutable Data的理解？如何应用在React项目中？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/24.html",
+      "relativePath": "WebInterview/BasicsInterview/React/24.md",
+      "key": "v-ec924890",
+      "path": "/WebInterview/BasicsInterview/React/24.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何使用",
+          "slug": "二、如何使用"
+        },
+        {
+          "level": 2,
+          "title": "三、在React中应用",
+          "slug": "三、在react中应用"
+        }
+      ]
     },
     {
       "title": "22.说说你对React Router的理解？常用的Router组件有哪些？",
@@ -11639,109 +11152,7 @@ export const siteData = {
           "title": "参考文献",
           "slug": "参考文献"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "24.说说你对 Immutable Data的理解？如何应用在React项目中？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/24.html",
-      "relativePath": "WebInterview/BasicsInterview/React/24.md",
-      "key": "v-ec924890",
-      "path": "/WebInterview/BasicsInterview/React/24.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何使用",
-          "slug": "二、如何使用"
-        },
-        {
-          "level": 2,
-          "title": "三、在React中应用",
-          "slug": "三、在react中应用"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "25.说说React render方法的原理？在什么时候会被触发？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/25.html",
-      "relativePath": "WebInterview/BasicsInterview/React/25.md",
-      "key": "v-00e5da98",
-      "path": "/WebInterview/BasicsInterview/React/25.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、原理",
-          "slug": "一、原理"
-        },
-        {
-          "level": 2,
-          "title": "二、触发时机",
-          "slug": "二、触发时机"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "26.说说你是如何提高组件的渲染效率的？在React中如何避免不必要的render？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/26.html",
-      "relativePath": "WebInterview/BasicsInterview/React/26.md",
-      "key": "v-7814d978",
-      "path": "/WebInterview/BasicsInterview/React/26.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何做",
-          "slug": "二、如何做"
-        },
-        {
-          "level": 3,
-          "title": "shouldComponentUpdate",
-          "slug": "shouldcomponentupdate"
-        },
-        {
-          "level": 3,
-          "title": "PureComponent",
-          "slug": "purecomponent"
-        },
-        {
-          "level": 3,
-          "title": "React.memo",
-          "slug": "react-memo"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "27.说说你对 React diff的理解？原理是什么？",
@@ -11781,38 +11192,7 @@ export const siteData = {
           "title": "三、注意事项",
           "slug": "三、注意事项"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "29.说说React Jsx转换成真实DOM过程？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/29.html",
-      "relativePath": "WebInterview/BasicsInterview/React/29.md",
-      "key": "v-44bc53d0",
-      "path": "/WebInterview/BasicsInterview/React/29.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、过程",
-          "slug": "二、过程"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "28.说说对React Fiber架构的理解？解决了什么问题？",
@@ -11837,10 +11217,52 @@ export const siteData = {
           "title": "三、如何解决",
           "slug": "三、如何解决"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "29.说说React Jsx转换成真实DOM过程？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/29.html",
+      "relativePath": "WebInterview/BasicsInterview/React/29.md",
+      "key": "v-44bc53d0",
+      "path": "/WebInterview/BasicsInterview/React/29.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、过程",
+          "slug": "二、过程"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "31.说说你在React项目是如何捕获错误的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/31.html",
+      "relativePath": "WebInterview/BasicsInterview/React/31.md",
+      "key": "v-da4a8790",
+      "path": "/WebInterview/BasicsInterview/React/31.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何做",
+          "slug": "二、如何做"
+        }
+      ]
     },
     {
       "title": "30.说说 React 性能优化的手段有哪些？",
@@ -11890,61 +11312,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "31.说说你在React项目是如何捕获错误的？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/31.html",
-      "relativePath": "WebInterview/BasicsInterview/React/31.md",
-      "key": "v-da4a8790",
-      "path": "/WebInterview/BasicsInterview/React/31.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何做",
-          "slug": "二、如何做"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "32.说说React服务端渲染怎么做？原理是什么？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/React/32.html",
-      "relativePath": "WebInterview/BasicsInterview/React/32.md",
-      "key": "v-0a09bb18",
-      "path": "/WebInterview/BasicsInterview/React/32.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何做",
-          "slug": "二、如何做"
-        },
-        {
-          "level": 2,
-          "title": "三、原理",
-          "slug": "三、原理"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "33.说说你在使用React 过程中遇到的常见问题？解决方案?",
@@ -12064,10 +11432,72 @@ export const siteData = {
           "title": "如何做服务端渲染？",
           "slug": "如何做服务端渲染"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "01.说说你对 TypeScript 的理解？与 JavaScript 的区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Typescript/01.html",
+      "relativePath": "WebInterview/BasicsInterview/Typescript/01.md",
+      "key": "v-09d0fdde",
+      "path": "/WebInterview/BasicsInterview/Typescript/01.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、特性",
+          "slug": "二、特性"
+        },
+        {
+          "level": 3,
+          "title": "类型批注",
+          "slug": "类型批注"
+        },
+        {
+          "level": 3,
+          "title": "类型推断",
+          "slug": "类型推断"
+        },
+        {
+          "level": 3,
+          "title": "接口",
+          "slug": "接口"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        }
+      ]
+    },
+    {
+      "title": "32.说说React服务端渲染怎么做？原理是什么？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/React/32.html",
+      "relativePath": "WebInterview/BasicsInterview/React/32.md",
+      "key": "v-0a09bb18",
+      "path": "/WebInterview/BasicsInterview/React/32.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、如何做",
+          "slug": "二、如何做"
+        },
+        {
+          "level": 2,
+          "title": "三、原理",
+          "slug": "三、原理"
+        }
+      ]
     },
     {
       "title": "02.说说 Typescript 的数据类型有哪些？",
@@ -12147,10 +11577,7 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "04.说说你对 TypeScript 中接口的理解？应用场景？",
@@ -12175,18 +11602,15 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "01.说说你对 TypeScript 的理解？与 JavaScript 的区别？",
+      "title": "26.说说你是如何提高组件的渲染效率的？在React中如何避免不必要的render？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Typescript/01.html",
-      "relativePath": "WebInterview/BasicsInterview/Typescript/01.md",
-      "key": "v-09d0fdde",
-      "path": "/WebInterview/BasicsInterview/Typescript/01.html",
+      "regularPath": "/WebInterview/BasicsInterview/React/26.html",
+      "relativePath": "WebInterview/BasicsInterview/React/26.md",
+      "key": "v-7814d978",
+      "path": "/WebInterview/BasicsInterview/React/26.html",
       "headers": [
         {
           "level": 2,
@@ -12195,33 +11619,30 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "二、特性",
-          "slug": "二、特性"
+          "title": "二、如何做",
+          "slug": "二、如何做"
         },
         {
           "level": 3,
-          "title": "类型批注",
-          "slug": "类型批注"
+          "title": "shouldComponentUpdate",
+          "slug": "shouldcomponentupdate"
         },
         {
           "level": 3,
-          "title": "类型推断",
-          "slug": "类型推断"
+          "title": "PureComponent",
+          "slug": "purecomponent"
         },
         {
           "level": 3,
-          "title": "接口",
-          "slug": "接口"
+          "title": "React.memo",
+          "slug": "react-memo"
         },
         {
           "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
+          "title": "三、总结",
+          "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "03.说说你对 TypeScript 中枚举类型的理解？应用场景？",
@@ -12266,53 +11687,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.说说你对 TypeScript 中函数的理解？与 JavaScript 函数的区别？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Typescript/06.html",
-      "relativePath": "WebInterview/BasicsInterview/Typescript/06.md",
-      "key": "v-10d78658",
-      "path": "/WebInterview/BasicsInterview/Typescript/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用方式",
-          "slug": "二、使用方式"
-        },
-        {
-          "level": 3,
-          "title": "可选参数",
-          "slug": "可选参数"
-        },
-        {
-          "level": 3,
-          "title": "剩余类型",
-          "slug": "剩余类型"
-        },
-        {
-          "level": 3,
-          "title": "函数重载",
-          "slug": "函数重载"
-        },
-        {
-          "level": 2,
-          "title": "三、区别",
-          "slug": "三、区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "05.说说你对 TypeScript 中类的理解？应用场景？",
@@ -12367,10 +11742,97 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "06.说说你对 TypeScript 中函数的理解？与 JavaScript 函数的区别？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Typescript/06.html",
+      "relativePath": "WebInterview/BasicsInterview/Typescript/06.md",
+      "key": "v-10d78658",
+      "path": "/WebInterview/BasicsInterview/Typescript/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用方式",
+          "slug": "二、使用方式"
+        },
+        {
+          "level": 3,
+          "title": "可选参数",
+          "slug": "可选参数"
+        },
+        {
+          "level": 3,
+          "title": "剩余类型",
+          "slug": "剩余类型"
+        },
+        {
+          "level": 3,
+          "title": "函数重载",
+          "slug": "函数重载"
+        },
+        {
+          "level": 2,
+          "title": "三、区别",
+          "slug": "三、区别"
+        }
+      ]
+    },
+    {
+      "title": "07.说说你对 TypeScript 中泛型的理解？应用场景？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Typescript/07.html",
+      "relativePath": "WebInterview/BasicsInterview/Typescript/07.md",
+      "key": "v-2721afd2",
+      "path": "/WebInterview/BasicsInterview/Typescript/07.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用方式",
+          "slug": "二、使用方式"
+        },
+        {
+          "level": 3,
+          "title": "函数声明",
+          "slug": "函数声明"
+        },
+        {
+          "level": 3,
+          "title": "接口声明",
+          "slug": "接口声明"
+        },
+        {
+          "level": 3,
+          "title": "类声明",
+          "slug": "类声明"
+        },
+        {
+          "level": 3,
+          "title": "索引类型、约束类型",
+          "slug": "索引类型、约束类型"
+        },
+        {
+          "level": 3,
+          "title": "多类型约束",
+          "slug": "多类型约束"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        }
+      ]
     },
     {
       "title": "09.说说你对 TypeScript 中装饰器的理解？应用场景？",
@@ -12425,126 +11887,7 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "07.说说你对 TypeScript 中泛型的理解？应用场景？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Typescript/07.html",
-      "relativePath": "WebInterview/BasicsInterview/Typescript/07.md",
-      "key": "v-2721afd2",
-      "path": "/WebInterview/BasicsInterview/Typescript/07.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用方式",
-          "slug": "二、使用方式"
-        },
-        {
-          "level": 3,
-          "title": "函数声明",
-          "slug": "函数声明"
-        },
-        {
-          "level": 3,
-          "title": "接口声明",
-          "slug": "接口声明"
-        },
-        {
-          "level": 3,
-          "title": "类声明",
-          "slug": "类声明"
-        },
-        {
-          "level": 3,
-          "title": "索引类型、约束类型",
-          "slug": "索引类型、约束类型"
-        },
-        {
-          "level": 3,
-          "title": "多类型约束",
-          "slug": "多类型约束"
-        },
-        {
-          "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "08说说你对 TypeScript 中高级类型的理解？有哪些？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Typescript/08.html",
-      "relativePath": "WebInterview/BasicsInterview/Typescript/08.md",
-      "key": "v-56af22d0",
-      "path": "/WebInterview/BasicsInterview/Typescript/08.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、有哪些",
-          "slug": "二、有哪些"
-        },
-        {
-          "level": 3,
-          "title": "交叉类型",
-          "slug": "交叉类型"
-        },
-        {
-          "level": 3,
-          "title": "联合类型",
-          "slug": "联合类型"
-        },
-        {
-          "level": 3,
-          "title": "类型别名",
-          "slug": "类型别名"
-        },
-        {
-          "level": 3,
-          "title": "类型索引",
-          "slug": "类型索引"
-        },
-        {
-          "level": 3,
-          "title": "类型约束",
-          "slug": "类型约束"
-        },
-        {
-          "level": 3,
-          "title": "映射类型",
-          "slug": "映射类型"
-        },
-        {
-          "level": 3,
-          "title": "条件类型",
-          "slug": "条件类型"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "10.说说对 TypeScript 中命名空间与模块的理解？区别？",
@@ -12569,10 +11912,7 @@ export const siteData = {
           "title": "三、区别",
           "slug": "三、区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "11.说说如何在React项目中应用TypeScript？",
@@ -12612,10 +11952,57 @@ export const siteData = {
           "title": "三、总结",
           "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "12.说说如何在Vue项目中应用TypeScript？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Typescript/12.html",
+      "relativePath": "WebInterview/BasicsInterview/Typescript/12.md",
+      "key": "v-090144c4",
+      "path": "/WebInterview/BasicsInterview/Typescript/12.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、前言",
+          "slug": "一、前言"
+        },
+        {
+          "level": 2,
+          "title": "二、使用",
+          "slug": "二、使用"
+        },
+        {
+          "level": 3,
+          "title": "@Component",
+          "slug": "component"
+        },
+        {
+          "level": 3,
+          "title": "computed、data、methods",
+          "slug": "computed、data、methods"
+        },
+        {
+          "level": 3,
+          "title": "@props",
+          "slug": "props"
+        },
+        {
+          "level": 3,
+          "title": "@watch",
+          "slug": "watch"
+        },
+        {
+          "level": 3,
+          "title": "@emit",
+          "slug": "emit"
+        },
+        {
+          "level": 2,
+          "title": "三 、总结",
+          "slug": "三-、总结"
+        }
+      ]
     },
     {
       "title": "01.说说你对vue的理解?",
@@ -12690,63 +12077,67 @@ export const siteData = {
           "title": "区别",
           "slug": "区别"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "12.说说如何在Vue项目中应用TypeScript？",
+      "title": "08说说你对 TypeScript 中高级类型的理解？有哪些？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Typescript/12.html",
-      "relativePath": "WebInterview/BasicsInterview/Typescript/12.md",
-      "key": "v-090144c4",
-      "path": "/WebInterview/BasicsInterview/Typescript/12.html",
+      "regularPath": "/WebInterview/BasicsInterview/Typescript/08.html",
+      "relativePath": "WebInterview/BasicsInterview/Typescript/08.md",
+      "key": "v-56af22d0",
+      "path": "/WebInterview/BasicsInterview/Typescript/08.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、前言",
-          "slug": "一、前言"
+          "title": "一、是什么",
+          "slug": "一、是什么"
         },
         {
           "level": 2,
-          "title": "二、使用",
-          "slug": "二、使用"
+          "title": "二、有哪些",
+          "slug": "二、有哪些"
         },
         {
           "level": 3,
-          "title": "@Component",
-          "slug": "component"
+          "title": "交叉类型",
+          "slug": "交叉类型"
         },
         {
           "level": 3,
-          "title": "computed、data、methods",
-          "slug": "computed、data、methods"
+          "title": "联合类型",
+          "slug": "联合类型"
         },
         {
           "level": 3,
-          "title": "@props",
-          "slug": "props"
+          "title": "类型别名",
+          "slug": "类型别名"
         },
         {
           "level": 3,
-          "title": "@watch",
-          "slug": "watch"
+          "title": "类型索引",
+          "slug": "类型索引"
         },
         {
           "level": 3,
-          "title": "@emit",
-          "slug": "emit"
+          "title": "类型约束",
+          "slug": "类型约束"
+        },
+        {
+          "level": 3,
+          "title": "映射类型",
+          "slug": "映射类型"
+        },
+        {
+          "level": 3,
+          "title": "条件类型",
+          "slug": "条件类型"
         },
         {
           "level": 2,
-          "title": "三 、总结",
-          "slug": "三-、总结"
+          "title": "三、总结",
+          "slug": "三、总结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "02.说说你对SPA（单页应用）的理解?",
@@ -12776,10 +12167,72 @@ export const siteData = {
           "title": "四、题外话：如何给SPA做SEO",
           "slug": "四、题外话-如何给spa做seo"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "03.说说你对双向绑定的理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/03.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/03.md",
+      "key": "v-3ebdf078",
+      "path": "/WebInterview/BasicsInterview/Vue/03.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、什么是双向绑定",
+          "slug": "一、什么是双向绑定"
+        },
+        {
+          "level": 2,
+          "title": "二、双向绑定的原理是什么",
+          "slug": "二、双向绑定的原理是什么"
+        },
+        {
+          "level": 3,
+          "title": "理解ViewModel",
+          "slug": "理解viewmodel"
+        },
+        {
+          "level": 3,
+          "title": "三、实现双向绑定",
+          "slug": "三、实现双向绑定"
+        },
+        {
+          "level": 3,
+          "title": "实现",
+          "slug": "实现"
+        }
+      ]
+    },
+    {
+      "title": "04.说说你对Vue生命周期的理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/04.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/04.md",
+      "key": "v-49d8e8d0",
+      "path": "/WebInterview/BasicsInterview/Vue/04.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、生命周期是什么",
+          "slug": "一、生命周期是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、生命周期有哪些",
+          "slug": "二、生命周期有哪些"
+        },
+        {
+          "level": 2,
+          "title": "三、生命周期整体流程",
+          "slug": "三、生命周期整体流程"
+        },
+        {
+          "level": 2,
+          "title": "四、题外话：数据请求在created和mouted的区别",
+          "slug": "四、题外话-数据请求在created和mouted的区别"
+        }
+      ]
     },
     {
       "title": "05.Vue组件间通信方式都有哪些?",
@@ -12854,157 +12307,7 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "06.Vue中的v-show和v-if怎么理解？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/06.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/06.md",
-      "key": "v-13bec1d8",
-      "path": "/WebInterview/BasicsInterview/Vue/06.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、v-show与v-if的共同点",
-          "slug": "一、v-show与v-if的共同点"
-        },
-        {
-          "level": 2,
-          "title": "二、v-show与v-if的区别",
-          "slug": "二、v-show与v-if的区别"
-        },
-        {
-          "level": 2,
-          "title": "三、v-show与v-if原理分析",
-          "slug": "三、v-show与v-if原理分析"
-        },
-        {
-          "level": 3,
-          "title": "v-show原理",
-          "slug": "v-show原理"
-        },
-        {
-          "level": 3,
-          "title": "v-if原理",
-          "slug": "v-if原理"
-        },
-        {
-          "level": 2,
-          "title": "四、v-show与v-if的使用场景",
-          "slug": "四、v-show与v-if的使用场景"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "03.说说你对双向绑定的理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/03.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/03.md",
-      "key": "v-3ebdf078",
-      "path": "/WebInterview/BasicsInterview/Vue/03.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、什么是双向绑定",
-          "slug": "一、什么是双向绑定"
-        },
-        {
-          "level": 2,
-          "title": "二、双向绑定的原理是什么",
-          "slug": "二、双向绑定的原理是什么"
-        },
-        {
-          "level": 3,
-          "title": "理解ViewModel",
-          "slug": "理解viewmodel"
-        },
-        {
-          "level": 3,
-          "title": "三、实现双向绑定",
-          "slug": "三、实现双向绑定"
-        },
-        {
-          "level": 3,
-          "title": "实现",
-          "slug": "实现"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "07.为什么Vue中的v-if和v-for不建议一起用?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/07.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/07.md",
-      "key": "v-9fd74610",
-      "path": "/WebInterview/BasicsInterview/Vue/07.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、作用",
-          "slug": "一、作用"
-        },
-        {
-          "level": 2,
-          "title": "二、优先级",
-          "slug": "二、优先级"
-        },
-        {
-          "level": 3,
-          "title": "示例",
-          "slug": "示例"
-        },
-        {
-          "level": 2,
-          "title": "三、注意事项",
-          "slug": "三、注意事项"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "04.说说你对Vue生命周期的理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/04.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/04.md",
-      "key": "v-49d8e8d0",
-      "path": "/WebInterview/BasicsInterview/Vue/04.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、生命周期是什么",
-          "slug": "一、生命周期是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、生命周期有哪些",
-          "slug": "二、生命周期有哪些"
-        },
-        {
-          "level": 2,
-          "title": "三、生命周期整体流程",
-          "slug": "三、生命周期整体流程"
-        },
-        {
-          "level": 2,
-          "title": "四、题外话：数据请求在created和mouted的区别",
-          "slug": "四、题外话-数据请求在created和mouted的区别"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "09.Vue中组件和插件有什么区别？",
@@ -13044,43 +12347,7 @@ export const siteData = {
           "title": "使用场景",
           "slug": "使用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "10.为什么data属性是一个函数而不是一个对象？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/10.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/10.md",
-      "key": "v-581ae7f8",
-      "path": "/WebInterview/BasicsInterview/Vue/10.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、实例和组件定义data的区别",
-          "slug": "一、实例和组件定义data的区别"
-        },
-        {
-          "level": 2,
-          "title": "二、组件data定义函数与对象的区别",
-          "slug": "二、组件data定义函数与对象的区别"
-        },
-        {
-          "level": 2,
-          "title": "三、原理分析",
-          "slug": "三、原理分析"
-        },
-        {
-          "level": 3,
-          "title": "四、总结",
-          "slug": "四、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "08.SPA（单页应用）首屏加载速度慢怎么解决？",
@@ -13150,10 +12417,77 @@ export const siteData = {
           "title": "小结：",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "10.为什么data属性是一个函数而不是一个对象？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/10.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/10.md",
+      "key": "v-581ae7f8",
+      "path": "/WebInterview/BasicsInterview/Vue/10.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、实例和组件定义data的区别",
+          "slug": "一、实例和组件定义data的区别"
+        },
+        {
+          "level": 2,
+          "title": "二、组件data定义函数与对象的区别",
+          "slug": "二、组件data定义函数与对象的区别"
+        },
+        {
+          "level": 2,
+          "title": "三、原理分析",
+          "slug": "三、原理分析"
+        },
+        {
+          "level": 3,
+          "title": "四、总结",
+          "slug": "四、总结"
+        }
+      ]
+    },
+    {
+      "title": "06.Vue中的v-show和v-if怎么理解？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/06.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/06.md",
+      "key": "v-13bec1d8",
+      "path": "/WebInterview/BasicsInterview/Vue/06.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、v-show与v-if的共同点",
+          "slug": "一、v-show与v-if的共同点"
+        },
+        {
+          "level": 2,
+          "title": "二、v-show与v-if的区别",
+          "slug": "二、v-show与v-if的区别"
+        },
+        {
+          "level": 2,
+          "title": "三、v-show与v-if原理分析",
+          "slug": "三、v-show与v-if原理分析"
+        },
+        {
+          "level": 3,
+          "title": "v-show原理",
+          "slug": "v-show原理"
+        },
+        {
+          "level": 3,
+          "title": "v-if原理",
+          "slug": "v-if原理"
+        },
+        {
+          "level": 2,
+          "title": "四、v-show与v-if的使用场景",
+          "slug": "四、v-show与v-if的使用场景"
+        }
+      ]
     },
     {
       "title": "11.Vue中给对象添加新属性界面不刷新?",
@@ -13198,10 +12532,32 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "13.Vue中的$nextTick怎么理解?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/13.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/13.md",
+      "key": "v-2d1bb958",
+      "path": "/WebInterview/BasicsInterview/Vue/13.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、NextTick是什么",
+          "slug": "一、nexttick是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用场景",
+          "slug": "二、使用场景"
+        },
+        {
+          "level": 2,
+          "title": "三、实现原理",
+          "slug": "三、实现原理"
+        }
+      ]
     },
     {
       "title": "15.说说你对slot的理解？slot使用场景有哪些？",
@@ -13251,66 +12607,7 @@ export const siteData = {
           "title": "四、原理分析",
           "slug": "四、原理分析"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "13.Vue中的$nextTick怎么理解?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/13.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/13.md",
-      "key": "v-2d1bb958",
-      "path": "/WebInterview/BasicsInterview/Vue/13.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、NextTick是什么",
-          "slug": "一、nexttick是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、使用场景",
-          "slug": "二、使用场景"
-        },
-        {
-          "level": 2,
-          "title": "三、实现原理",
-          "slug": "三、实现原理"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "12.Vue实例挂载的过程中发生了什么?",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/12.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/12.md",
-      "key": "v-de73c390",
-      "path": "/WebInterview/BasicsInterview/Vue/12.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、思考",
-          "slug": "一、思考"
-        },
-        {
-          "level": 2,
-          "title": "一、分析",
-          "slug": "一、分析"
-        },
-        {
-          "level": 2,
-          "title": "三、结论",
-          "slug": "三、结论"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "14.说说你对vue的mixin的理解，有哪些应用场景？",
@@ -13380,10 +12677,47 @@ export const siteData = {
           "title": "小结：",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "18.说说你对keep-alive的理解是什么？怎么缓存当前的组件？缓存后怎么更新？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/18.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/18.md",
+      "key": "v-3ac7c0f8",
+      "path": "/WebInterview/BasicsInterview/Vue/18.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Keep-alive 是什么",
+          "slug": "一、keep-alive-是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、使用场景",
+          "slug": "二、使用场景"
+        },
+        {
+          "level": 2,
+          "title": "三、原理分析",
+          "slug": "三、原理分析"
+        },
+        {
+          "level": 2,
+          "title": "四、思考题：缓存后如何获取数据",
+          "slug": "四、思考题-缓存后如何获取数据"
+        },
+        {
+          "level": 3,
+          "title": "beforeRouteEnter",
+          "slug": "beforerouteenter"
+        },
+        {
+          "level": 3,
+          "title": "actived",
+          "slug": "actived"
+        }
+      ]
     },
     {
       "title": "16.说说对observable的理解",
@@ -13408,10 +12742,7 @@ export const siteData = {
           "title": "三、原理分析",
           "slug": "三、原理分析"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "17.说说为什么要在列表组件中写 key，其作用是什么？",
@@ -13446,10 +12777,7 @@ export const siteData = {
           "title": "三、原理分析",
           "slug": "三、原理分析"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "19.Vue常用的修饰符有哪些?有什么应用场景?",
@@ -13499,96 +12827,62 @@ export const siteData = {
           "title": "三、应用场景",
           "slug": "三、应用场景"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "18.说说你对keep-alive的理解是什么？怎么缓存当前的组件？缓存后怎么更新？",
+      "title": "07.为什么Vue中的v-if和v-for不建议一起用?",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/18.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/18.md",
-      "key": "v-3ac7c0f8",
-      "path": "/WebInterview/BasicsInterview/Vue/18.html",
+      "regularPath": "/WebInterview/BasicsInterview/Vue/07.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/07.md",
+      "key": "v-9fd74610",
+      "path": "/WebInterview/BasicsInterview/Vue/07.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、Keep-alive 是什么",
-          "slug": "一、keep-alive-是什么"
+          "title": "一、作用",
+          "slug": "一、作用"
         },
         {
           "level": 2,
-          "title": "二、使用场景",
-          "slug": "二、使用场景"
-        },
-        {
-          "level": 2,
-          "title": "三、原理分析",
-          "slug": "三、原理分析"
-        },
-        {
-          "level": 2,
-          "title": "四、思考题：缓存后如何获取数据",
-          "slug": "四、思考题-缓存后如何获取数据"
+          "title": "二、优先级",
+          "slug": "二、优先级"
         },
         {
           "level": 3,
-          "title": "beforeRouteEnter",
-          "slug": "beforerouteenter"
+          "title": "示例",
+          "slug": "示例"
         },
         {
-          "level": 3,
-          "title": "actived",
-          "slug": "actived"
+          "level": 2,
+          "title": "三、注意事项",
+          "slug": "三、注意事项"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "20.你有写过自定义指令吗？自定义指令的应用场景有哪些？",
+      "title": "12.Vue实例挂载的过程中发生了什么?",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/20.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/20.md",
-      "key": "v-4678b0d8",
-      "path": "/WebInterview/BasicsInterview/Vue/20.html",
+      "regularPath": "/WebInterview/BasicsInterview/Vue/12.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/12.md",
+      "key": "v-de73c390",
+      "path": "/WebInterview/BasicsInterview/Vue/12.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、什么是指令",
-          "slug": "一、什么是指令"
-        },
-        {
-          "level": 3,
-          "title": "二、如何实现",
-          "slug": "二、如何实现"
+          "title": "一、思考",
+          "slug": "一、思考"
         },
         {
           "level": 2,
-          "title": "三、应用场景",
-          "slug": "三、应用场景"
+          "title": "一、分析",
+          "slug": "一、分析"
         },
         {
-          "level": 3,
-          "title": "输入框防抖",
-          "slug": "输入框防抖"
-        },
-        {
-          "level": 3,
-          "title": "图片懒加载",
-          "slug": "图片懒加载"
-        },
-        {
-          "level": 3,
-          "title": "一键 Copy的功能",
-          "slug": "一键-copy的功能"
+          "level": 2,
+          "title": "三、结论",
+          "slug": "三、结论"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "21.Vue中的过滤器了解吗？过滤器的应用场景有哪些？",
@@ -13633,43 +12927,47 @@ export const siteData = {
           "title": "小结：",
           "slug": "小结-2"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "23.了解过vue中的diff算法吗？说说看",
+      "title": "20.你有写过自定义指令吗？自定义指令的应用场景有哪些？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/23.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/23.md",
-      "key": "v-1b798238",
-      "path": "/WebInterview/BasicsInterview/Vue/23.html",
+      "regularPath": "/WebInterview/BasicsInterview/Vue/20.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/20.md",
+      "key": "v-4678b0d8",
+      "path": "/WebInterview/BasicsInterview/Vue/20.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、比较方式",
-          "slug": "二、比较方式"
-        },
-        {
-          "level": 2,
-          "title": "三、原理分析",
-          "slug": "三、原理分析"
+          "title": "一、什么是指令",
+          "slug": "一、什么是指令"
         },
         {
           "level": 3,
-          "title": "小结",
-          "slug": "小结"
+          "title": "二、如何实现",
+          "slug": "二、如何实现"
+        },
+        {
+          "level": 2,
+          "title": "三、应用场景",
+          "slug": "三、应用场景"
+        },
+        {
+          "level": 3,
+          "title": "输入框防抖",
+          "slug": "输入框防抖"
+        },
+        {
+          "level": 3,
+          "title": "图片懒加载",
+          "slug": "图片懒加载"
+        },
+        {
+          "level": 3,
+          "title": "一键 Copy的功能",
+          "slug": "一键-copy的功能"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "22.什么是虚拟DOM？如何实现一个虚拟DOM？",
@@ -13699,10 +12997,52 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "26.SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/26.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/26.md",
+      "key": "v-1f0b58d0",
+      "path": "/WebInterview/BasicsInterview/Vue/26.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 3,
+          "title": "传统web开发",
+          "slug": "传统web开发"
+        },
+        {
+          "level": 3,
+          "title": "单页应用SPA",
+          "slug": "单页应用spa"
+        },
+        {
+          "level": 3,
+          "title": "服务端渲染SSR",
+          "slug": "服务端渲染ssr"
+        },
+        {
+          "level": 2,
+          "title": "二、解决了什么",
+          "slug": "二、解决了什么"
+        },
+        {
+          "level": 2,
+          "title": "三、如何实现",
+          "slug": "三、如何实现"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
     },
     {
       "title": "24.Vue项目中有封装过axios吗？怎么封装的？",
@@ -13767,91 +13107,7 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "26.SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/26.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/26.md",
-      "key": "v-1f0b58d0",
-      "path": "/WebInterview/BasicsInterview/Vue/26.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、是什么",
-          "slug": "一、是什么"
-        },
-        {
-          "level": 3,
-          "title": "传统web开发",
-          "slug": "传统web开发"
-        },
-        {
-          "level": 3,
-          "title": "单页应用SPA",
-          "slug": "单页应用spa"
-        },
-        {
-          "level": 3,
-          "title": "服务端渲染SSR",
-          "slug": "服务端渲染ssr"
-        },
-        {
-          "level": 2,
-          "title": "二、解决了什么",
-          "slug": "二、解决了什么"
-        },
-        {
-          "level": 2,
-          "title": "三、如何实现",
-          "slug": "三、如何实现"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "25.你了解Axios的原理吗？有看过它的源码吗？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/25.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/25.md",
-      "key": "v-5424b878",
-      "path": "/WebInterview/BasicsInterview/Vue/25.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、axios的使用",
-          "slug": "一、axios的使用"
-        },
-        {
-          "level": 2,
-          "title": "二、实现一个简易版axios",
-          "slug": "二、实现一个简易版axios"
-        },
-        {
-          "level": 2,
-          "title": "三、源码分析",
-          "slug": "三、源码分析"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "27.说下你的vue项目的目录结构，如果是大型项目你该怎么划分结构和划分组件呢？",
@@ -13901,43 +13157,7 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "29.跨域是什么？Vue项目中你是如何解决跨域的呢？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/29.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/29.md",
-      "key": "v-7509b610",
-      "path": "/WebInterview/BasicsInterview/Vue/29.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、跨域是什么",
-          "slug": "一、跨域是什么"
-        },
-        {
-          "level": 2,
-          "title": "二、如何解决",
-          "slug": "二、如何解决"
-        },
-        {
-          "level": 3,
-          "title": "CORS",
-          "slug": "cors"
-        },
-        {
-          "level": 3,
-          "title": "Proxy",
-          "slug": "proxy"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "30.vue项目如何部署？有遇到布署服务器后刷新404问题吗？",
@@ -13972,10 +13192,7 @@ export const siteData = {
           "title": "解决方案",
           "slug": "解决方案"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "28.Vue要做权限管理该怎么做？控制到按钮级别的权限怎么做？",
@@ -14020,41 +13237,28 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "31.你是怎么处理vue项目中的错误的？",
+      "title": "25.你了解Axios的原理吗？有看过它的源码吗？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/31.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/31.md",
-      "key": "v-5da7d650",
-      "path": "/WebInterview/BasicsInterview/Vue/31.html",
+      "regularPath": "/WebInterview/BasicsInterview/Vue/25.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/25.md",
+      "key": "v-5424b878",
+      "path": "/WebInterview/BasicsInterview/Vue/25.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、错误类型",
-          "slug": "一、错误类型"
+          "title": "一、axios的使用",
+          "slug": "一、axios的使用"
         },
         {
           "level": 2,
-          "title": "二、如何处理",
-          "slug": "二、如何处理"
+          "title": "二、实现一个简易版axios",
+          "slug": "二、实现一个简易版axios"
         },
         {
-          "level": 3,
-          "title": "后端接口错误",
-          "slug": "后端接口错误"
-        },
-        {
-          "level": 3,
-          "title": "代码逻辑问题",
-          "slug": "代码逻辑问题"
-        },
-        {
-          "level": 3,
+          "level": 2,
           "title": "三、源码分析",
           "slug": "三、源码分析"
         },
@@ -14063,124 +13267,37 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
-      "title": "33.Vue3.0的设计目标是什么？做了哪些优化?",
+      "title": "29.跨域是什么？Vue项目中你是如何解决跨域的呢？",
       "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/33.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/33.md",
-      "key": "v-09d74b18",
-      "path": "/WebInterview/BasicsInterview/Vue/33.html",
+      "regularPath": "/WebInterview/BasicsInterview/Vue/29.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/29.md",
+      "key": "v-7509b610",
+      "path": "/WebInterview/BasicsInterview/Vue/29.html",
       "headers": [
         {
           "level": 2,
-          "title": "一、设计目标",
-          "slug": "一、设计目标"
-        },
-        {
-          "level": 3,
-          "title": "更小",
-          "slug": "更小"
-        },
-        {
-          "level": 3,
-          "title": "更快",
-          "slug": "更快"
-        },
-        {
-          "level": 3,
-          "title": "更友好",
-          "slug": "更友好"
+          "title": "一、跨域是什么",
+          "slug": "一、跨域是什么"
         },
         {
           "level": 2,
-          "title": "三、优化方案",
-          "slug": "三、优化方案"
+          "title": "二、如何解决",
+          "slug": "二、如何解决"
         },
         {
           "level": 3,
-          "title": "源码",
-          "slug": "源码"
+          "title": "CORS",
+          "slug": "cors"
         },
         {
           "level": 3,
-          "title": "性能",
-          "slug": "性能"
-        },
-        {
-          "level": 3,
-          "title": "语法 API",
-          "slug": "语法-api"
+          "title": "Proxy",
+          "slug": "proxy"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "34.Vue3.0 性能提升主要是通过哪几方面体现的？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/34.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/34.md",
-      "key": "v-b3a63390",
-      "path": "/WebInterview/BasicsInterview/Vue/34.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、编译阶段",
-          "slug": "一、编译阶段"
-        },
-        {
-          "level": 2,
-          "title": "二、源码体积",
-          "slug": "二、源码体积"
-        },
-        {
-          "level": 2,
-          "title": "三、响应式系统",
-          "slug": "三、响应式系统"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
-    },
-    {
-      "title": "35.Vue3.0里为什么要用 Proxy API 替代 defineProperty API ？",
-      "frontmatter": {},
-      "regularPath": "/WebInterview/BasicsInterview/Vue/35.html",
-      "relativePath": "WebInterview/BasicsInterview/Vue/35.md",
-      "key": "v-42828158",
-      "path": "/WebInterview/BasicsInterview/Vue/35.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、Object.defineProperty",
-          "slug": "一、object-defineproperty"
-        },
-        {
-          "level": 3,
-          "title": "小结",
-          "slug": "小结"
-        },
-        {
-          "level": 2,
-          "title": "二、proxy",
-          "slug": "二、proxy"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "32.Vue3有了解过吗？能说说跟Vue2的区别吗？",
@@ -14285,10 +13402,182 @@ export const siteData = {
           "title": "移除 API",
           "slug": "移除-api"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
+    },
+    {
+      "title": "34.Vue3.0 性能提升主要是通过哪几方面体现的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/34.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/34.md",
+      "key": "v-b3a63390",
+      "path": "/WebInterview/BasicsInterview/Vue/34.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、编译阶段",
+          "slug": "一、编译阶段"
+        },
+        {
+          "level": 2,
+          "title": "二、源码体积",
+          "slug": "二、源码体积"
+        },
+        {
+          "level": 2,
+          "title": "三、响应式系统",
+          "slug": "三、响应式系统"
+        }
+      ]
+    },
+    {
+      "title": "33.Vue3.0的设计目标是什么？做了哪些优化?",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/33.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/33.md",
+      "key": "v-09d74b18",
+      "path": "/WebInterview/BasicsInterview/Vue/33.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、设计目标",
+          "slug": "一、设计目标"
+        },
+        {
+          "level": 3,
+          "title": "更小",
+          "slug": "更小"
+        },
+        {
+          "level": 3,
+          "title": "更快",
+          "slug": "更快"
+        },
+        {
+          "level": 3,
+          "title": "更友好",
+          "slug": "更友好"
+        },
+        {
+          "level": 2,
+          "title": "三、优化方案",
+          "slug": "三、优化方案"
+        },
+        {
+          "level": 3,
+          "title": "源码",
+          "slug": "源码"
+        },
+        {
+          "level": 3,
+          "title": "性能",
+          "slug": "性能"
+        },
+        {
+          "level": 3,
+          "title": "语法 API",
+          "slug": "语法-api"
+        }
+      ]
+    },
+    {
+      "title": "35.Vue3.0里为什么要用 Proxy API 替代 defineProperty API ？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/35.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/35.md",
+      "key": "v-42828158",
+      "path": "/WebInterview/BasicsInterview/Vue/35.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、Object.defineProperty",
+          "slug": "一、object-defineproperty"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        },
+        {
+          "level": 2,
+          "title": "二、proxy",
+          "slug": "二、proxy"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
+        }
+      ]
+    },
+    {
+      "title": "31.你是怎么处理vue项目中的错误的？",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/31.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/31.md",
+      "key": "v-5da7d650",
+      "path": "/WebInterview/BasicsInterview/Vue/31.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、错误类型",
+          "slug": "一、错误类型"
+        },
+        {
+          "level": 2,
+          "title": "二、如何处理",
+          "slug": "二、如何处理"
+        },
+        {
+          "level": 3,
+          "title": "后端接口错误",
+          "slug": "后端接口错误"
+        },
+        {
+          "level": 3,
+          "title": "代码逻辑问题",
+          "slug": "代码逻辑问题"
+        },
+        {
+          "level": 3,
+          "title": "三、源码分析",
+          "slug": "三、源码分析"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
+    },
+    {
+      "title": "23.了解过vue中的diff算法吗？说说看",
+      "frontmatter": {},
+      "regularPath": "/WebInterview/BasicsInterview/Vue/23.html",
+      "relativePath": "WebInterview/BasicsInterview/Vue/23.md",
+      "key": "v-1b798238",
+      "path": "/WebInterview/BasicsInterview/Vue/23.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、是什么",
+          "slug": "一、是什么"
+        },
+        {
+          "level": 2,
+          "title": "二、比较方式",
+          "slug": "二、比较方式"
+        },
+        {
+          "level": 2,
+          "title": "三、原理分析",
+          "slug": "三、原理分析"
+        },
+        {
+          "level": 3,
+          "title": "小结",
+          "slug": "小结"
+        }
+      ]
     },
     {
       "title": "36.Vue3.0 所采用的 Composition Api 与 Vue2.x 使用的 Options Api 有什么不同？",
@@ -14328,10 +13617,7 @@ export const siteData = {
           "title": "小结",
           "slug": "小结"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "37.说说Vue 3.0中Treeshaking特性？举例说明一下？",
@@ -14366,10 +13652,7 @@ export const siteData = {
           "title": "三、作用",
           "slug": "三、作用"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     },
     {
       "title": "38.用Vue3.0 写过组件吗？如果想实现一个 Modal你会怎么设计？",
@@ -14419,10 +13702,7 @@ export const siteData = {
           "title": "其他完善",
           "slug": "其他完善"
         }
-      ],
-      "lastUpdated": "10/24/2022, 6:39:00 PM",
-      "lastUpdatedTimestamp": 1666607940000,
-      "createdTime": 1666607940000
+      ]
     }
   ],
   "themeConfig": {
