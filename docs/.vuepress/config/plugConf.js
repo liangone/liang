@@ -3,7 +3,7 @@ module.exports = {
 	'@vuepress/back-to-top': true,
 	'@vssue/vuepress-plugin-vssue': {
 		platform: 'github-v4',
-		owner: '294169089l',
+		owner: 'liangone',
 		repo: 'liang',
 		clientId: secret.clientId,
 		clientSecret: secret.clientSecret,

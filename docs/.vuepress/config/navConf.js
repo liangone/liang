@@ -45,5 +45,5 @@ module.exports = [
 	{ text: 'utils', link: '/utils/' },
 	{ text: '项目', link: '/project/' },
 	{ text: '算法与数据结构', link: '/AlgorithmsAndDataStructures/01' },
-	{ text: 'GitHub', link: 'https://github.com/294169089l/liang' },
+	{ text: 'GitHub', link: 'https://github.com/liangone/liang' },
 ];

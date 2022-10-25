@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/294169089l/liang.git"
+    "url": "git+https://github.com/liangone/liang.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/294169089l/liang/issues"
+    "url": "https://github.com/liangone/liang/issues"
   },
-  "homepage": "https://github.com/294169089l/liang#readme",
+  "homepage": "https://github.com/liangone/liang#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
