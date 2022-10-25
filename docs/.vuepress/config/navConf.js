@@ -1,11 +1,11 @@
 module.exports = [
 	{ text: '首页', link: '/' },
 	{
-		text: '前端面试',
+		text: '前端基础',
 		link: '/WebInterview/',
 		items: [
 			{
-				text: '基础面试题', items: [
+				text: '基础', items: [
 					{ text: 'CSS', link: '/WebInterview/BasicsInterview/CSS/01' },
 					{ text: 'ES6', link: '/WebInterview/BasicsInterview/ES6/01' },
 					{ text: 'Git', link: '/WebInterview/BasicsInterview/Git/01' },
@@ -21,7 +21,7 @@ module.exports = [
 				]
 			},
 			{
-				text: '进阶面试题', items: [
+				text: '进阶', items: [
 					{ text: 'Html', link: '/WebInterview/AdvanceInterview/01' },
 					{ text: 'Css', link: '/WebInterview/AdvanceInterview/02' },
 					{ text: 'Javascript上', link: '/WebInterview/AdvanceInterview/03' },
@@ -40,6 +40,10 @@ module.exports = [
 			}
 		]
 	},
+	{ text: '数据结构', link: '/DataStructures/' },
+	{ text: '算法', link: '/Algorithms/' },
+	{ text: 'utils', link: '/utils/' },
+	{ text: '项目', link: '/project/' },
 	{ text: '算法与数据结构', link: '/AlgorithmsAndDataStructures/01' },
 	{ text: 'GitHub', link: 'https://github.com/294169089l/liang' },
 ];

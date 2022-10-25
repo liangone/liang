@@ -11,7 +11,6 @@ module.exports = {
 	themeConfig: {
 		logo: '/favicon.ico',
 		lastUpdated: '更新时间',
-		// 导航栏。
 		nav: navConf
 	}
 };
