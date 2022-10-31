@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>01.说说var、let、const之间的区别 | 冠希の博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/liang/favicon.ico">
+    <meta name="description" content="冠希の博客1.0">
+    <meta name="author" content="冠希">
+    <meta name="keywords" content="vuepress,个人博客,冠希-个人博客,面试题,计算机,前端">
+    
+    <link rel="preload" href="/liang/assets/css/0.styles.5d8a44f7.css" as="style"><link rel="preload" href="/liang/assets/js/app.12ed9190.js" as="script"><link rel="preload" href="/liang/assets/js/7.3f2b8db1.js" as="script"><link rel="preload" href="/liang/assets/js/2.b3383428.js" as="script"><link rel="preload" href="/liang/assets/js/62.d0ff6b5a.js" as="script"><link rel="prefetch" href="/liang/assets/js/10.f7d8c67f.js"><link rel="prefetch" href="/liang/assets/js/100.5d652d05.js"><link rel="prefetch" href="/liang/assets/js/101.4524b3be.js"><link rel="prefetch" href="/liang/assets/js/102.840b1f2f.js"><link rel="prefetch" href="/liang/assets/js/103.51e6bdb3.js"><link rel="prefetch" href="/liang/assets/js/104.e90cc0ee.js"><link rel="prefetch" href="/liang/assets/js/105.fb9e34c7.js"><link rel="prefetch" href="/liang/assets/js/106.ee408382.js"><link rel="prefetch" href="/liang/assets/js/107.44a92d40.js"><link rel="prefetch" href="/liang/assets/js/108.c95a63fa.js"><link rel="prefetch" href="/liang/assets/js/109.1ed95f53.js"><link rel="prefetch" href="/liang/assets/js/11.530e107a.js"><link rel="prefetch" href="/liang/assets/js/110.114e7742.js"><link rel="prefetch" href="/liang/assets/js/111.f9e2235f.js"><link rel="prefetch" href="/liang/assets/js/112.dc59325d.js"><link rel="prefetch" href="/liang/assets/js/113.4baf5776.js"><link rel="prefetch" href="/liang/assets/js/114.af954b64.js"><link rel="prefetch" href="/liang/assets/js/115.6d51b029.js"><link rel="prefetch" href="/liang/assets/js/116.16605d9a.js"><link rel="prefetch" href="/liang/assets/js/117.3789bed6.js"><link rel="prefetch" href="/liang/assets/js/118.78aad7f5.js"><link rel="prefetch" href="/liang/assets/js/119.e7e5fd6c.js"><link rel="prefetch" href="/liang/assets/js/12.201d296a.js"><link rel="prefetch" href="/liang/assets/js/120.0a56faff.js"><link rel="prefetch" href="/liang/assets/js/121.ba911f1e.js"><link rel="prefetch" href="/liang/assets/js/122.307e575b.js"><link rel="prefetch" href="/liang/assets/js/123.d2940f00.js"><link rel="prefetch" href="/liang/assets/js/124.4344c083.js"><link rel="prefetch" href="/liang/assets/js/125.59a09696.js"><link rel="prefetch" href="/liang/assets/js/126.0da4b42e.js"><link rel="prefetch" href="/liang/assets/js/127.b9afcb93.js"><link rel="prefetch" href="/liang/assets/js/128.ecc1d635.js"><link rel="prefetch" href="/liang/assets/js/129.13d7e952.js"><link rel="prefetch" href="/liang/assets/js/13.05b2fb95.js"><link rel="prefetch" href="/liang/assets/js/130.d82636b7.js"><link rel="prefetch" href="/liang/assets/js/131.8a6e1cef.js"><link rel="prefetch" href="/liang/assets/js/132.9e62201d.js"><link rel="prefetch" href="/liang/assets/js/133.38a8fe18.js"><link rel="prefetch" href="/liang/assets/js/134.ef94cd4a.js"><link rel="prefetch" href="/liang/assets/js/135.89d67adc.js"><link rel="prefetch" href="/liang/assets/js/136.19addafc.js"><link rel="prefetch" href="/liang/assets/js/137.285d4bb6.js"><link rel="prefetch" href="/liang/assets/js/138.0448737d.js"><link rel="prefetch" href="/liang/assets/js/139.fd8bdd81.js"><link rel="prefetch" href="/liang/assets/js/14.2695a8b5.js"><link rel="prefetch" href="/liang/assets/js/140.b8373e75.js"><link rel="prefetch" href="/liang/assets/js/141.55f07967.js"><link rel="prefetch" href="/liang/assets/js/142.cb3cdc71.js"><link rel="prefetch" href="/liang/assets/js/143.cb14dfe4.js"><link rel="prefetch" href="/liang/assets/js/144.9a48751a.js"><link rel="prefetch" href="/liang/assets/js/145.9b65b7ec.js"><link rel="prefetch" href="/liang/assets/js/146.687b4187.js"><link rel="prefetch" href="/liang/assets/js/147.2db220e9.js"><link rel="prefetch" href="/liang/assets/js/148.d1205a31.js"><link rel="prefetch" href="/liang/assets/js/149.2a22eeb4.js"><link rel="prefetch" href="/liang/assets/js/15.aa8d6941.js"><link rel="prefetch" href="/liang/assets/js/150.9ef5df50.js"><link rel="prefetch" href="/liang/assets/js/151.6f9582fa.js"><link rel="prefetch" href="/liang/assets/js/152.f0152a5e.js"><link rel="prefetch" href="/liang/assets/js/153.b8c6afd3.js"><link rel="prefetch" href="/liang/assets/js/154.2163353a.js"><link rel="prefetch" href="/liang/assets/js/155.05e95b06.js"><link rel="prefetch" href="/liang/assets/js/156.75907391.js"><link rel="prefetch" href="/liang/assets/js/157.11ec3145.js"><link rel="prefetch" href="/liang/assets/js/158.8b954276.js"><link rel="prefetch" href="/liang/assets/js/159.07b35f42.js"><link rel="prefetch" href="/liang/assets/js/16.d4b53d1a.js"><link rel="prefetch" href="/liang/assets/js/160.0422d990.js"><link rel="prefetch" href="/liang/assets/js/161.55dbcf38.js"><link rel="prefetch" href="/liang/assets/js/162.ae50881f.js"><link rel="prefetch" href="/liang/assets/js/163.c68dabb6.js"><link rel="prefetch" href="/liang/assets/js/164.12a36895.js"><link rel="prefetch" href="/liang/assets/js/165.a25ff743.js"><link rel="prefetch" href="/liang/assets/js/166.d2acff0e.js"><link rel="prefetch" href="/liang/assets/js/167.d3a601b9.js"><link rel="prefetch" href="/liang/assets/js/168.d8461672.js"><link rel="prefetch" href="/liang/assets/js/169.ba3ebe78.js"><link rel="prefetch" href="/liang/assets/js/17.9ef5dfcc.js"><link rel="prefetch" href="/liang/assets/js/170.0929f146.js"><link rel="prefetch" href="/liang/assets/js/171.190ea650.js"><link rel="prefetch" href="/liang/assets/js/172.aaca47d5.js"><link rel="prefetch" href="/liang/assets/js/173.f6c9a1cf.js"><link rel="prefetch" href="/liang/assets/js/174.7a9a6e0c.js"><link rel="prefetch" href="/liang/assets/js/175.2e4fe7e2.js"><link rel="prefetch" href="/liang/assets/js/176.359f5d59.js"><link rel="prefetch" href="/liang/assets/js/177.6c5fcf56.js"><link rel="prefetch" href="/liang/assets/js/178.876169b1.js"><link rel="prefetch" href="/liang/assets/js/179.53b8ed8d.js"><link rel="prefetch" href="/liang/assets/js/18.15c383dd.js"><link rel="prefetch" href="/liang/assets/js/180.50f1d9c2.js"><link rel="prefetch" href="/liang/assets/js/181.6c2a3540.js"><link rel="prefetch" href="/liang/assets/js/182.d3c42d4d.js"><link rel="prefetch" href="/liang/assets/js/183.bf5295df.js"><link rel="prefetch" href="/liang/assets/js/184.69668c02.js"><link rel="prefetch" href="/liang/assets/js/185.af534ee7.js"><link rel="prefetch" href="/liang/assets/js/186.43273d20.js"><link rel="prefetch" href="/liang/assets/js/187.7ebbecf1.js"><link rel="prefetch" href="/liang/assets/js/188.e423d179.js"><link rel="prefetch" href="/liang/assets/js/189.6641037d.js"><link rel="prefetch" href="/liang/assets/js/19.ba77cac1.js"><link rel="prefetch" href="/liang/assets/js/190.0adc1ef7.js"><link rel="prefetch" href="/liang/assets/js/191.2e06c162.js"><link rel="prefetch" href="/liang/assets/js/192.95dd3c32.js"><link rel="prefetch" href="/liang/assets/js/193.30fed31d.js"><link rel="prefetch" href="/liang/assets/js/194.a8c09074.js"><link rel="prefetch" href="/liang/assets/js/195.b7db681c.js"><link rel="prefetch" href="/liang/assets/js/196.846aec27.js"><link rel="prefetch" href="/liang/assets/js/197.25f520e6.js"><link rel="prefetch" href="/liang/assets/js/198.25114bba.js"><link rel="prefetch" href="/liang/assets/js/199.d8b09b11.js"><link rel="prefetch" href="/liang/assets/js/20.c577c868.js"><link rel="prefetch" href="/liang/assets/js/200.c6077219.js"><link rel="prefetch" href="/liang/assets/js/201.1fb0dd30.js"><link rel="prefetch" href="/liang/assets/js/202.628ea088.js"><link rel="prefetch" href="/liang/assets/js/203.7a7e3c3d.js"><link rel="prefetch" href="/liang/assets/js/204.3895ebf0.js"><link rel="prefetch" href="/liang/assets/js/205.a939260a.js"><link rel="prefetch" href="/liang/assets/js/206.e93d6254.js"><link rel="prefetch" href="/liang/assets/js/207.78f03b14.js"><link rel="prefetch" href="/liang/assets/js/208.d985f897.js"><link rel="prefetch" href="/liang/assets/js/209.5293d239.js"><link rel="prefetch" href="/liang/assets/js/21.3b377481.js"><link rel="prefetch" href="/liang/assets/js/210.be5b79bc.js"><link rel="prefetch" href="/liang/assets/js/211.639d9f48.js"><link rel="prefetch" href="/liang/assets/js/212.90776005.js"><link rel="prefetch" href="/liang/assets/js/213.00bfcab3.js"><link rel="prefetch" href="/liang/assets/js/214.b7044f9f.js"><link rel="prefetch" href="/liang/assets/js/215.8dc75aa0.js"><link rel="prefetch" href="/liang/assets/js/216.a86de733.js"><link rel="prefetch" href="/liang/assets/js/217.77483338.js"><link rel="prefetch" href="/liang/assets/js/218.784d8118.js"><link rel="prefetch" href="/liang/assets/js/219.a88ba809.js"><link rel="prefetch" href="/liang/assets/js/22.3878ef02.js"><link rel="prefetch" href="/liang/assets/js/220.ff65bae9.js"><link rel="prefetch" href="/liang/assets/js/221.150dd507.js"><link rel="prefetch" href="/liang/assets/js/222.abfa67ea.js"><link rel="prefetch" href="/liang/assets/js/223.7b8416e7.js"><link rel="prefetch" href="/liang/assets/js/224.34a9b8fe.js"><link rel="prefetch" href="/liang/assets/js/225.b15020f1.js"><link rel="prefetch" href="/liang/assets/js/226.3e291635.js"><link rel="prefetch" href="/liang/assets/js/227.1d9e61c7.js"><link rel="prefetch" href="/liang/assets/js/228.59f22bb5.js"><link rel="prefetch" href="/liang/assets/js/229.2f5e4bb2.js"><link rel="prefetch" href="/liang/assets/js/23.e6c265ff.js"><link rel="prefetch" href="/liang/assets/js/230.489812e8.js"><link rel="prefetch" href="/liang/assets/js/231.40b28b86.js"><link rel="prefetch" href="/liang/assets/js/232.ccc7638e.js"><link rel="prefetch" href="/liang/assets/js/233.28b732fa.js"><link rel="prefetch" href="/liang/assets/js/234.613ecc73.js"><link rel="prefetch" href="/liang/assets/js/235.33208526.js"><link rel="prefetch" href="/liang/assets/js/236.12551074.js"><link rel="prefetch" href="/liang/assets/js/237.57c7182a.js"><link rel="prefetch" href="/liang/assets/js/238.de7e7597.js"><link rel="prefetch" href="/liang/assets/js/239.16996001.js"><link rel="prefetch" href="/liang/assets/js/24.d97b0277.js"><link rel="prefetch" href="/liang/assets/js/240.61cff87f.js"><link rel="prefetch" href="/liang/assets/js/241.084047b8.js"><link rel="prefetch" href="/liang/assets/js/242.68e5a330.js"><link rel="prefetch" href="/liang/assets/js/243.b50fa0fb.js"><link rel="prefetch" href="/liang/assets/js/244.98960c73.js"><link rel="prefetch" href="/liang/assets/js/245.d8258180.js"><link rel="prefetch" href="/liang/assets/js/25.ca5bfe98.js"><link rel="prefetch" href="/liang/assets/js/26.cd37580c.js"><link rel="prefetch" href="/liang/assets/js/27.90505558.js"><link rel="prefetch" href="/liang/assets/js/28.e97c8110.js"><link rel="prefetch" href="/liang/assets/js/29.b432d8f7.js"><link rel="prefetch" href="/liang/assets/js/3.b9ba1466.js"><link rel="prefetch" href="/liang/assets/js/30.ed4fac46.js"><link rel="prefetch" href="/liang/assets/js/31.96111e33.js"><link rel="prefetch" href="/liang/assets/js/32.4e8678fe.js"><link rel="prefetch" href="/liang/assets/js/33.685421db.js"><link rel="prefetch" href="/liang/assets/js/34.3cc99006.js"><link rel="prefetch" href="/liang/assets/js/35.d6f5a1e1.js"><link rel="prefetch" href="/liang/assets/js/36.f7317de7.js"><link rel="prefetch" href="/liang/assets/js/37.405515cc.js"><link rel="prefetch" href="/liang/assets/js/38.df84b86a.js"><link rel="prefetch" href="/liang/assets/js/39.79b33ec4.js"><link rel="prefetch" href="/liang/assets/js/4.8c20584a.js"><link rel="prefetch" href="/liang/assets/js/40.b4922d77.js"><link rel="prefetch" href="/liang/assets/js/41.bf9cb22a.js"><link rel="prefetch" href="/liang/assets/js/42.bc5ace17.js"><link rel="prefetch" href="/liang/assets/js/43.23ad0775.js"><link rel="prefetch" href="/liang/assets/js/44.c6155e82.js"><link rel="prefetch" href="/liang/assets/js/45.8eddb8c1.js"><link rel="prefetch" href="/liang/assets/js/46.e14ef840.js"><link rel="prefetch" href="/liang/assets/js/47.ecd8c754.js"><link rel="prefetch" href="/liang/assets/js/48.166028fc.js"><link rel="prefetch" href="/liang/assets/js/49.6f1298eb.js"><link rel="prefetch" href="/liang/assets/js/5.5c018bd5.js"><link rel="prefetch" href="/liang/assets/js/50.3d3766fc.js"><link rel="prefetch" href="/liang/assets/js/51.753fe0b6.js"><link rel="prefetch" href="/liang/assets/js/52.b438c11d.js"><link rel="prefetch" href="/liang/assets/js/53.7c998e57.js"><link rel="prefetch" href="/liang/assets/js/54.c60872d6.js"><link rel="prefetch" href="/liang/assets/js/55.4a9d82ea.js"><link rel="prefetch" href="/liang/assets/js/56.7d56494d.js"><link rel="prefetch" href="/liang/assets/js/57.cde94dab.js"><link rel="prefetch" href="/liang/assets/js/58.1f1c11a4.js"><link rel="prefetch" href="/liang/assets/js/59.a4131f6e.js"><link rel="prefetch" href="/liang/assets/js/6.a638e37b.js"><link rel="prefetch" href="/liang/assets/js/60.8622ccbe.js"><link rel="prefetch" href="/liang/assets/js/61.b2cf32cd.js"><link rel="prefetch" href="/liang/assets/js/63.9dc7ce79.js"><link rel="prefetch" href="/liang/assets/js/64.bf46cabd.js"><link rel="prefetch" href="/liang/assets/js/65.0526c96b.js"><link rel="prefetch" href="/liang/assets/js/66.3a1a5640.js"><link rel="prefetch" href="/liang/assets/js/67.ed5496a1.js"><link rel="prefetch" href="/liang/assets/js/68.da4d5652.js"><link rel="prefetch" href="/liang/assets/js/69.164a2605.js"><link rel="prefetch" href="/liang/assets/js/70.6a87a251.js"><link rel="prefetch" href="/liang/assets/js/71.5cc23105.js"><link rel="prefetch" href="/liang/assets/js/72.398beca4.js"><link rel="prefetch" href="/liang/assets/js/73.c5a516af.js"><link rel="prefetch" href="/liang/assets/js/74.209e7239.js"><link rel="prefetch" href="/liang/assets/js/75.efb7068c.js"><link rel="prefetch" href="/liang/assets/js/76.75243150.js"><link rel="prefetch" href="/liang/assets/js/77.069c72b2.js"><link rel="prefetch" href="/liang/assets/js/78.a5a2daf5.js"><link rel="prefetch" href="/liang/assets/js/79.f0499a62.js"><link rel="prefetch" href="/liang/assets/js/8.88f6f99d.js"><link rel="prefetch" href="/liang/assets/js/80.2ecd1bbb.js"><link rel="prefetch" href="/liang/assets/js/81.2334a4b1.js"><link rel="prefetch" href="/liang/assets/js/82.74b69515.js"><link rel="prefetch" href="/liang/assets/js/83.3d074da6.js"><link rel="prefetch" href="/liang/assets/js/84.f3b5579d.js"><link rel="prefetch" href="/liang/assets/js/85.3c197581.js"><link rel="prefetch" href="/liang/assets/js/86.0ba76cae.js"><link rel="prefetch" href="/liang/assets/js/87.c01acf8a.js"><link rel="prefetch" href="/liang/assets/js/88.b8c51306.js"><link rel="prefetch" href="/liang/assets/js/89.7fcf605f.js"><link rel="prefetch" href="/liang/assets/js/9.c9b6088e.js"><link rel="prefetch" href="/liang/assets/js/90.89f1dca1.js"><link rel="prefetch" href="/liang/assets/js/91.91e6fb78.js"><link rel="prefetch" href="/liang/assets/js/92.20c70327.js"><link rel="prefetch" href="/liang/assets/js/93.fd506efd.js"><link rel="prefetch" href="/liang/assets/js/94.fffe3ce7.js"><link rel="prefetch" href="/liang/assets/js/95.1ec3dcfe.js"><link rel="prefetch" href="/liang/assets/js/96.c0d3b0f4.js"><link rel="prefetch" href="/liang/assets/js/97.67399f98.js"><link rel="prefetch" href="/liang/assets/js/98.8463fd7b.js"><link rel="prefetch" href="/liang/assets/js/99.31b32212.js">
+    <link rel="stylesheet" href="/liang/assets/css/0.styles.5d8a44f7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/liang/" class="home-link router-link-active"><img src="/liang/favicon.ico" alt="冠希の博客" class="logo"> <span class="site-name can-hide">冠希の博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>E S 6</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" aria-current="page" class="active sidebar-link">01.说说var、let、const之间的区别</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html#一、var" class="sidebar-link">一、var</a></li><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html#二、let" class="sidebar-link">二、let</a></li><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html#三、const" class="sidebar-link">三、const</a></li><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html#四、区别" class="sidebar-link">四、区别</a></li></ul></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/02.html" class="sidebar-link">02.ES6中数组新增了哪些扩展?</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/03.html" class="sidebar-link">03.ES6中对象新增了哪些扩展?</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/04.html" class="sidebar-link">04.ES6中函数新增了哪些扩展?</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/05.html" class="sidebar-link">05.ES6中新增的Set、Map两种数据结构怎么理解?</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/06.html" class="sidebar-link">06.你是怎么理解ES6中 Promise的？使用场景？</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/07.html" class="sidebar-link">07.怎么理解ES6中 Generator的？使用场景？</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/08.html" class="sidebar-link">08.你是怎么理解ES6中Proxy的？使用场景?</a></li><li><a href="/liang/WebInterview/BasicsInterview/ES6/09.html" class="sidebar-link">09.你是怎么理解ES6中 Decorator 的？使用场景？</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_01-说说var、let、const之间的区别"><a href="#_01-说说var、let、const之间的区别" class="header-anchor">#</a> 01.说说var、let、const之间的区别</h1> <p><img src="https://cdn.jsdelivr.net/gh/IceRain-mvc/cdn/img/640-20210928230431616" alt="图片"></p> <h2 id="一、var"><a href="#一、var" class="header-anchor">#</a> 一、var</h2> <p>在ES5中，顶层对象的属性和全局变量是等价的，用<code>var</code>声明的变量既是全局变量，也是顶层变量</p> <p>注意：顶层对象，在浏览器环境指的是<code>window</code>对象，在 <code>Node</code> 指的是<code>global</code>对象</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>a<span class="token punctuation">)</span> <span class="token comment">// 10</span>
+</code></pre></div><p>使用<code>var</code>声明的变量存在变量提升的情况</p> <div class="language-js extra-class"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// undefined</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+</code></pre></div><p>在编译阶段，编译器会将其变成以下执行</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token number">20</span>
+</code></pre></div><p>使用<code>var</code>，我们能够对一个变量进行多次声明，后面声明的变量会覆盖前面的变量声明</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span> 
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">30</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 30</span>
+</code></pre></div><p>在函数中使用使用<code>var</code>声明变量时候，该变量是局部的</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">function</span> <span class="token function">change</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token punctuation">}</span>
+<span class="token function">change</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 20 </span>
+</code></pre></div><p>而如果在函数内不使用<code>var</code>，该变量是全局的</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">function</span> <span class="token function">change</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   a <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token punctuation">}</span>
+<span class="token function">change</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 30 </span>
+</code></pre></div><h2 id="二、let"><a href="#二、let" class="header-anchor">#</a> 二、let</h2> <p><code>let</code>是<code>ES6</code>新增的命令，用来声明变量</p> <p>用法类似于<code>var</code>，但是所声明的变量，只在<code>let</code>命令所在的代码块内有效</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+    <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// ReferenceError: a is not defined.</span>
+</code></pre></div><p>不存在变量提升</p> <div class="language-js extra-class"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// 报错ReferenceError</span>
+<span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre></div><p>这表示在声明它之前，变量<code>a</code>是不存在的，这时如果用到它，就会抛出一个错误</p> <p>只要块级作用域内存在<code>let</code>命令，这个区域就不再受外部影响</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">123</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    a <span class="token operator">=</span> <span class="token string">'abc'</span> <span class="token comment">// ReferenceError</span>
+    <span class="token keyword">let</span> a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>使用<code>let</code>声明变量前，该变量都不可用，也就是大家常说的“暂时性死区”</p> <p>最后，<code>let</code>不允许在相同作用域中重复声明</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token comment">// Uncaught SyntaxError: Identifier 'a' has already been declared</span>
+</code></pre></div><p>注意的是相同作用域，下面这种情况是不会报错的</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>因此，我们不能在函数内部重新声明参数</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">func</span><span class="token punctuation">(</span><span class="token parameter">arg</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> arg<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// Uncaught SyntaxError: Identifier 'arg' has already been declared</span>
+</code></pre></div><h2 id="三、const"><a href="#三、const" class="header-anchor">#</a> 三、const</h2> <p><code>const</code>声明一个只读的常量，一旦声明，常量的值就不能改变</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token number">1</span>
+a <span class="token operator">=</span> <span class="token number">3</span>
+<span class="token comment">// TypeError: Assignment to constant variable.</span>
+</code></pre></div><p>这意味着，<code>const</code>一旦声明变量，就必须立即初始化，不能留到以后赋值</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> a<span class="token punctuation">;</span>
+<span class="token comment">// SyntaxError: Missing initializer in const declaration</span>
+</code></pre></div><p>如果之前用<code>var</code>或<code>let</code>声明过变量，再用<code>const</code>声明同样会报错</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token keyword">const</span> b <span class="token operator">=</span> <span class="token number">30</span>
+<span class="token comment">// 都会报错</span>
+</code></pre></div><p><code>const</code>实际上保证的并不是变量的值不得改动，而是变量指向的那个内存地址所保存的数据不得改动</p> <p>对于简单类型的数据，值就保存在变量指向的那个内存地址，因此等同于常量</p> <p>对于复杂类型的数据，变量指向的内存地址，保存的只是一个指向实际数据的指针，<code>const</code>只能保证这个指针是固定的，并不能确保改变量的结构不变</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 为 foo 添加一个属性，可以成功</span>
+foo<span class="token punctuation">.</span>prop <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+foo<span class="token punctuation">.</span>prop <span class="token comment">// 123</span>
+
+<span class="token comment">// 将 foo 指向另一个对象，就会报错</span>
+foo <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">// TypeError: &quot;foo&quot; is read-only</span>
+</code></pre></div><p>其它情况，<code>const</code>与<code>let</code>一致</p> <h2 id="四、区别"><a href="#四、区别" class="header-anchor">#</a> 四、区别</h2> <p><code>var</code>、<code>let</code>、<code>const</code>三者区别可以围绕下面五点展开：</p> <ul><li>变量提升</li> <li>暂时性死区</li> <li>块级作用域</li> <li>重复声明</li> <li>修改声明的变量</li> <li>使用</li></ul> <h3 id="变量提升"><a href="#变量提升" class="header-anchor">#</a> 变量提升</h3> <p><code>var</code>声明的变量存在变量提升，即变量可以在声明之前调用，值为<code>undefined</code></p> <p><code>let</code>和<code>const</code>不存在变量提升，即它们所声明的变量一定要在声明后使用，否则报错</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// var</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>  <span class="token comment">// undefined</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token comment">// let </span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>  <span class="token comment">// Cannot access 'b' before initialization</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token comment">// const</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>  <span class="token comment">// Cannot access 'c' before initialization</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">10</span>
+</code></pre></div><h3 id="暂时性死区"><a href="#暂时性死区" class="header-anchor">#</a> 暂时性死区</h3> <p><code>var</code>不存在暂时性死区</p> <p><code>let</code>和<code>const</code>存在暂时性死区，只有等到声明变量的那一行代码出现，才可以获取和使用该变量</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// var</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>  <span class="token comment">// undefined</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token comment">// let</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>  <span class="token comment">// Cannot access 'b' before initialization</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token comment">// const</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>  <span class="token comment">// Cannot access 'c' before initialization</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">10</span>
+</code></pre></div><h3 id="块级作用域"><a href="#块级作用域" class="header-anchor">#</a> 块级作用域</h3> <p><code>var</code>不存在块级作用域</p> <p><code>let</code>和<code>const</code>存在块级作用域</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// var</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>  <span class="token comment">// 20</span>
+
+<span class="token comment">// let</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>  <span class="token comment">// Uncaught ReferenceError: b is not defined</span>
+
+<span class="token comment">// const</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>  <span class="token comment">// Uncaught ReferenceError: c is not defined</span>
+</code></pre></div><h3 id="重复声明"><a href="#重复声明" class="header-anchor">#</a> 重复声明</h3> <p><code>var</code>允许重复声明变量</p> <p><code>let</code>和<code>const</code>在同一作用域不允许重复声明变量</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// var</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span> <span class="token comment">// 20</span>
+
+<span class="token comment">// let</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">20</span> <span class="token comment">// Identifier 'b' has already been declared</span>
+
+<span class="token comment">// const</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">20</span> <span class="token comment">// Identifier 'c' has already been declared</span>
+</code></pre></div><h3 id="修改声明的变量"><a href="#修改声明的变量" class="header-anchor">#</a> 修改声明的变量</h3> <p><code>var</code>和<code>let</code>可以</p> <p><code>const</code>声明一个只读的常量。一旦声明，常量的值就不能改变</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// var</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+a <span class="token operator">=</span> <span class="token number">20</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>  <span class="token comment">// 20</span>
+
+<span class="token comment">//let</span>
+<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">10</span>
+b <span class="token operator">=</span> <span class="token number">20</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>  <span class="token comment">// 20</span>
+
+<span class="token comment">// const</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">10</span>
+c <span class="token operator">=</span> <span class="token number">20</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token comment">// Uncaught TypeError: Assignment to constant variable</span>
+</code></pre></div><h3 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h3> <p>能用<code>const</code>的情况尽量使用<code>const</code>，其他情况下大多数使用<code>let</code>，避免使用<code>var</code></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/liang/WebInterview/BasicsInterview/ES6/02.html">
+        02.ES6中数组新增了哪些扩展?
+      </a>
+      →
+    </span></p></div>  <!----></main></div><div class="global-ui"><!----></div></div>
+    <script src="/liang/assets/js/app.12ed9190.js" defer></script><script src="/liang/assets/js/7.3f2b8db1.js" defer></script><script src="/liang/assets/js/2.b3383428.js" defer></script><script src="/liang/assets/js/62.d0ff6b5a.js" defer></script>
+  </body>
+</html>

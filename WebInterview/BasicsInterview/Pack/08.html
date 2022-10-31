@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>08.说说你是如何利用Webpack来优化前端性能的？ | 冠希の博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/liang/favicon.ico">
+    <meta name="description" content="冠希の博客1.0">
+    <meta name="author" content="冠希">
+    <meta name="keywords" content="vuepress,个人博客,冠希-个人博客,面试题,计算机,前端">
+    
+    <link rel="preload" href="/liang/assets/css/0.styles.5d8a44f7.css" as="style"><link rel="preload" href="/liang/assets/js/app.12ed9190.js" as="script"><link rel="preload" href="/liang/assets/js/7.3f2b8db1.js" as="script"><link rel="preload" href="/liang/assets/js/2.b3383428.js" as="script"><link rel="preload" href="/liang/assets/js/158.8b954276.js" as="script"><link rel="prefetch" href="/liang/assets/js/10.f7d8c67f.js"><link rel="prefetch" href="/liang/assets/js/100.5d652d05.js"><link rel="prefetch" href="/liang/assets/js/101.4524b3be.js"><link rel="prefetch" href="/liang/assets/js/102.840b1f2f.js"><link rel="prefetch" href="/liang/assets/js/103.51e6bdb3.js"><link rel="prefetch" href="/liang/assets/js/104.e90cc0ee.js"><link rel="prefetch" href="/liang/assets/js/105.fb9e34c7.js"><link rel="prefetch" href="/liang/assets/js/106.ee408382.js"><link rel="prefetch" href="/liang/assets/js/107.44a92d40.js"><link rel="prefetch" href="/liang/assets/js/108.c95a63fa.js"><link rel="prefetch" href="/liang/assets/js/109.1ed95f53.js"><link rel="prefetch" href="/liang/assets/js/11.530e107a.js"><link rel="prefetch" href="/liang/assets/js/110.114e7742.js"><link rel="prefetch" href="/liang/assets/js/111.f9e2235f.js"><link rel="prefetch" href="/liang/assets/js/112.dc59325d.js"><link rel="prefetch" href="/liang/assets/js/113.4baf5776.js"><link rel="prefetch" href="/liang/assets/js/114.af954b64.js"><link rel="prefetch" href="/liang/assets/js/115.6d51b029.js"><link rel="prefetch" href="/liang/assets/js/116.16605d9a.js"><link rel="prefetch" href="/liang/assets/js/117.3789bed6.js"><link rel="prefetch" href="/liang/assets/js/118.78aad7f5.js"><link rel="prefetch" href="/liang/assets/js/119.e7e5fd6c.js"><link rel="prefetch" href="/liang/assets/js/12.201d296a.js"><link rel="prefetch" href="/liang/assets/js/120.0a56faff.js"><link rel="prefetch" href="/liang/assets/js/121.ba911f1e.js"><link rel="prefetch" href="/liang/assets/js/122.307e575b.js"><link rel="prefetch" href="/liang/assets/js/123.d2940f00.js"><link rel="prefetch" href="/liang/assets/js/124.4344c083.js"><link rel="prefetch" href="/liang/assets/js/125.59a09696.js"><link rel="prefetch" href="/liang/assets/js/126.0da4b42e.js"><link rel="prefetch" href="/liang/assets/js/127.b9afcb93.js"><link rel="prefetch" href="/liang/assets/js/128.ecc1d635.js"><link rel="prefetch" href="/liang/assets/js/129.13d7e952.js"><link rel="prefetch" href="/liang/assets/js/13.05b2fb95.js"><link rel="prefetch" href="/liang/assets/js/130.d82636b7.js"><link rel="prefetch" href="/liang/assets/js/131.8a6e1cef.js"><link rel="prefetch" href="/liang/assets/js/132.9e62201d.js"><link rel="prefetch" href="/liang/assets/js/133.38a8fe18.js"><link rel="prefetch" href="/liang/assets/js/134.ef94cd4a.js"><link rel="prefetch" href="/liang/assets/js/135.89d67adc.js"><link rel="prefetch" href="/liang/assets/js/136.19addafc.js"><link rel="prefetch" href="/liang/assets/js/137.285d4bb6.js"><link rel="prefetch" href="/liang/assets/js/138.0448737d.js"><link rel="prefetch" href="/liang/assets/js/139.fd8bdd81.js"><link rel="prefetch" href="/liang/assets/js/14.2695a8b5.js"><link rel="prefetch" href="/liang/assets/js/140.b8373e75.js"><link rel="prefetch" href="/liang/assets/js/141.55f07967.js"><link rel="prefetch" href="/liang/assets/js/142.cb3cdc71.js"><link rel="prefetch" href="/liang/assets/js/143.cb14dfe4.js"><link rel="prefetch" href="/liang/assets/js/144.9a48751a.js"><link rel="prefetch" href="/liang/assets/js/145.9b65b7ec.js"><link rel="prefetch" href="/liang/assets/js/146.687b4187.js"><link rel="prefetch" href="/liang/assets/js/147.2db220e9.js"><link rel="prefetch" href="/liang/assets/js/148.d1205a31.js"><link rel="prefetch" href="/liang/assets/js/149.2a22eeb4.js"><link rel="prefetch" href="/liang/assets/js/15.aa8d6941.js"><link rel="prefetch" href="/liang/assets/js/150.9ef5df50.js"><link rel="prefetch" href="/liang/assets/js/151.6f9582fa.js"><link rel="prefetch" href="/liang/assets/js/152.f0152a5e.js"><link rel="prefetch" href="/liang/assets/js/153.b8c6afd3.js"><link rel="prefetch" href="/liang/assets/js/154.2163353a.js"><link rel="prefetch" href="/liang/assets/js/155.05e95b06.js"><link rel="prefetch" href="/liang/assets/js/156.75907391.js"><link rel="prefetch" href="/liang/assets/js/157.11ec3145.js"><link rel="prefetch" href="/liang/assets/js/159.07b35f42.js"><link rel="prefetch" href="/liang/assets/js/16.d4b53d1a.js"><link rel="prefetch" href="/liang/assets/js/160.0422d990.js"><link rel="prefetch" href="/liang/assets/js/161.55dbcf38.js"><link rel="prefetch" href="/liang/assets/js/162.ae50881f.js"><link rel="prefetch" href="/liang/assets/js/163.c68dabb6.js"><link rel="prefetch" href="/liang/assets/js/164.12a36895.js"><link rel="prefetch" href="/liang/assets/js/165.a25ff743.js"><link rel="prefetch" href="/liang/assets/js/166.d2acff0e.js"><link rel="prefetch" href="/liang/assets/js/167.d3a601b9.js"><link rel="prefetch" href="/liang/assets/js/168.d8461672.js"><link rel="prefetch" href="/liang/assets/js/169.ba3ebe78.js"><link rel="prefetch" href="/liang/assets/js/17.9ef5dfcc.js"><link rel="prefetch" href="/liang/assets/js/170.0929f146.js"><link rel="prefetch" href="/liang/assets/js/171.190ea650.js"><link rel="prefetch" href="/liang/assets/js/172.aaca47d5.js"><link rel="prefetch" href="/liang/assets/js/173.f6c9a1cf.js"><link rel="prefetch" href="/liang/assets/js/174.7a9a6e0c.js"><link rel="prefetch" href="/liang/assets/js/175.2e4fe7e2.js"><link rel="prefetch" href="/liang/assets/js/176.359f5d59.js"><link rel="prefetch" href="/liang/assets/js/177.6c5fcf56.js"><link rel="prefetch" href="/liang/assets/js/178.876169b1.js"><link rel="prefetch" href="/liang/assets/js/179.53b8ed8d.js"><link rel="prefetch" href="/liang/assets/js/18.15c383dd.js"><link rel="prefetch" href="/liang/assets/js/180.50f1d9c2.js"><link rel="prefetch" href="/liang/assets/js/181.6c2a3540.js"><link rel="prefetch" href="/liang/assets/js/182.d3c42d4d.js"><link rel="prefetch" href="/liang/assets/js/183.bf5295df.js"><link rel="prefetch" href="/liang/assets/js/184.69668c02.js"><link rel="prefetch" href="/liang/assets/js/185.af534ee7.js"><link rel="prefetch" href="/liang/assets/js/186.43273d20.js"><link rel="prefetch" href="/liang/assets/js/187.7ebbecf1.js"><link rel="prefetch" href="/liang/assets/js/188.e423d179.js"><link rel="prefetch" href="/liang/assets/js/189.6641037d.js"><link rel="prefetch" href="/liang/assets/js/19.ba77cac1.js"><link rel="prefetch" href="/liang/assets/js/190.0adc1ef7.js"><link rel="prefetch" href="/liang/assets/js/191.2e06c162.js"><link rel="prefetch" href="/liang/assets/js/192.95dd3c32.js"><link rel="prefetch" href="/liang/assets/js/193.30fed31d.js"><link rel="prefetch" href="/liang/assets/js/194.a8c09074.js"><link rel="prefetch" href="/liang/assets/js/195.b7db681c.js"><link rel="prefetch" href="/liang/assets/js/196.846aec27.js"><link rel="prefetch" href="/liang/assets/js/197.25f520e6.js"><link rel="prefetch" href="/liang/assets/js/198.25114bba.js"><link rel="prefetch" href="/liang/assets/js/199.d8b09b11.js"><link rel="prefetch" href="/liang/assets/js/20.c577c868.js"><link rel="prefetch" href="/liang/assets/js/200.c6077219.js"><link rel="prefetch" href="/liang/assets/js/201.1fb0dd30.js"><link rel="prefetch" href="/liang/assets/js/202.628ea088.js"><link rel="prefetch" href="/liang/assets/js/203.7a7e3c3d.js"><link rel="prefetch" href="/liang/assets/js/204.3895ebf0.js"><link rel="prefetch" href="/liang/assets/js/205.a939260a.js"><link rel="prefetch" href="/liang/assets/js/206.e93d6254.js"><link rel="prefetch" href="/liang/assets/js/207.78f03b14.js"><link rel="prefetch" href="/liang/assets/js/208.d985f897.js"><link rel="prefetch" href="/liang/assets/js/209.5293d239.js"><link rel="prefetch" href="/liang/assets/js/21.3b377481.js"><link rel="prefetch" href="/liang/assets/js/210.be5b79bc.js"><link rel="prefetch" href="/liang/assets/js/211.639d9f48.js"><link rel="prefetch" href="/liang/assets/js/212.90776005.js"><link rel="prefetch" href="/liang/assets/js/213.00bfcab3.js"><link rel="prefetch" href="/liang/assets/js/214.b7044f9f.js"><link rel="prefetch" href="/liang/assets/js/215.8dc75aa0.js"><link rel="prefetch" href="/liang/assets/js/216.a86de733.js"><link rel="prefetch" href="/liang/assets/js/217.77483338.js"><link rel="prefetch" href="/liang/assets/js/218.784d8118.js"><link rel="prefetch" href="/liang/assets/js/219.a88ba809.js"><link rel="prefetch" href="/liang/assets/js/22.3878ef02.js"><link rel="prefetch" href="/liang/assets/js/220.ff65bae9.js"><link rel="prefetch" href="/liang/assets/js/221.150dd507.js"><link rel="prefetch" href="/liang/assets/js/222.abfa67ea.js"><link rel="prefetch" href="/liang/assets/js/223.7b8416e7.js"><link rel="prefetch" href="/liang/assets/js/224.34a9b8fe.js"><link rel="prefetch" href="/liang/assets/js/225.b15020f1.js"><link rel="prefetch" href="/liang/assets/js/226.3e291635.js"><link rel="prefetch" href="/liang/assets/js/227.1d9e61c7.js"><link rel="prefetch" href="/liang/assets/js/228.59f22bb5.js"><link rel="prefetch" href="/liang/assets/js/229.2f5e4bb2.js"><link rel="prefetch" href="/liang/assets/js/23.e6c265ff.js"><link rel="prefetch" href="/liang/assets/js/230.489812e8.js"><link rel="prefetch" href="/liang/assets/js/231.40b28b86.js"><link rel="prefetch" href="/liang/assets/js/232.ccc7638e.js"><link rel="prefetch" href="/liang/assets/js/233.28b732fa.js"><link rel="prefetch" href="/liang/assets/js/234.613ecc73.js"><link rel="prefetch" href="/liang/assets/js/235.33208526.js"><link rel="prefetch" href="/liang/assets/js/236.12551074.js"><link rel="prefetch" href="/liang/assets/js/237.57c7182a.js"><link rel="prefetch" href="/liang/assets/js/238.de7e7597.js"><link rel="prefetch" href="/liang/assets/js/239.16996001.js"><link rel="prefetch" href="/liang/assets/js/24.d97b0277.js"><link rel="prefetch" href="/liang/assets/js/240.61cff87f.js"><link rel="prefetch" href="/liang/assets/js/241.084047b8.js"><link rel="prefetch" href="/liang/assets/js/242.68e5a330.js"><link rel="prefetch" href="/liang/assets/js/243.b50fa0fb.js"><link rel="prefetch" href="/liang/assets/js/244.98960c73.js"><link rel="prefetch" href="/liang/assets/js/245.d8258180.js"><link rel="prefetch" href="/liang/assets/js/25.ca5bfe98.js"><link rel="prefetch" href="/liang/assets/js/26.cd37580c.js"><link rel="prefetch" href="/liang/assets/js/27.90505558.js"><link rel="prefetch" href="/liang/assets/js/28.e97c8110.js"><link rel="prefetch" href="/liang/assets/js/29.b432d8f7.js"><link rel="prefetch" href="/liang/assets/js/3.b9ba1466.js"><link rel="prefetch" href="/liang/assets/js/30.ed4fac46.js"><link rel="prefetch" href="/liang/assets/js/31.96111e33.js"><link rel="prefetch" href="/liang/assets/js/32.4e8678fe.js"><link rel="prefetch" href="/liang/assets/js/33.685421db.js"><link rel="prefetch" href="/liang/assets/js/34.3cc99006.js"><link rel="prefetch" href="/liang/assets/js/35.d6f5a1e1.js"><link rel="prefetch" href="/liang/assets/js/36.f7317de7.js"><link rel="prefetch" href="/liang/assets/js/37.405515cc.js"><link rel="prefetch" href="/liang/assets/js/38.df84b86a.js"><link rel="prefetch" href="/liang/assets/js/39.79b33ec4.js"><link rel="prefetch" href="/liang/assets/js/4.8c20584a.js"><link rel="prefetch" href="/liang/assets/js/40.b4922d77.js"><link rel="prefetch" href="/liang/assets/js/41.bf9cb22a.js"><link rel="prefetch" href="/liang/assets/js/42.bc5ace17.js"><link rel="prefetch" href="/liang/assets/js/43.23ad0775.js"><link rel="prefetch" href="/liang/assets/js/44.c6155e82.js"><link rel="prefetch" href="/liang/assets/js/45.8eddb8c1.js"><link rel="prefetch" href="/liang/assets/js/46.e14ef840.js"><link rel="prefetch" href="/liang/assets/js/47.ecd8c754.js"><link rel="prefetch" href="/liang/assets/js/48.166028fc.js"><link rel="prefetch" href="/liang/assets/js/49.6f1298eb.js"><link rel="prefetch" href="/liang/assets/js/5.5c018bd5.js"><link rel="prefetch" href="/liang/assets/js/50.3d3766fc.js"><link rel="prefetch" href="/liang/assets/js/51.753fe0b6.js"><link rel="prefetch" href="/liang/assets/js/52.b438c11d.js"><link rel="prefetch" href="/liang/assets/js/53.7c998e57.js"><link rel="prefetch" href="/liang/assets/js/54.c60872d6.js"><link rel="prefetch" href="/liang/assets/js/55.4a9d82ea.js"><link rel="prefetch" href="/liang/assets/js/56.7d56494d.js"><link rel="prefetch" href="/liang/assets/js/57.cde94dab.js"><link rel="prefetch" href="/liang/assets/js/58.1f1c11a4.js"><link rel="prefetch" href="/liang/assets/js/59.a4131f6e.js"><link rel="prefetch" href="/liang/assets/js/6.a638e37b.js"><link rel="prefetch" href="/liang/assets/js/60.8622ccbe.js"><link rel="prefetch" href="/liang/assets/js/61.b2cf32cd.js"><link rel="prefetch" href="/liang/assets/js/62.d0ff6b5a.js"><link rel="prefetch" href="/liang/assets/js/63.9dc7ce79.js"><link rel="prefetch" href="/liang/assets/js/64.bf46cabd.js"><link rel="prefetch" href="/liang/assets/js/65.0526c96b.js"><link rel="prefetch" href="/liang/assets/js/66.3a1a5640.js"><link rel="prefetch" href="/liang/assets/js/67.ed5496a1.js"><link rel="prefetch" href="/liang/assets/js/68.da4d5652.js"><link rel="prefetch" href="/liang/assets/js/69.164a2605.js"><link rel="prefetch" href="/liang/assets/js/70.6a87a251.js"><link rel="prefetch" href="/liang/assets/js/71.5cc23105.js"><link rel="prefetch" href="/liang/assets/js/72.398beca4.js"><link rel="prefetch" href="/liang/assets/js/73.c5a516af.js"><link rel="prefetch" href="/liang/assets/js/74.209e7239.js"><link rel="prefetch" href="/liang/assets/js/75.efb7068c.js"><link rel="prefetch" href="/liang/assets/js/76.75243150.js"><link rel="prefetch" href="/liang/assets/js/77.069c72b2.js"><link rel="prefetch" href="/liang/assets/js/78.a5a2daf5.js"><link rel="prefetch" href="/liang/assets/js/79.f0499a62.js"><link rel="prefetch" href="/liang/assets/js/8.88f6f99d.js"><link rel="prefetch" href="/liang/assets/js/80.2ecd1bbb.js"><link rel="prefetch" href="/liang/assets/js/81.2334a4b1.js"><link rel="prefetch" href="/liang/assets/js/82.74b69515.js"><link rel="prefetch" href="/liang/assets/js/83.3d074da6.js"><link rel="prefetch" href="/liang/assets/js/84.f3b5579d.js"><link rel="prefetch" href="/liang/assets/js/85.3c197581.js"><link rel="prefetch" href="/liang/assets/js/86.0ba76cae.js"><link rel="prefetch" href="/liang/assets/js/87.c01acf8a.js"><link rel="prefetch" href="/liang/assets/js/88.b8c51306.js"><link rel="prefetch" href="/liang/assets/js/89.7fcf605f.js"><link rel="prefetch" href="/liang/assets/js/9.c9b6088e.js"><link rel="prefetch" href="/liang/assets/js/90.89f1dca1.js"><link rel="prefetch" href="/liang/assets/js/91.91e6fb78.js"><link rel="prefetch" href="/liang/assets/js/92.20c70327.js"><link rel="prefetch" href="/liang/assets/js/93.fd506efd.js"><link rel="prefetch" href="/liang/assets/js/94.fffe3ce7.js"><link rel="prefetch" href="/liang/assets/js/95.1ec3dcfe.js"><link rel="prefetch" href="/liang/assets/js/96.c0d3b0f4.js"><link rel="prefetch" href="/liang/assets/js/97.67399f98.js"><link rel="prefetch" href="/liang/assets/js/98.8463fd7b.js"><link rel="prefetch" href="/liang/assets/js/99.31b32212.js">
+    <link rel="stylesheet" href="/liang/assets/css/0.styles.5d8a44f7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/liang/" class="home-link router-link-active"><img src="/liang/favicon.ico" alt="冠希の博客" class="logo"> <span class="site-name can-hide">冠希の博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Pack</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="sidebar-link">01.说说你对Webpack的理解？解决了什么问题？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/02.html" class="sidebar-link">02.说说webpack的构建流程?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/03.html" class="sidebar-link">03.说说Webpack中常见的Loader？解决了什么问题？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/04.html" class="sidebar-link">04.说说webpack中常见的Plugin？解决了什么问题？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/05.html" class="sidebar-link">05.说说Webpack中Loader和Plugin的区别？编写Loader，Plugin的思路？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/06.html" class="sidebar-link">06.说说Webpack的热更新是如何做到的？原理是什么？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/07.html" class="sidebar-link">07.说说Webpack Proxy工作原理？为什么能解决跨域?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/08.html" aria-current="page" class="active sidebar-link">08.说说你是如何利用Webpack来优化前端性能的？</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/Pack/08.html#一、背景" class="sidebar-link">一、背景</a></li><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/Pack/08.html#二、如何优化" class="sidebar-link">二、如何优化</a></li></ul></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/09.html" class="sidebar-link">09.说说提高webpack的构建速度的手段有哪些？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Pack/10.html" class="sidebar-link">10.与Webpack类似的工具还有哪些？区别？</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_08-说说你是如何利用webpack来优化前端性能的"><a href="#_08-说说你是如何利用webpack来优化前端性能的" class="header-anchor">#</a> 08.说说你是如何利用Webpack来优化前端性能的？</h1> <p><img src="https://cdn.jsdelivr.net/gh/IceRain-mvc/cdn/img/640-20210928151352193" alt="图片"></p> <h2 id="一、背景"><a href="#一、背景" class="header-anchor">#</a> 一、背景</h2> <p>随着前端的项目逐渐扩大，必然会带来的一个问题就是性能</p> <p>尤其在大型复杂的项目中，前端业务可能因为一个小小的数据依赖，导致整个页面卡顿甚至奔溃</p> <p>一般项目在完成后，会通过<code>webpack</code>进行打包，利用<code>webpack</code>对前端项目性能优化是一个十分重要的环节</p> <h2 id="二、如何优化"><a href="#二、如何优化" class="header-anchor">#</a> 二、如何优化</h2> <p>通过<code>webpack</code>优化前端的手段有：</p> <ul><li>JS代码压缩</li> <li>CSS代码压缩</li> <li>Html文件代码压缩</li> <li>文件大小压缩</li> <li>图片压缩</li> <li>Tree Shaking</li> <li>代码分离</li> <li>内联 chunk</li></ul> <h3 id="js代码压缩"><a href="#js代码压缩" class="header-anchor">#</a> JS代码压缩</h3> <p><code>terser</code>是一个<code>JavaScript</code>的解释、绞肉机、压缩机的工具集，可以帮助我们压缩、丑化我们的代码，让<code>bundle</code>更小</p> <p>在<code>production</code>模式下，<code>webpack</code> 默认就是使用 <code>TerserPlugin</code> 来处理我们的代码的。如果想要自定义配置它，配置方法如下：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> TerserPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'terser-webpack-plugin'</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">optimization</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">minimize</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">minimizer</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token keyword">new</span> <span class="token class-name">TerserPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                <span class="token literal-property property">parallel</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">// 电脑cpu核数-1</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>属性介绍如下：</p> <ul><li>extractComments：默认值为true，表示会将注释抽取到一个单独的文件中，开发阶段，我们可设置为 false ，不保留注释</li> <li>parallel：使用多进程并发运行提高构建的速度，默认值是true，并发运行的默认数量：os.cpus().length - 1</li> <li>terserOptions：设置我们的terser相关的配置：</li> <li>compress：设置压缩相关的选项，mangle：设置丑化相关的选项，可以直接设置为true</li> <li>mangle：设置丑化相关的选项，可以直接设置为true</li> <li>toplevel：底层变量是否进行转换</li> <li>keep_classnames：保留类的名称</li> <li>keep_fnames：保留函数的名称</li></ul> <h3 id="css代码压缩"><a href="#css代码压缩" class="header-anchor">#</a> CSS代码压缩</h3> <p><code>CSS</code>压缩通常是去除无用的空格等，因为很难去修改选择器、属性的名称、值等</p> <p>CSS的压缩我们可以使用另外一个插件：<code>css-minimizer-webpack-plugin</code></p> <div class="language- extra-class"><pre class="language-text"><code>npm install css-minimizer-webpack-plugin -D
+</code></pre></div><p>配置方法如下：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> CssMinimizerPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'css-minimizer-webpack-plugin'</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+    <span class="token literal-property property">optimization</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">minimize</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">minimizer</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token keyword">new</span> <span class="token class-name">CssMinimizerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                <span class="token literal-property property">parallel</span><span class="token operator">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="html文件代码压缩"><a href="#html文件代码压缩" class="header-anchor">#</a> Html文件代码压缩</h3> <p>使用<code>HtmlWebpackPlugin</code>插件来生成<code>HTML</code>的模板时候，通过配置属性<code>minify</code>进行<code>html</code>优化</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">plugin</span><span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">HtmlwebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            <span class="token operator">...</span>
+            <span class="token literal-property property">minify</span><span class="token operator">:</span><span class="token punctuation">{</span>
+                <span class="token literal-property property">minifyCSS</span><span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 是否压缩css</span>
+                <span class="token literal-property property">collapseWhitespace</span><span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 是否折叠空格</span>
+                <span class="token literal-property property">removeComments</span><span class="token operator">:</span><span class="token boolean">true</span> <span class="token comment">// 是否移除注释</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>设置了<code>minify</code>，实际会使用另一个插件<code>html-minifier-terser</code></p> <h3 id="文件大小压缩"><a href="#文件大小压缩" class="header-anchor">#</a> 文件大小压缩</h3> <p>对文件的大小进行压缩，减少<code>http</code>传输过程中宽带的损耗</p> <div class="language-js extra-class"><pre class="language-js"><code>npm install compression<span class="token operator">-</span>webpack<span class="token operator">-</span>plugin <span class="token operator">-</span><span class="token constant">D</span>
+<span class="token keyword">new</span> <span class="token class-name">ComepressionPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">test</span><span class="token operator">:</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.(css|js)$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>  <span class="token comment">// 哪些文件需要压缩</span>
+    <span class="token literal-property property">threshold</span><span class="token operator">:</span><span class="token number">500</span><span class="token punctuation">,</span> <span class="token comment">// 设置文件多大开始压缩</span>
+    <span class="token literal-property property">minRatio</span><span class="token operator">:</span><span class="token number">0.7</span><span class="token punctuation">,</span> <span class="token comment">// 至少压缩的比例</span>
+    <span class="token literal-property property">algorithm</span><span class="token operator">:</span><span class="token string">&quot;gzip&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 采用的压缩算法</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="图片压缩"><a href="#图片压缩" class="header-anchor">#</a> 图片压缩</h3> <p>一般来说在打包之后，一些图片文件的大小是远远要比 <code>js</code> 或者 <code>css</code> 文件要来的大，所以图片压缩较为重要</p> <p>配置方法如下：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token literal-property property">module</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">rules</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token literal-property property">test</span><span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.(png|jpg|gif)$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
+      <span class="token literal-property property">use</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">'file-loader'</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'[name]_[hash].[ext]'</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">outputPath</span><span class="token operator">:</span> <span class="token string">'images/'</span><span class="token punctuation">,</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">'image-webpack-loader'</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 压缩 jpeg 的配置</span>
+            <span class="token literal-property property">mozjpeg</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token literal-property property">progressive</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+              <span class="token literal-property property">quality</span><span class="token operator">:</span> <span class="token number">65</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token comment">// 使用 imagemin**-optipng 压缩 png，enable: false 为关闭</span>
+            <span class="token literal-property property">optipng</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token literal-property property">enabled</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token comment">// 使用 imagemin-pngquant 压缩 png</span>
+            <span class="token literal-property property">pngquant</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token literal-property property">quality</span><span class="token operator">:</span> <span class="token string">'65-90'</span><span class="token punctuation">,</span>
+              <span class="token literal-property property">speed</span><span class="token operator">:</span> <span class="token number">4</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token comment">// 压缩 gif 的配置</span>
+            <span class="token literal-property property">gifsicle</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token literal-property property">interlaced</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token comment">// 开启 webp，会把 jpg 和 png 图片压缩为 webp 格式</span>
+            <span class="token literal-property property">webp</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+              <span class="token literal-property property">quality</span><span class="token operator">:</span> <span class="token number">75</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span> 
+</code></pre></div><h3 id="tree-shaking"><a href="#tree-shaking" class="header-anchor">#</a> Tree Shaking</h3> <p><code>Tree Shaking</code> 是一个术语，在计算机中表示消除死代码，依赖于<code>ES Module</code>的静态语法分析（不执行任何的代码，可以明确知道模块的依赖关系）</p> <p>在<code>webpack</code>实现<code>Trss shaking</code>有两种不同的方案：</p> <ul><li>usedExports：通过标记某些函数是否被使用，之后通过Terser来进行优化的</li> <li>sideEffects：跳过整个模块/文件，直接查看该文件是否有副作用</li></ul> <p>两种不同的配置方案， 有不同的效果</p> <h4 id="usedexports"><a href="#usedexports" class="header-anchor">#</a> usedExports</h4> <p>配置方法也很简单，只需要将<code>usedExports</code>设为<code>true</code></p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">optimization</span><span class="token operator">:</span><span class="token punctuation">{</span>
+        usedExports
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>使用之后，没被用上的代码在<code>webpack</code>打包中会加入<code>unused harmony export mul</code>注释，用来告知 <code>Terser</code> 在优化时，可以删除掉这段代码</p> <p>如下面<code>sum</code>函数没被用到，<code>webpack</code>打包会添加注释，<code>terser</code>在优化时，则将该函数去掉</p> <p><img src="https://cdn.jsdelivr.net/gh/IceRain-mvc/cdn/img/640-20210928151400385" alt="图片"></p> <h4 id="sideeffects"><a href="#sideeffects" class="header-anchor">#</a> sideEffects</h4> <p><code>sideEffects</code>用于告知<code>webpack compiler</code>哪些模块时有副作用，配置方法是在<code>package.json</code>中设置<code>sideEffects</code>属性</p> <p>如果<code>sideEffects</code>设置为false，就是告知<code>webpack</code>可以安全的删除未用到的<code>exports</code></p> <p>如果有些文件需要保留，可以设置为数组的形式</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token string-property property">&quot;sideEffecis&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>
+    <span class="token string">&quot;./src/util/format.js&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;*.css&quot;</span> <span class="token comment">// 所有的css文件</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>上述都是关于<code>javascript</code>的<code>tree shaking</code>，<code>css</code>同样也能够实现<code>tree shaking</code></p> <h4 id="css-tree-shaking"><a href="#css-tree-shaking" class="header-anchor">#</a> css tree shaking</h4> <p><code>css</code>进行<code>tree shaking</code>优化可以安装<code>PurgeCss</code>插件</p> <div class="language-js extra-class"><pre class="language-js"><code>npm install purgecss<span class="token operator">-</span>plugin<span class="token operator">-</span>webpack <span class="token operator">-</span><span class="token constant">D</span>
+<span class="token keyword">const</span> PurgeCssPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'purgecss-webpack-plugin'</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">plugins</span><span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">PurgeCssPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            <span class="token literal-property property">path</span><span class="token operator">:</span>glob<span class="token punctuation">.</span><span class="token function">sync</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'./src'</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/**/*</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">nodir</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">}</span><span class="token comment">// src里面的所有文件</span>
+            <span class="token function-variable function">satelist</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token keyword">return</span> <span class="token punctuation">{</span>
+                    <span class="token literal-property property">standard</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&quot;html&quot;</span><span class="token punctuation">]</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>paths：表示要检测哪些目录下的内容需要被分析，配合使用glob</li> <li>默认情况下，Purgecss会将我们的html标签的样式移除掉，如果我们希望保留，可以添加一个safelist的属性</li></ul> <h3 id="代码分离"><a href="#代码分离" class="header-anchor">#</a> 代码分离</h3> <p>将代码分离到不同的<code>bundle</code>中，之后我们可以按需加载，或者并行加载这些文件</p> <p>默认情况下，所有的<code>JavaScript</code>代码（业务代码、第三方依赖、暂时没有用到的模块）在首页全部都加载，就会影响首页的加载速度</p> <p>代码分离可以分出出更小的<code>bundle</code>，以及控制资源加载优先级，提供代码的加载性能</p> <p>这里通过<code>splitChunksPlugin</code>来实现，该插件<code>webpack</code>已经默认安装和集成，只需要配置即可</p> <p>默认配置中，chunks仅仅针对于异步（async）请求，我们可以设置为initial或者all</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">optimization</span><span class="token operator">:</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">splitChunks</span><span class="token operator">:</span><span class="token punctuation">{</span>
+            <span class="token literal-property property">chunks</span><span class="token operator">:</span><span class="token string">&quot;all&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>splitChunks</code>主要属性有如下：</p> <ul><li>Chunks，对同步代码还是异步代码进行处理</li> <li>minSize：拆分包的大小, 至少为minSize，如何包的大小不超过minSize，这个包不会拆分</li> <li>maxSize：将大于maxSize的包，拆分为不小于minSize的包</li> <li>minChunks：被引入的次数，默认是1</li></ul> <h3 id="内联chunk"><a href="#内联chunk" class="header-anchor">#</a> 内联chunk</h3> <p>可以通过<code>InlineChunkHtmlPlugin</code>插件将一些<code>chunk</code>的模块内联到<code>html</code>，如<code>runtime</code>的代码（对模块进行解析、加载、模块信息相关的代码），代码量并不大，但是必须加载的</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> InlineChunkHtmlPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'react-dev-utils/InlineChunkHtmlPlugin'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'html-webpack-plugin'</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">plugin</span><span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">InlineChunkHtmlPlugin</span><span class="token punctuation">(</span>HtmlWebpackPlugin<span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">runtime.+\.js</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="三、总结"><a href="#三、总结" class="header-anchor">#</a> 三、总结</h3> <p>关于<code>webpack</code>对前端性能的优化，可以通过文件体积大小入手，其次还可通过分包的形式、减少http请求次数等方式，实现对前端性能的优化</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/liang/WebInterview/BasicsInterview/Pack/07.html" class="prev">
+        07.说说Webpack Proxy工作原理？为什么能解决跨域?
+      </a></span> <span class="next"><a href="/liang/WebInterview/BasicsInterview/Pack/09.html">
+        09.说说提高webpack的构建速度的手段有哪些？
+      </a>
+      →
+    </span></p></div>  <!----></main></div><div class="global-ui"><!----></div></div>
+    <script src="/liang/assets/js/app.12ed9190.js" defer></script><script src="/liang/assets/js/7.3f2b8db1.js" defer></script><script src="/liang/assets/js/2.b3383428.js" defer></script><script src="/liang/assets/js/158.8b954276.js" defer></script>
+  </body>
+</html>

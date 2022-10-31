@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>12.如何实现文件上传？说说你的思路 | 冠希の博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/liang/favicon.ico">
+    <meta name="description" content="冠希の博客1.0">
+    <meta name="author" content="冠希">
+    <meta name="keywords" content="vuepress,个人博客,冠希-个人博客,面试题,计算机,前端">
+    
+    <link rel="preload" href="/liang/assets/css/0.styles.5d8a44f7.css" as="style"><link rel="preload" href="/liang/assets/js/app.12ed9190.js" as="script"><link rel="preload" href="/liang/assets/js/7.3f2b8db1.js" as="script"><link rel="preload" href="/liang/assets/js/2.b3383428.js" as="script"><link rel="preload" href="/liang/assets/js/148.d1205a31.js" as="script"><link rel="prefetch" href="/liang/assets/js/10.f7d8c67f.js"><link rel="prefetch" href="/liang/assets/js/100.5d652d05.js"><link rel="prefetch" href="/liang/assets/js/101.4524b3be.js"><link rel="prefetch" href="/liang/assets/js/102.840b1f2f.js"><link rel="prefetch" href="/liang/assets/js/103.51e6bdb3.js"><link rel="prefetch" href="/liang/assets/js/104.e90cc0ee.js"><link rel="prefetch" href="/liang/assets/js/105.fb9e34c7.js"><link rel="prefetch" href="/liang/assets/js/106.ee408382.js"><link rel="prefetch" href="/liang/assets/js/107.44a92d40.js"><link rel="prefetch" href="/liang/assets/js/108.c95a63fa.js"><link rel="prefetch" href="/liang/assets/js/109.1ed95f53.js"><link rel="prefetch" href="/liang/assets/js/11.530e107a.js"><link rel="prefetch" href="/liang/assets/js/110.114e7742.js"><link rel="prefetch" href="/liang/assets/js/111.f9e2235f.js"><link rel="prefetch" href="/liang/assets/js/112.dc59325d.js"><link rel="prefetch" href="/liang/assets/js/113.4baf5776.js"><link rel="prefetch" href="/liang/assets/js/114.af954b64.js"><link rel="prefetch" href="/liang/assets/js/115.6d51b029.js"><link rel="prefetch" href="/liang/assets/js/116.16605d9a.js"><link rel="prefetch" href="/liang/assets/js/117.3789bed6.js"><link rel="prefetch" href="/liang/assets/js/118.78aad7f5.js"><link rel="prefetch" href="/liang/assets/js/119.e7e5fd6c.js"><link rel="prefetch" href="/liang/assets/js/12.201d296a.js"><link rel="prefetch" href="/liang/assets/js/120.0a56faff.js"><link rel="prefetch" href="/liang/assets/js/121.ba911f1e.js"><link rel="prefetch" href="/liang/assets/js/122.307e575b.js"><link rel="prefetch" href="/liang/assets/js/123.d2940f00.js"><link rel="prefetch" href="/liang/assets/js/124.4344c083.js"><link rel="prefetch" href="/liang/assets/js/125.59a09696.js"><link rel="prefetch" href="/liang/assets/js/126.0da4b42e.js"><link rel="prefetch" href="/liang/assets/js/127.b9afcb93.js"><link rel="prefetch" href="/liang/assets/js/128.ecc1d635.js"><link rel="prefetch" href="/liang/assets/js/129.13d7e952.js"><link rel="prefetch" href="/liang/assets/js/13.05b2fb95.js"><link rel="prefetch" href="/liang/assets/js/130.d82636b7.js"><link rel="prefetch" href="/liang/assets/js/131.8a6e1cef.js"><link rel="prefetch" href="/liang/assets/js/132.9e62201d.js"><link rel="prefetch" href="/liang/assets/js/133.38a8fe18.js"><link rel="prefetch" href="/liang/assets/js/134.ef94cd4a.js"><link rel="prefetch" href="/liang/assets/js/135.89d67adc.js"><link rel="prefetch" href="/liang/assets/js/136.19addafc.js"><link rel="prefetch" href="/liang/assets/js/137.285d4bb6.js"><link rel="prefetch" href="/liang/assets/js/138.0448737d.js"><link rel="prefetch" href="/liang/assets/js/139.fd8bdd81.js"><link rel="prefetch" href="/liang/assets/js/14.2695a8b5.js"><link rel="prefetch" href="/liang/assets/js/140.b8373e75.js"><link rel="prefetch" href="/liang/assets/js/141.55f07967.js"><link rel="prefetch" href="/liang/assets/js/142.cb3cdc71.js"><link rel="prefetch" href="/liang/assets/js/143.cb14dfe4.js"><link rel="prefetch" href="/liang/assets/js/144.9a48751a.js"><link rel="prefetch" href="/liang/assets/js/145.9b65b7ec.js"><link rel="prefetch" href="/liang/assets/js/146.687b4187.js"><link rel="prefetch" href="/liang/assets/js/147.2db220e9.js"><link rel="prefetch" href="/liang/assets/js/149.2a22eeb4.js"><link rel="prefetch" href="/liang/assets/js/15.aa8d6941.js"><link rel="prefetch" href="/liang/assets/js/150.9ef5df50.js"><link rel="prefetch" href="/liang/assets/js/151.6f9582fa.js"><link rel="prefetch" href="/liang/assets/js/152.f0152a5e.js"><link rel="prefetch" href="/liang/assets/js/153.b8c6afd3.js"><link rel="prefetch" href="/liang/assets/js/154.2163353a.js"><link rel="prefetch" href="/liang/assets/js/155.05e95b06.js"><link rel="prefetch" href="/liang/assets/js/156.75907391.js"><link rel="prefetch" href="/liang/assets/js/157.11ec3145.js"><link rel="prefetch" href="/liang/assets/js/158.8b954276.js"><link rel="prefetch" href="/liang/assets/js/159.07b35f42.js"><link rel="prefetch" href="/liang/assets/js/16.d4b53d1a.js"><link rel="prefetch" href="/liang/assets/js/160.0422d990.js"><link rel="prefetch" href="/liang/assets/js/161.55dbcf38.js"><link rel="prefetch" href="/liang/assets/js/162.ae50881f.js"><link rel="prefetch" href="/liang/assets/js/163.c68dabb6.js"><link rel="prefetch" href="/liang/assets/js/164.12a36895.js"><link rel="prefetch" href="/liang/assets/js/165.a25ff743.js"><link rel="prefetch" href="/liang/assets/js/166.d2acff0e.js"><link rel="prefetch" href="/liang/assets/js/167.d3a601b9.js"><link rel="prefetch" href="/liang/assets/js/168.d8461672.js"><link rel="prefetch" href="/liang/assets/js/169.ba3ebe78.js"><link rel="prefetch" href="/liang/assets/js/17.9ef5dfcc.js"><link rel="prefetch" href="/liang/assets/js/170.0929f146.js"><link rel="prefetch" href="/liang/assets/js/171.190ea650.js"><link rel="prefetch" href="/liang/assets/js/172.aaca47d5.js"><link rel="prefetch" href="/liang/assets/js/173.f6c9a1cf.js"><link rel="prefetch" href="/liang/assets/js/174.7a9a6e0c.js"><link rel="prefetch" href="/liang/assets/js/175.2e4fe7e2.js"><link rel="prefetch" href="/liang/assets/js/176.359f5d59.js"><link rel="prefetch" href="/liang/assets/js/177.6c5fcf56.js"><link rel="prefetch" href="/liang/assets/js/178.876169b1.js"><link rel="prefetch" href="/liang/assets/js/179.53b8ed8d.js"><link rel="prefetch" href="/liang/assets/js/18.15c383dd.js"><link rel="prefetch" href="/liang/assets/js/180.50f1d9c2.js"><link rel="prefetch" href="/liang/assets/js/181.6c2a3540.js"><link rel="prefetch" href="/liang/assets/js/182.d3c42d4d.js"><link rel="prefetch" href="/liang/assets/js/183.bf5295df.js"><link rel="prefetch" href="/liang/assets/js/184.69668c02.js"><link rel="prefetch" href="/liang/assets/js/185.af534ee7.js"><link rel="prefetch" href="/liang/assets/js/186.43273d20.js"><link rel="prefetch" href="/liang/assets/js/187.7ebbecf1.js"><link rel="prefetch" href="/liang/assets/js/188.e423d179.js"><link rel="prefetch" href="/liang/assets/js/189.6641037d.js"><link rel="prefetch" href="/liang/assets/js/19.ba77cac1.js"><link rel="prefetch" href="/liang/assets/js/190.0adc1ef7.js"><link rel="prefetch" href="/liang/assets/js/191.2e06c162.js"><link rel="prefetch" href="/liang/assets/js/192.95dd3c32.js"><link rel="prefetch" href="/liang/assets/js/193.30fed31d.js"><link rel="prefetch" href="/liang/assets/js/194.a8c09074.js"><link rel="prefetch" href="/liang/assets/js/195.b7db681c.js"><link rel="prefetch" href="/liang/assets/js/196.846aec27.js"><link rel="prefetch" href="/liang/assets/js/197.25f520e6.js"><link rel="prefetch" href="/liang/assets/js/198.25114bba.js"><link rel="prefetch" href="/liang/assets/js/199.d8b09b11.js"><link rel="prefetch" href="/liang/assets/js/20.c577c868.js"><link rel="prefetch" href="/liang/assets/js/200.c6077219.js"><link rel="prefetch" href="/liang/assets/js/201.1fb0dd30.js"><link rel="prefetch" href="/liang/assets/js/202.628ea088.js"><link rel="prefetch" href="/liang/assets/js/203.7a7e3c3d.js"><link rel="prefetch" href="/liang/assets/js/204.3895ebf0.js"><link rel="prefetch" href="/liang/assets/js/205.a939260a.js"><link rel="prefetch" href="/liang/assets/js/206.e93d6254.js"><link rel="prefetch" href="/liang/assets/js/207.78f03b14.js"><link rel="prefetch" href="/liang/assets/js/208.d985f897.js"><link rel="prefetch" href="/liang/assets/js/209.5293d239.js"><link rel="prefetch" href="/liang/assets/js/21.3b377481.js"><link rel="prefetch" href="/liang/assets/js/210.be5b79bc.js"><link rel="prefetch" href="/liang/assets/js/211.639d9f48.js"><link rel="prefetch" href="/liang/assets/js/212.90776005.js"><link rel="prefetch" href="/liang/assets/js/213.00bfcab3.js"><link rel="prefetch" href="/liang/assets/js/214.b7044f9f.js"><link rel="prefetch" href="/liang/assets/js/215.8dc75aa0.js"><link rel="prefetch" href="/liang/assets/js/216.a86de733.js"><link rel="prefetch" href="/liang/assets/js/217.77483338.js"><link rel="prefetch" href="/liang/assets/js/218.784d8118.js"><link rel="prefetch" href="/liang/assets/js/219.a88ba809.js"><link rel="prefetch" href="/liang/assets/js/22.3878ef02.js"><link rel="prefetch" href="/liang/assets/js/220.ff65bae9.js"><link rel="prefetch" href="/liang/assets/js/221.150dd507.js"><link rel="prefetch" href="/liang/assets/js/222.abfa67ea.js"><link rel="prefetch" href="/liang/assets/js/223.7b8416e7.js"><link rel="prefetch" href="/liang/assets/js/224.34a9b8fe.js"><link rel="prefetch" href="/liang/assets/js/225.b15020f1.js"><link rel="prefetch" href="/liang/assets/js/226.3e291635.js"><link rel="prefetch" href="/liang/assets/js/227.1d9e61c7.js"><link rel="prefetch" href="/liang/assets/js/228.59f22bb5.js"><link rel="prefetch" href="/liang/assets/js/229.2f5e4bb2.js"><link rel="prefetch" href="/liang/assets/js/23.e6c265ff.js"><link rel="prefetch" href="/liang/assets/js/230.489812e8.js"><link rel="prefetch" href="/liang/assets/js/231.40b28b86.js"><link rel="prefetch" href="/liang/assets/js/232.ccc7638e.js"><link rel="prefetch" href="/liang/assets/js/233.28b732fa.js"><link rel="prefetch" href="/liang/assets/js/234.613ecc73.js"><link rel="prefetch" href="/liang/assets/js/235.33208526.js"><link rel="prefetch" href="/liang/assets/js/236.12551074.js"><link rel="prefetch" href="/liang/assets/js/237.57c7182a.js"><link rel="prefetch" href="/liang/assets/js/238.de7e7597.js"><link rel="prefetch" href="/liang/assets/js/239.16996001.js"><link rel="prefetch" href="/liang/assets/js/24.d97b0277.js"><link rel="prefetch" href="/liang/assets/js/240.61cff87f.js"><link rel="prefetch" href="/liang/assets/js/241.084047b8.js"><link rel="prefetch" href="/liang/assets/js/242.68e5a330.js"><link rel="prefetch" href="/liang/assets/js/243.b50fa0fb.js"><link rel="prefetch" href="/liang/assets/js/244.98960c73.js"><link rel="prefetch" href="/liang/assets/js/245.d8258180.js"><link rel="prefetch" href="/liang/assets/js/25.ca5bfe98.js"><link rel="prefetch" href="/liang/assets/js/26.cd37580c.js"><link rel="prefetch" href="/liang/assets/js/27.90505558.js"><link rel="prefetch" href="/liang/assets/js/28.e97c8110.js"><link rel="prefetch" href="/liang/assets/js/29.b432d8f7.js"><link rel="prefetch" href="/liang/assets/js/3.b9ba1466.js"><link rel="prefetch" href="/liang/assets/js/30.ed4fac46.js"><link rel="prefetch" href="/liang/assets/js/31.96111e33.js"><link rel="prefetch" href="/liang/assets/js/32.4e8678fe.js"><link rel="prefetch" href="/liang/assets/js/33.685421db.js"><link rel="prefetch" href="/liang/assets/js/34.3cc99006.js"><link rel="prefetch" href="/liang/assets/js/35.d6f5a1e1.js"><link rel="prefetch" href="/liang/assets/js/36.f7317de7.js"><link rel="prefetch" href="/liang/assets/js/37.405515cc.js"><link rel="prefetch" href="/liang/assets/js/38.df84b86a.js"><link rel="prefetch" href="/liang/assets/js/39.79b33ec4.js"><link rel="prefetch" href="/liang/assets/js/4.8c20584a.js"><link rel="prefetch" href="/liang/assets/js/40.b4922d77.js"><link rel="prefetch" href="/liang/assets/js/41.bf9cb22a.js"><link rel="prefetch" href="/liang/assets/js/42.bc5ace17.js"><link rel="prefetch" href="/liang/assets/js/43.23ad0775.js"><link rel="prefetch" href="/liang/assets/js/44.c6155e82.js"><link rel="prefetch" href="/liang/assets/js/45.8eddb8c1.js"><link rel="prefetch" href="/liang/assets/js/46.e14ef840.js"><link rel="prefetch" href="/liang/assets/js/47.ecd8c754.js"><link rel="prefetch" href="/liang/assets/js/48.166028fc.js"><link rel="prefetch" href="/liang/assets/js/49.6f1298eb.js"><link rel="prefetch" href="/liang/assets/js/5.5c018bd5.js"><link rel="prefetch" href="/liang/assets/js/50.3d3766fc.js"><link rel="prefetch" href="/liang/assets/js/51.753fe0b6.js"><link rel="prefetch" href="/liang/assets/js/52.b438c11d.js"><link rel="prefetch" href="/liang/assets/js/53.7c998e57.js"><link rel="prefetch" href="/liang/assets/js/54.c60872d6.js"><link rel="prefetch" href="/liang/assets/js/55.4a9d82ea.js"><link rel="prefetch" href="/liang/assets/js/56.7d56494d.js"><link rel="prefetch" href="/liang/assets/js/57.cde94dab.js"><link rel="prefetch" href="/liang/assets/js/58.1f1c11a4.js"><link rel="prefetch" href="/liang/assets/js/59.a4131f6e.js"><link rel="prefetch" href="/liang/assets/js/6.a638e37b.js"><link rel="prefetch" href="/liang/assets/js/60.8622ccbe.js"><link rel="prefetch" href="/liang/assets/js/61.b2cf32cd.js"><link rel="prefetch" href="/liang/assets/js/62.d0ff6b5a.js"><link rel="prefetch" href="/liang/assets/js/63.9dc7ce79.js"><link rel="prefetch" href="/liang/assets/js/64.bf46cabd.js"><link rel="prefetch" href="/liang/assets/js/65.0526c96b.js"><link rel="prefetch" href="/liang/assets/js/66.3a1a5640.js"><link rel="prefetch" href="/liang/assets/js/67.ed5496a1.js"><link rel="prefetch" href="/liang/assets/js/68.da4d5652.js"><link rel="prefetch" href="/liang/assets/js/69.164a2605.js"><link rel="prefetch" href="/liang/assets/js/70.6a87a251.js"><link rel="prefetch" href="/liang/assets/js/71.5cc23105.js"><link rel="prefetch" href="/liang/assets/js/72.398beca4.js"><link rel="prefetch" href="/liang/assets/js/73.c5a516af.js"><link rel="prefetch" href="/liang/assets/js/74.209e7239.js"><link rel="prefetch" href="/liang/assets/js/75.efb7068c.js"><link rel="prefetch" href="/liang/assets/js/76.75243150.js"><link rel="prefetch" href="/liang/assets/js/77.069c72b2.js"><link rel="prefetch" href="/liang/assets/js/78.a5a2daf5.js"><link rel="prefetch" href="/liang/assets/js/79.f0499a62.js"><link rel="prefetch" href="/liang/assets/js/8.88f6f99d.js"><link rel="prefetch" href="/liang/assets/js/80.2ecd1bbb.js"><link rel="prefetch" href="/liang/assets/js/81.2334a4b1.js"><link rel="prefetch" href="/liang/assets/js/82.74b69515.js"><link rel="prefetch" href="/liang/assets/js/83.3d074da6.js"><link rel="prefetch" href="/liang/assets/js/84.f3b5579d.js"><link rel="prefetch" href="/liang/assets/js/85.3c197581.js"><link rel="prefetch" href="/liang/assets/js/86.0ba76cae.js"><link rel="prefetch" href="/liang/assets/js/87.c01acf8a.js"><link rel="prefetch" href="/liang/assets/js/88.b8c51306.js"><link rel="prefetch" href="/liang/assets/js/89.7fcf605f.js"><link rel="prefetch" href="/liang/assets/js/9.c9b6088e.js"><link rel="prefetch" href="/liang/assets/js/90.89f1dca1.js"><link rel="prefetch" href="/liang/assets/js/91.91e6fb78.js"><link rel="prefetch" href="/liang/assets/js/92.20c70327.js"><link rel="prefetch" href="/liang/assets/js/93.fd506efd.js"><link rel="prefetch" href="/liang/assets/js/94.fffe3ce7.js"><link rel="prefetch" href="/liang/assets/js/95.1ec3dcfe.js"><link rel="prefetch" href="/liang/assets/js/96.c0d3b0f4.js"><link rel="prefetch" href="/liang/assets/js/97.67399f98.js"><link rel="prefetch" href="/liang/assets/js/98.8463fd7b.js"><link rel="prefetch" href="/liang/assets/js/99.31b32212.js">
+    <link rel="stylesheet" href="/liang/assets/css/0.styles.5d8a44f7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/liang/" class="home-link router-link-active"><img src="/liang/favicon.ico" alt="冠希の博客" class="logo"> <span class="site-name can-hide">冠希の博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/liang/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/CSS/01.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/ES6/01.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Git/01.html" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Js/01.html" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Linux/01.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="nav-link">
+  Node
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/React/01.html" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Typescript/01.html" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Vue/01.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/Pack/01.html" class="nav-link">
+  打包
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/BasicsInterview/NetworkProtocol/01.html" class="nav-link">
+  网络协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/01.html" class="nav-link">
+  Html
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/02.html" class="nav-link">
+  Css
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/03.html" class="nav-link">
+  Javascript上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/04.html" class="nav-link">
+  Javascript下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/05.html" class="nav-link">
+  Vue上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/06.html" class="nav-link">
+  Vue下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/07.html" class="nav-link">
+  React上
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/08.html" class="nav-link">
+  React下
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/09.html" class="nav-link">
+  计算机网络
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/10.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/11.html" class="nav-link">
+  优化
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/12.html" class="nav-link">
+  手写代码
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/13.html" class="nav-link">
+  输出结果
+</a></li><li class="dropdown-subitem"><a href="/liang/WebInterview/AdvanceInterview/14.html" class="nav-link">
+  Typescript
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/liang/DataStructures/" class="nav-link">
+  数据结构
+</a></div><div class="nav-item"><a href="/liang/Algorithms/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/liang/utils/" class="nav-link">
+  utils
+</a></div><div class="nav-item"><a href="/liang/DesignMode/" class="nav-link">
+  设计模式
+</a></div><div class="nav-item"><a href="/liang/project/" class="nav-link">
+  项目
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Node</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/liang/WebInterview/BasicsInterview/Node/01.html" class="sidebar-link">01.说说你对Node.js 的理解？优缺点？应用场景？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/02.html" class="sidebar-link">02.说说 Node. js 有哪些全局对象？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/03.html" class="sidebar-link">03.说说对 Node 中的 Process 的理解？有哪些常用方法？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/04.html" class="sidebar-link">04.说说对 Node 中的 fs 模块的理解? 有哪些常用方法?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/05.html" class="sidebar-link">05.说说对 Node 中的 Buffer 的理解？应用场景？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/06.html" class="sidebar-link">06.说说对 Node 中的 Stream 的理解？应用场景？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/07.html" class="sidebar-link">07.说说Node中的EventEmitter? 如何实现一个EventEmitter?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/08.html" class="sidebar-link">08.说说对 Node.js 中的事件循环机制理解?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/09.html" class="sidebar-link">09.说说 Node 文件查找的优先级以及 Require 方法的文件查找策略?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/10.html" class="sidebar-link">10.说说对中间件概念的理解，如何封装 node 中间件？</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/11.html" class="sidebar-link">11.如何实现JWT鉴权机制？说说你的思路</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/12.html" aria-current="page" class="active sidebar-link">12.如何实现文件上传？说说你的思路</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/liang/WebInterview/BasicsInterview/Node/12.html#一、是什么" class="sidebar-link">一、是什么</a></li></ul></li><li><a href="/liang/WebInterview/BasicsInterview/Node/13.html" class="sidebar-link">13.如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?</a></li><li><a href="/liang/WebInterview/BasicsInterview/Node/14.html" class="sidebar-link">14.Node性能如何进行监控以及优化？</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_12-如何实现文件上传-说说你的思路"><a href="#_12-如何实现文件上传-说说你的思路" class="header-anchor">#</a> 12.如何实现文件上传？说说你的思路</h1> <p><img src="https://cdn.jsdelivr.net/gh/IceRain-mvc/cdn/img/640-20210928162726924" alt="图片"></p> <h2 id="一、是什么"><a href="#一、是什么" class="header-anchor">#</a> 一、是什么</h2> <p>文件上传在日常开发中应用很广泛，我们发微博、发微信朋友圈都会用到了图片上传功能</p> <p>因为浏览器限制，浏览器不能直接操作文件系统，需要通过浏览器所暴露出来的统一接口，由用户主动授权发起来访问文件动作，然后读取文件内容进指定内存里，最后执行提交请求操作，将内存里的文件内容数据上传到服务端，服务端解析前端传来的数据信息后存入文件里</p> <p>对于文件上传，我们需要设置请求头为<code>content-type:multipart/form-data</code></p> <blockquote><p>multipart互联网上的混合资源，就是资源由多种元素组成，form-data表示可以使用HTML Forms 和 POST 方法上传文件</p></blockquote> <p>结构如下：</p> <div class="language-http extra-class"><pre class="language-http"><code><span class="token request-line"><span class="token method property">POST</span> <span class="token request-target url">/t2/upload.do</span> <span class="token http-version property">HTTP/1.1</span></span>
+<span class="token header"><span class="token header-name keyword">User-Agent</span><span class="token punctuation">:</span> <span class="token header-value">SOHUWapRebot</span></span>
+<span class="token header"><span class="token header-name keyword">Accept-Language</span><span class="token punctuation">:</span> <span class="token header-value">zh-cn,zh;q=0.5</span></span>
+<span class="token header"><span class="token header-name keyword">Accept-Charset</span><span class="token punctuation">:</span> <span class="token header-value">GBK,utf-8;q=0.7,*;q=0.7</span></span>
+<span class="token header"><span class="token header-name keyword">Connection</span><span class="token punctuation">:</span> <span class="token header-value">keep-alive</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Length</span><span class="token punctuation">:</span> <span class="token header-value">60408</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Type</span><span class="token punctuation">:</span><span class="token header-value">multipart/form-data; boundary=ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC</span></span>
+<span class="token header"><span class="token header-name keyword">Host</span><span class="token punctuation">:</span> <span class="token header-value">w.sohu.com</span></span>
+
+--ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC
+<span class="token header"><span class="token header-name keyword">Content-Disposition</span><span class="token punctuation">:</span> <span class="token header-value">form-data; name=&quot;city&quot;</span></span>
+
+Santa colo
+--ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC
+<span class="token header"><span class="token header-name keyword">Content-Disposition</span><span class="token punctuation">:</span> <span class="token header-value">form-data;name=&quot;desc&quot;</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Type</span><span class="token punctuation">:</span> <span class="token header-value">text/plain; charset=UTF-8</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Transfer-Encoding</span><span class="token punctuation">:</span> <span class="token header-value">8bit</span></span>
+ 
+...
+--ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC
+<span class="token header"><span class="token header-name keyword">Content-Disposition</span><span class="token punctuation">:</span> <span class="token header-value">form-data;name=&quot;pic&quot;; filename=&quot;photo.jpg&quot;</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Type</span><span class="token punctuation">:</span> <span class="token header-value">application/octet-stream</span></span>
+<span class="token header"><span class="token header-name keyword">Content-Transfer-Encoding</span><span class="token punctuation">:</span> <span class="token header-value">binary</span></span>
+ 
+... binary data of the jpg ...
+--ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC--
+</code></pre></div><p><code>boundary</code>表示分隔符，如果要上传多个表单项，就要使用<code>boundary</code>分割，每个表单项由<code>———XXX</code>开始，以<code>———XXX</code>结尾</p> <p>而<code>xxx</code>是即时生成的字符串，用以确保整个分隔符不会在文件或表单项的内容中出现</p> <p>每个表单项必须包含一个 <code>Content-Disposition</code> 头，其他的头信息则为可选项， 比如 <code>Content-Type</code></p> <p><code>Content-Disposition</code> 包含了 <code>type</code>和 一个名字为<code>name</code>的 <code>parameter</code>，<code>type</code> 是 <code>form-data</code>，<code>name</code>参数的值则为表单控件（也即 field）的名字，如果是文件，那么还有一个 <code>filename</code>参数，值就是文件名</p> <div class="language-http extra-class"><pre class="language-http"><code><span class="token header"><span class="token header-name keyword">Content-Disposition</span><span class="token punctuation">:</span> <span class="token header-value">form-data; name=&quot;user&quot;; filename=&quot;logo.png&quot;</span></span>
+</code></pre></div><p>至于使用<code>multipart/form-data</code>，是因为文件是以二进制的形式存在，其作用是专门用于传输大型二进制数据，效率高</p> <h3 id="二、如何实现"><a href="#二、如何实现" class="header-anchor">#</a> 二、如何实现</h3> <p>关于文件的上传的上传，我们可以分成两步骤：</p> <ul><li>文件的上传</li> <li>文件的解析</li></ul> <h3 id="文件上传"><a href="#文件上传" class="header-anchor">#</a> 文件上传</h3> <p>传统前端文件上传的表单结构如下：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://localhost:8080/api/upload<span class="token punctuation">&quot;</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>post<span class="token punctuation">&quot;</span></span> <span class="token attr-name">enctype</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>multipart/form-data<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>file<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>file<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>file<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">multiple</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>multiple<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>submit<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>提交<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+action` 就是我们的提交到的接口，`enctype=&quot;multipart/form-data&quot;` 就是指定上传文件格式，`input` 的 `name` 属性一定要等于`file
+</code></pre></div><h3 id="文件解析"><a href="#文件解析" class="header-anchor">#</a> 文件解析</h3> <p>在服务器中，这里采用<code>koa2</code>中间件的形式解析上传的文件数据，分别有下面两种形式：</p> <ul><li>koa-body</li> <li>koa-multer</li></ul> <h4 id="koa-body"><a href="#koa-body" class="header-anchor">#</a> koa-body</h4> <p>安装依赖</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">npm</span> <span class="token function">install</span> koa-body
+</code></pre></div><p>引入<code>koa-body</code>中间件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> koaBody <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-body'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">koaBody</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">multipart</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">formidable</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">maxFileSize</span><span class="token operator">:</span> <span class="token number">200</span><span class="token operator">*</span><span class="token number">1024</span><span class="token operator">*</span><span class="token number">1024</span>    <span class="token comment">// 设置上传文件大小最大限制，默认2M</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>获取上传的文件</p> <div class="language- extra-class"><pre class="language-text"><code>const file = ctx.request.files.file; // 获取上传文件
+</code></pre></div><p>获取文件数据后，可以通过<code>fs</code>模块将文件保存到指定目录</p> <div class="language-js extra-class"><pre class="language-js"><code>router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/uploadfile'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">ctx<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 上传单个文件</span>
+  <span class="token keyword">const</span> file <span class="token operator">=</span> ctx<span class="token punctuation">.</span>request<span class="token punctuation">.</span>files<span class="token punctuation">.</span>file<span class="token punctuation">;</span> <span class="token comment">// 获取上传文件</span>
+  <span class="token comment">// 创建可读流</span>
+  <span class="token keyword">const</span> reader <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">createReadStream</span><span class="token punctuation">(</span>file<span class="token punctuation">.</span>path<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> filePath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'public/upload/'</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>file<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+  <span class="token comment">// 创建可写流</span>
+  <span class="token keyword">const</span> upStream <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">createWriteStream</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 可读流通过管道写入可写流</span>
+  reader<span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>upStream<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token string">&quot;上传成功！&quot;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h4 id="koa-multer"><a href="#koa-multer" class="header-anchor">#</a> koa-multer</h4> <p>安装依赖：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">npm</span> <span class="token function">install</span> koa-multer
+</code></pre></div><p>使用 <code>multer</code> 中间件实现文件上传</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> storage <span class="token operator">=</span> multer<span class="token punctuation">.</span><span class="token function">diskStorage</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function-variable function">destination</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> file<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">cb</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token string">&quot;./upload/&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">filename</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> file<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">cb</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> Date<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> path<span class="token punctuation">.</span><span class="token function">extname</span><span class="token punctuation">(</span>file<span class="token punctuation">.</span>originalname<span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> upload <span class="token operator">=</span> <span class="token function">multer</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  storage
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> fileRouter <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+fileRouter<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">&quot;/upload&quot;</span><span class="token punctuation">,</span> upload<span class="token punctuation">.</span><span class="token function">single</span><span class="token punctuation">(</span><span class="token string">'file'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">ctx<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>ctx<span class="token punctuation">.</span>req<span class="token punctuation">.</span>file<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取文件</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>fileRouter<span class="token punctuation">.</span><span class="token function">routes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/liang/WebInterview/BasicsInterview/Node/11.html" class="prev">
+        11.如何实现JWT鉴权机制？说说你的思路
+      </a></span> <span class="next"><a href="/liang/WebInterview/BasicsInterview/Node/13.html">
+        13.如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?
+      </a>
+      →
+    </span></p></div>  <!----></main></div><div class="global-ui"><!----></div></div>
+    <script src="/liang/assets/js/app.12ed9190.js" defer></script><script src="/liang/assets/js/7.3f2b8db1.js" defer></script><script src="/liang/assets/js/2.b3383428.js" defer></script><script src="/liang/assets/js/148.d1205a31.js" defer></script>
+  </body>
+</html>
