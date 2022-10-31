@@ -16,7 +16,6 @@ module.exports = [
 					{ text: 'TypeScript', link: '/WebInterview/BasicsInterview/Typescript/01' },
 					{ text: 'Vue', link: '/WebInterview/BasicsInterview/Vue/01' },
 					{ text: '打包', link: '/WebInterview/BasicsInterview/Pack/01' },
-					{ text: '设计模式', link: '/WebInterview/BasicsInterview/DesignPatterns/01' },
 					{ text: '网络协议', link: '/WebInterview/BasicsInterview/NetworkProtocol/01' },
 				]
 			},
@@ -43,7 +42,6 @@ module.exports = [
 	{ text: '数据结构', link: '/DataStructures/' },
 	{ text: '算法', link: '/Algorithms/' },
 	{ text: 'utils', link: '/utils/' },
+	{ text: '设计模式', link: '/DesignMode/' },
 	{ text: '项目', link: '/project/' },
-	{ text: '算法与数据结构', link: '/AlgorithmsAndDataStructures/01' },
-	{ text: 'GitHub', link: 'https://github.com/liangone/liang' },
 ];

@@ -10,7 +10,7 @@ module.exports = {
 	plugins: plugConf,
 	themeConfig: {
 		logo: '/favicon.ico',
-		lastUpdated: '更新时间',
+		// lastUpdated: '更新时间',
 		nav: navConf
 	}
 };
